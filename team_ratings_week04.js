@@ -1,5 +1,7 @@
-window.PERCERA_CTSI = [
-  {
+/* PERCERA TEAM RATING v0.2 — 2026 THROUGH WEEK 4 */
+
+window.PERCERA_TEAM_RATINGS = {
+  "Notre Dame": {
     "rank": 1,
     "team": "Notre Dame",
     "rating": 22.25144868060527,
@@ -18,7 +20,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Miami": {
     "rank": 2,
     "team": "Miami",
     "rating": 18.074272892403627,
@@ -37,7 +39,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Alabama": {
     "rank": 3,
     "team": "Alabama",
     "rating": 17.33088204680606,
@@ -56,7 +58,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Ohio State": {
     "rank": 4,
     "team": "Ohio State",
     "rating": 16.160491304986298,
@@ -75,7 +77,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Utah": {
     "rank": 5,
     "team": "Utah",
     "rating": 15.97737423744044,
@@ -94,7 +96,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Georgia": {
     "rank": 6,
     "team": "Georgia",
     "rating": 15.343479118039575,
@@ -113,7 +115,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Mississippi State": {
     "rank": 7,
     "team": "Mississippi State",
     "rating": 15.331909411905212,
@@ -132,7 +134,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Florida": {
     "rank": 8,
     "team": "Florida",
     "rating": 15.173658032217435,
@@ -151,7 +153,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Nebraska": {
     "rank": 9,
     "team": "Nebraska",
     "rating": 14.692121074958711,
@@ -170,7 +172,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "LSU": {
     "rank": 10,
     "team": "LSU",
     "rating": 13.921422370676881,
@@ -189,7 +191,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Texas": {
     "rank": 11,
     "team": "Texas",
     "rating": 13.30907821737264,
@@ -208,7 +210,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "UCLA": {
     "rank": 12,
     "team": "UCLA",
     "rating": 12.767750378352616,
@@ -227,7 +229,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Boise State": {
     "rank": 13,
     "team": "Boise State",
     "rating": 12.564959507615956,
@@ -246,7 +248,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Penn State": {
     "rank": 14,
     "team": "Penn State",
     "rating": 11.986854312152342,
@@ -265,7 +267,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "BYU": {
     "rank": 15,
     "team": "BYU",
     "rating": 10.835340446935728,
@@ -284,7 +286,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "James Madison": {
     "rank": 16,
     "team": "James Madison",
     "rating": 10.240098458077775,
@@ -303,7 +305,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Indiana": {
     "rank": 17,
     "team": "Indiana",
     "rating": 10.210365519012436,
@@ -322,7 +324,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Massachusetts": {
     "rank": 18,
     "team": "Massachusetts",
     "rating": 9.408488284387198,
@@ -341,7 +343,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Liberty": {
     "rank": 19,
     "team": "Liberty",
     "rating": 9.265307438225333,
@@ -360,7 +362,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "North Dakota State": {
     "rank": 20,
     "team": "North Dakota State",
     "rating": 9.018389426881793,
@@ -379,7 +381,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Wisconsin": {
     "rank": 21,
     "team": "Wisconsin",
     "rating": 8.957264888243678,
@@ -398,7 +400,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "New Mexico": {
     "rank": 22,
     "team": "New Mexico",
     "rating": 8.893608653982893,
@@ -417,7 +419,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Oregon": {
     "rank": 23,
     "team": "Oregon",
     "rating": 8.764133370225457,
@@ -436,7 +438,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Houston": {
     "rank": 24,
     "team": "Houston",
     "rating": 8.752367683336253,
@@ -455,7 +457,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Northwestern": {
     "rank": 25,
     "team": "Northwestern",
     "rating": 8.714050232453193,
@@ -474,7 +476,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Texas Tech": {
     "rank": 26,
     "team": "Texas Tech",
     "rating": 8.402000260881636,
@@ -493,7 +495,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Tennessee": {
     "rank": 27,
     "team": "Tennessee",
     "rating": 8.266148544080469,
@@ -512,7 +514,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "USC": {
     "rank": 28,
     "team": "USC",
     "rating": 7.7990159276341355,
@@ -531,7 +533,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Oklahoma": {
     "rank": 29,
     "team": "Oklahoma",
     "rating": 7.674984448910827,
@@ -550,7 +552,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Missouri": {
     "rank": 30,
     "team": "Missouri",
     "rating": 7.650802683781128,
@@ -569,7 +571,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Virginia": {
     "rank": 31,
     "team": "Virginia",
     "rating": 7.281039110980941,
@@ -588,7 +590,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Pittsburgh": {
     "rank": 32,
     "team": "Pittsburgh",
     "rating": 6.821136012630225,
@@ -607,7 +609,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "South Carolina": {
     "rank": 33,
     "team": "South Carolina",
     "rating": 6.197068814107827,
@@ -626,7 +628,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Ole Miss": {
     "rank": 34,
     "team": "Ole Miss",
     "rating": 5.744251935568592,
@@ -645,7 +647,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Iowa State": {
     "rank": 35,
     "team": "Iowa State",
     "rating": 5.538010243989439,
@@ -664,7 +666,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Iowa": {
     "rank": 36,
     "team": "Iowa",
     "rating": 5.1732545057612676,
@@ -683,7 +685,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Arizona": {
     "rank": 37,
     "team": "Arizona",
     "rating": 5.151223767839099,
@@ -702,7 +704,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Kentucky": {
     "rank": 38,
     "team": "Kentucky",
     "rating": 4.906372303804955,
@@ -721,7 +723,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Duke": {
     "rank": 39,
     "team": "Duke",
     "rating": 4.714807179204387,
@@ -740,7 +742,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Virginia Tech": {
     "rank": 40,
     "team": "Virginia Tech",
     "rating": 4.5462850218956925,
@@ -759,7 +761,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Air Force": {
     "rank": 41,
     "team": "Air Force",
     "rating": 4.24307418699159,
@@ -778,7 +780,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Kansas State": {
     "rank": 42,
     "team": "Kansas State",
     "rating": 3.789913167938767,
@@ -797,7 +799,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "UCF": {
     "rank": 43,
     "team": "UCF",
     "rating": 3.576029725505684,
@@ -816,7 +818,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "West Virginia": {
     "rank": 44,
     "team": "West Virginia",
     "rating": 3.4610604173897506,
@@ -835,7 +837,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Wake Forest": {
     "rank": 45,
     "team": "Wake Forest",
     "rating": 3.4549446151667498,
@@ -854,7 +856,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Auburn": {
     "rank": 46,
     "team": "Auburn",
     "rating": 3.362961946340484,
@@ -873,7 +875,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Michigan": {
     "rank": 47,
     "team": "Michigan",
     "rating": 2.7414248527426093,
@@ -892,7 +894,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "South Florida": {
     "rank": 48,
     "team": "South Florida",
     "rating": 2.680943673814375,
@@ -911,7 +913,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Louisiana": {
     "rank": 49,
     "team": "Louisiana",
     "rating": 2.631923038194203,
@@ -930,7 +932,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "UTSA": {
     "rank": 50,
     "team": "UTSA",
     "rating": 2.5693621866103666,
@@ -949,7 +951,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Toledo": {
     "rank": 51,
     "team": "Toledo",
     "rating": 2.0439940915666144,
@@ -968,7 +970,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Memphis": {
     "rank": 52,
     "team": "Memphis",
     "rating": 1.9698335749436446,
@@ -987,7 +989,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Oregon State": {
     "rank": 53,
     "team": "Oregon State",
     "rating": 1.8462598155916279,
@@ -1006,7 +1008,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Texas A&M": {
     "rank": 54,
     "team": "Texas A&M",
     "rating": 1.7455324434665778,
@@ -1025,7 +1027,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Michigan State": {
     "rank": 55,
     "team": "Michigan State",
     "rating": 1.700738781298119,
@@ -1044,7 +1046,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "TCU": {
     "rank": 56,
     "team": "TCU",
     "rating": 1.6461832794339561,
@@ -1063,7 +1065,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Louisville": {
     "rank": 57,
     "team": "Louisville",
     "rating": 1.3909708181162288,
@@ -1082,7 +1084,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Georgia State": {
     "rank": 58,
     "team": "Georgia State",
     "rating": 1.364700893213315,
@@ -1101,7 +1103,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Baylor": {
     "rank": 59,
     "team": "Baylor",
     "rating": 1.0682173571392048,
@@ -1120,7 +1122,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Fresno State": {
     "rank": 60,
     "team": "Fresno State",
     "rating": 0.9486389895397881,
@@ -1139,7 +1141,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "North Carolina": {
     "rank": 61,
     "team": "North Carolina",
     "rating": 0.21277018203397952,
@@ -1158,7 +1160,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Clemson": {
     "rank": 62,
     "team": "Clemson",
     "rating": 0.02669831775820503,
@@ -1177,7 +1179,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "North Texas": {
     "rank": 63,
     "team": "North Texas",
     "rating": -0.05091029905302518,
@@ -1196,7 +1198,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Cincinnati": {
     "rank": 64,
     "team": "Cincinnati",
     "rating": -0.08975555931385931,
@@ -1215,7 +1217,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Florida Atlantic": {
     "rank": 65,
     "team": "Florida Atlantic",
     "rating": -0.40317543767061753,
@@ -1234,7 +1236,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "SMU": {
     "rank": 66,
     "team": "SMU",
     "rating": -0.4596932498655287,
@@ -1253,7 +1255,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Nevada": {
     "rank": 67,
     "team": "Nevada",
     "rating": -0.6035197761595168,
@@ -1272,7 +1274,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Florida International": {
     "rank": 68,
     "team": "Florida International",
     "rating": -0.6588381112289428,
@@ -1291,7 +1293,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Tulsa": {
     "rank": 69,
     "team": "Tulsa",
     "rating": -0.7379690485506846,
@@ -1310,7 +1312,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Middle Tennessee": {
     "rank": 70,
     "team": "Middle Tennessee",
     "rating": -0.8136621785677056,
@@ -1329,7 +1331,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Oklahoma State": {
     "rank": 71,
     "team": "Oklahoma State",
     "rating": -0.8761080054171406,
@@ -1348,7 +1350,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Illinois": {
     "rank": 72,
     "team": "Illinois",
     "rating": -0.9250386895119967,
@@ -1367,7 +1369,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Utah State": {
     "rank": 73,
     "team": "Utah State",
     "rating": -1.0180591773458252,
@@ -1386,7 +1388,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Colorado State": {
     "rank": 74,
     "team": "Colorado State",
     "rating": -1.0995456608036023,
@@ -1405,7 +1407,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Florida State": {
     "rank": 75,
     "team": "Florida State",
     "rating": -1.2415498195652968,
@@ -1424,7 +1426,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Vanderbilt": {
     "rank": 76,
     "team": "Vanderbilt",
     "rating": -1.2591503594702873,
@@ -1443,7 +1445,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Jacksonville State": {
     "rank": 77,
     "team": "Jacksonville State",
     "rating": -1.5481159375248992,
@@ -1462,7 +1464,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Army": {
     "rank": 78,
     "team": "Army",
     "rating": -1.610665191177925,
@@ -1481,7 +1483,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Navy": {
     "rank": 79,
     "team": "Navy",
     "rating": -1.9255068167547513,
@@ -1500,7 +1502,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Arkansas": {
     "rank": 80,
     "team": "Arkansas",
     "rating": -2.2572602033094946,
@@ -1519,7 +1521,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Temple": {
     "rank": 81,
     "team": "Temple",
     "rating": -2.3595705644913334,
@@ -1538,7 +1540,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Minnesota": {
     "rank": 82,
     "team": "Minnesota",
     "rating": -2.5503306485810486,
@@ -1557,7 +1559,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Washington": {
     "rank": 83,
     "team": "Washington",
     "rating": -2.6302377045156398,
@@ -1576,7 +1578,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Colorado": {
     "rank": 84,
     "team": "Colorado",
     "rating": -2.6743914304798277,
@@ -1595,7 +1597,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Western Michigan": {
     "rank": 85,
     "team": "Western Michigan",
     "rating": -2.822290783715914,
@@ -1614,7 +1616,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Coastal Carolina": {
     "rank": 86,
     "team": "Coastal Carolina",
     "rating": -2.8595663956807655,
@@ -1633,7 +1635,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Troy": {
     "rank": 87,
     "team": "Troy",
     "rating": -3.0083134541474923,
@@ -1652,7 +1654,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "UConn": {
     "rank": 88,
     "team": "UConn",
     "rating": -3.0167822252064083,
@@ -1671,7 +1673,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Georgia Southern": {
     "rank": 89,
     "team": "Georgia Southern",
     "rating": -3.243862152654411,
@@ -1690,7 +1692,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "UNLV": {
     "rank": 90,
     "team": "UNLV",
     "rating": -3.5080067730989724,
@@ -1709,7 +1711,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "NC State": {
     "rank": 91,
     "team": "NC State",
     "rating": -3.7621778718509287,
@@ -1728,7 +1730,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Purdue": {
     "rank": 92,
     "team": "Purdue",
     "rating": -3.920000622299362,
@@ -1747,7 +1749,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Louisiana Tech": {
     "rank": 93,
     "team": "Louisiana Tech",
     "rating": -3.9219791857018036,
@@ -1766,7 +1768,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Maryland": {
     "rank": 94,
     "team": "Maryland",
     "rating": -4.03979123791249,
@@ -1785,7 +1787,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "App State": {
     "rank": 95,
     "team": "App State",
     "rating": -4.240902921439806,
@@ -1804,7 +1806,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Texas State": {
     "rank": 96,
     "team": "Texas State",
     "rating": -4.564814661340819,
@@ -1823,7 +1825,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "South Alabama": {
     "rank": 97,
     "team": "South Alabama",
     "rating": -4.567037735301919,
@@ -1842,7 +1844,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Ohio": {
     "rank": 98,
     "team": "Ohio",
     "rating": -4.597272016444284,
@@ -1861,7 +1863,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "San Diego State": {
     "rank": 99,
     "team": "San Diego State",
     "rating": -4.811259171489699,
@@ -1880,7 +1882,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "East Carolina": {
     "rank": 100,
     "team": "East Carolina",
     "rating": -4.897095393752671,
@@ -1899,7 +1901,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Kansas": {
     "rank": 101,
     "team": "Kansas",
     "rating": -5.0025160204929335,
@@ -1918,7 +1920,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "San José State": {
     "rank": 102,
     "team": "San José State",
     "rating": -5.009850080324425,
@@ -1937,7 +1939,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Syracuse": {
     "rank": 103,
     "team": "Syracuse",
     "rating": -5.2008439378585845,
@@ -1956,7 +1958,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Tulane": {
     "rank": 104,
     "team": "Tulane",
     "rating": -5.288675881645062,
@@ -1975,7 +1977,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Boston College": {
     "rank": 105,
     "team": "Boston College",
     "rating": -5.3199031239152035,
@@ -1994,7 +1996,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "UAB": {
     "rank": 106,
     "team": "UAB",
     "rating": -5.51407072163437,
@@ -2013,7 +2015,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Miami (OH)": {
     "rank": 107,
     "team": "Miami (OH)",
     "rating": -5.561851530696634,
@@ -2032,7 +2034,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Rutgers": {
     "rank": 108,
     "team": "Rutgers",
     "rating": -5.614325441464413,
@@ -2051,7 +2053,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Sam Houston": {
     "rank": 109,
     "team": "Sam Houston",
     "rating": -5.835878303904493,
@@ -2070,7 +2072,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Arizona State": {
     "rank": 110,
     "team": "Arizona State",
     "rating": -6.609462703121638,
@@ -2089,7 +2091,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "California": {
     "rank": 111,
     "team": "California",
     "rating": -6.698653446720784,
@@ -2108,7 +2110,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Delaware": {
     "rank": 112,
     "team": "Delaware",
     "rating": -6.972592972731687,
@@ -2127,7 +2129,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Wyoming": {
     "rank": 113,
     "team": "Wyoming",
     "rating": -7.031496952619075,
@@ -2146,7 +2148,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Buffalo": {
     "rank": 114,
     "team": "Buffalo",
     "rating": -7.141675828812572,
@@ -2165,7 +2167,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Washington State": {
     "rank": 115,
     "team": "Washington State",
     "rating": -7.610464933483053,
@@ -2184,7 +2186,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Georgia Tech": {
     "rank": 116,
     "team": "Georgia Tech",
     "rating": -7.735391792796541,
@@ -2203,7 +2205,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Marshall": {
     "rank": 117,
     "team": "Marshall",
     "rating": -7.837673185844465,
@@ -2222,7 +2224,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Arkansas State": {
     "rank": 118,
     "team": "Arkansas State",
     "rating": -8.13985759895151,
@@ -2241,7 +2243,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Central Michigan": {
     "rank": 119,
     "team": "Central Michigan",
     "rating": -8.199497107905769,
@@ -2260,7 +2262,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Rice": {
     "rank": 120,
     "team": "Rice",
     "rating": -8.260744976786759,
@@ -2279,7 +2281,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Old Dominion": {
     "rank": 121,
     "team": "Old Dominion",
     "rating": -8.281388758607253,
@@ -2298,7 +2300,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Stanford": {
     "rank": 122,
     "team": "Stanford",
     "rating": -9.329090345138018,
@@ -2317,7 +2319,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Kennesaw State": {
     "rank": 123,
     "team": "Kennesaw State",
     "rating": -9.687049719970185,
@@ -2336,7 +2338,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "New Mexico State": {
     "rank": 124,
     "team": "New Mexico State",
     "rating": -10.24957773585466,
@@ -2355,7 +2357,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Charlotte": {
     "rank": 125,
     "team": "Charlotte",
     "rating": -10.948084689830424,
@@ -2374,7 +2376,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Northern Illinois": {
     "rank": 126,
     "team": "Northern Illinois",
     "rating": -11.771384732915893,
@@ -2393,7 +2395,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Hawai'i": {
     "rank": 127,
     "team": "Hawai'i",
     "rating": -12.021628880267828,
@@ -2412,7 +2414,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Eastern Michigan": {
     "rank": 128,
     "team": "Eastern Michigan",
     "rating": -12.784591351356607,
@@ -2431,7 +2433,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Southern Miss": {
     "rank": 129,
     "team": "Southern Miss",
     "rating": -13.082765136323466,
@@ -2450,7 +2452,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Missouri State": {
     "rank": 130,
     "team": "Missouri State",
     "rating": -13.703629570738165,
@@ -2469,7 +2471,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Bowling Green": {
     "rank": 131,
     "team": "Bowling Green",
     "rating": -13.902736034516376,
@@ -2488,7 +2490,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "UL Monroe": {
     "rank": 132,
     "team": "UL Monroe",
     "rating": -14.993913966459557,
@@ -2507,7 +2509,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Sacramento State": {
     "rank": 133,
     "team": "Sacramento State",
     "rating": -15.247278371013266,
@@ -2526,7 +2528,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Ball State": {
     "rank": 134,
     "team": "Ball State",
     "rating": -15.52303495143614,
@@ -2545,7 +2547,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Kent State": {
     "rank": 135,
     "team": "Kent State",
     "rating": -16.08637698981477,
@@ -2564,7 +2566,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Western Kentucky": {
     "rank": 136,
     "team": "Western Kentucky",
     "rating": -16.726315666573427,
@@ -2583,7 +2585,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "Akron": {
     "rank": 137,
     "team": "Akron",
     "rating": -17.669256521462692,
@@ -2602,7 +2604,7 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   },
-  {
+  "UTEP": {
     "rank": 138,
     "team": "UTEP",
     "rating": -20.11995666777587,
@@ -2621,4 +2623,4 @@ window.PERCERA_CTSI = [
     "through_week": 4,
     "model_version": "0.2"
   }
-];
+};
