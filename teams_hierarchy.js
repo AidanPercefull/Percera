@@ -467,7 +467,7 @@
                     4px;
 
                 color:
-                    #0B1F3B;
+                    #C48B28;
 
                 font-size:
                     27px;
