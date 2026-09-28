@@ -500,5 +500,215 @@
     src="email_signup.js?v=2"
 ></script>
 
+
+
+
+
+<!-- PERCERA_TIER_VISUAL_PATCH_START -->
+<style id="percera-tier-visual-patch">
+  .percera-tier-card-patched .percera-rank-number {
+    font-size: 13px !important;
+    line-height: 1 !important;
+    font-weight: 800 !important;
+    color: #64748b !important;
+    opacity: 1 !important;
+    letter-spacing: 0.02em !important;
+  }
+
+  .percera-tier-card-patched .percera-ctsi-label {
+    font-size: 11px !important;
+    line-height: 1 !important;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.08em !important;
+    color: #7c869c !important;
+    opacity: 1 !important;
+  }
+
+  .percera-tier-card-patched .percera-tier-move {
+    font-size: 11px !important;
+    line-height: 1.25 !important;
+    font-weight: 700 !important;
+    color: #5f6b80 !important;
+    opacity: 1 !important;
+  }
+
+  .percera-tier-card-patched .percera-team-name {
+    color: #0b2554 !important;
+  }
+
+  .percera-tier-card-patched .percera-ctsi-value {
+    color: #c6922b !important;
+  }
+
+  .percera-tier-card-patched .percera-rank-number,
+  .percera-tier-card-patched .percera-ctsi-label,
+  .percera-tier-card-patched .percera-tier-move,
+  .percera-tier-card-patched .percera-team-name,
+  .percera-tier-card-patched .percera-ctsi-value {
+    text-rendering: optimizeLegibility !important;
+  }
+</style>
+
+<script id="percera-tier-visual-patch-script">
+(function () {
+  function cleanText(s) {
+    return (s || "").replace(/\s+/g, " ").trim();
+  }
+
+  function directText(el) {
+    if (!el) return "";
+    let txt = "";
+    for (const node of el.childNodes) {
+      if (node.nodeType === 3) txt += node.textContent || "";
+    }
+    return cleanText(txt);
+  }
+
+  function replaceOrdinalWording(root) {
+    const walker = document.createTreeWalker(root || document.body, NodeFilter.SHOW_TEXT, null);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      const t = node.textContent || "";
+      if (/ordinal/i.test(t)) {
+        node.textContent = t
+          .replace(/ordinal rank/gi, "rank")
+          .replace(/ordinal/gi, "rank");
+      }
+    });
+  }
+
+  function findTierSections() {
+    const all = [...document.querySelectorAll("section, div, article")];
+    return all.filter(el => /\bTIER\s+\d+\b/i.test(cleanText(el.innerText || "")));
+  }
+
+  function getTierNumber(section) {
+    const m = cleanText(section.innerText || "").match(/\bTIER\s+(\d+)\b/i);
+    return m ? parseInt(m[1], 10) : null;
+  }
+
+  function isLikelyCard(el) {
+    const txt = cleanText(el.innerText || "");
+    if (!txt) return false;
+    if (!/CTSI/i.test(txt)) return false;
+    if (!/#\d+/.test(txt)) return false;
+    if (txt.length > 220) return false;
+    return true;
+  }
+
+  function getCardsInTier(section) {
+    const all = [...section.querySelectorAll("div, article, li")].filter(isLikelyCard);
+    return all.filter(el => !all.some(other => other !== el && other.contains(el)));
+  }
+
+  function patchCard(card, currentTier) {
+    card.classList.add("percera-tier-card-patched");
+
+    const allEls = [...card.querySelectorAll("*")];
+
+    // 1) rank number (#12)
+    const rankEl = allEls.find(el => /^#\d+$/.test(cleanText(el.textContent || "")));
+    if (rankEl) rankEl.classList.add("percera-rank-number");
+
+    // 2) CTSI label
+    const ctsiLabelEl = allEls.find(el => /^CTSI$/i.test(cleanText(el.textContent || "")));
+    if (ctsiLabelEl) ctsiLabelEl.classList.add("percera-ctsi-label");
+
+    // 3) CTSI value (+15.17 / -2.31 / 8.71)
+    const ctsiValueEl = allEls.find(el => /^[+\-]?\d+(?:\.\d+)?$/.test(cleanText(el.textContent || "")));
+    if (ctsiValueEl) ctsiValueEl.classList.add("percera-ctsi-value");
+
+    // 4) team name
+    const teamEl = allEls.find(el => {
+      const t = cleanText(el.textContent || "");
+      if (!t) return false;
+      if (/^#\d+$/.test(t)) return false;
+      if (/^CTSI$/i.test(t)) return false;
+      if (/^[+\-]?\d+(?:\.\d+)?$/.test(t)) return false;
+      if (/^(previous tier|stayed in tier|new to hierarchy|no change)$/i.test(t)) return false;
+      if (/^[↑↓]\s*\d+$/.test(t)) return false;
+      if (t.length < 3 || t.length > 32) return false;
+      return true;
+    });
+    if (teamEl) teamEl.classList.add("percera-team-name");
+
+    // 5) movement text -> previous tier
+    const movementEl = allEls.find(el => {
+      const t = cleanText(el.textContent || "");
+      return /^[↑↓]\s*\d+$/.test(t) || /^no change$/i.test(t) || /^previous tier/i.test(t) || /^stayed in tier/i.test(t);
+    });
+
+    if (movementEl) {
+      let t = cleanText(movementEl.textContent || "");
+      let newText = t;
+
+      let mUp = t.match(/^↑\s*(\d+)$/);
+      let mDown = t.match(/^↓\s*(\d+)$/);
+
+      if (mUp && currentTier != null) {
+        const delta = parseInt(mUp[1], 10);
+        newText = "Previous tier " + (currentTier + delta);
+      } else if (mDown && currentTier != null) {
+        const delta = parseInt(mDown[1], 10);
+        newText = "Previous tier " + Math.max(1, currentTier - delta);
+      } else if (/^no change$/i.test(t) && currentTier != null) {
+        newText = "Stayed in Tier " + currentTier;
+      }
+
+      movementEl.textContent = newText;
+      movementEl.classList.add("percera-tier-move");
+    }
+  }
+
+  function applyHierarchyPatch() {
+    replaceOrdinalWording(document.body);
+
+    const tierSections = findTierSections();
+    tierSections.forEach(section => {
+      const currentTier = getTierNumber(section);
+      const cards = getCardsInTier(section);
+      cards.forEach(card => patchCard(card, currentTier));
+    });
+  }
+
+  function boot() {
+    applyHierarchyPatch();
+    setTimeout(applyHierarchyPatch, 250);
+    setTimeout(applyHierarchyPatch, 1000);
+    setTimeout(applyHierarchyPatch, 2000);
+  }
+
+  // initial load
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot);
+  } else {
+    boot();
+  }
+
+  // SPA-ish navigation changes
+  let lastUrl = location.href;
+  setInterval(() => {
+    if (location.href !== lastUrl) {
+      lastUrl = location.href;
+      setTimeout(boot, 150);
+      setTimeout(boot, 600);
+    }
+  }, 300);
+})();
+</script>
+<!-- PERCERA_TIER_VISUAL_PATCH_END -->
+
+
+
+<!-- ======================================================
+     PERCERA CTSI HIERARCHY
+     ====================================================== -->
+
+<script
+    src="teams_hierarchy.js?v=week04-production-1"
+></script>
+
 </body>
 </html>
