@@ -1,0 +1,652 @@
+
+/* ==========================================================
+   REMOVE WEEKLY PLAYER DESCRIPTION — ALL SCREEN SIZES
+   ========================================================== */
+
+.player-explainer {
+    display: none !important;
+}
+
+
+/* ==========================================================
+   MOBILE PLAYER PROFILE
+   ========================================================== */
+
+@media (max-width: 860px) {
+
+    #player-view,
+    #player-content {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    #player-view {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+
+    #back-button {
+        margin: 4px 0 8px !important;
+
+        padding: 5px 0 !important;
+
+        font-size: 10px !important;
+    }
+
+
+    /* ------------------------------------------------------
+       PROFILE HERO
+       ------------------------------------------------------ */
+
+    .player-profile-hero {
+        display: grid !important;
+
+        grid-template-columns:
+            38%
+            62%
+            !important;
+
+        align-items: stretch !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        min-height: 176px !important;
+        height: auto !important;
+
+        margin:
+            10px
+            0
+            14px
+            !important;
+
+        border-radius:
+            9px
+            !important;
+
+        overflow:
+            hidden
+            !important;
+
+        box-sizing:
+            border-box
+            !important;
+    }
+
+
+    .profile-image-wrap {
+        width:
+            100%
+            !important;
+
+        min-width:
+            0
+            !important;
+
+        height:
+            auto
+            !important;
+
+        min-height:
+            176px
+            !important;
+
+        display:
+            flex
+            !important;
+
+        align-items:
+            flex-end
+            !important;
+
+        justify-content:
+            center
+            !important;
+
+        border-right:
+            1px
+            solid
+            var(--border)
+            !important;
+
+        border-bottom:
+            0
+            !important;
+
+        overflow:
+            hidden
+            !important;
+    }
+
+
+    .profile-headshot {
+        display:
+            block
+            !important;
+
+        width:
+            100%
+            !important;
+
+        height:
+            100%
+            !important;
+
+        max-height:
+            none
+            !important;
+
+        object-fit:
+            contain
+            !important;
+
+        object-position:
+            center
+            bottom
+            !important;
+    }
+
+
+    .profile-headshot.fallback-logo {
+        width:
+            70%
+            !important;
+
+        height:
+            70%
+            !important;
+
+        margin:
+            auto
+            !important;
+
+        padding:
+            10px
+            !important;
+
+        object-fit:
+            contain
+            !important;
+    }
+
+
+    .player-profile-hero
+    .player-header {
+        min-width:
+            0
+            !important;
+
+        align-self:
+            stretch
+            !important;
+
+        display:
+            flex
+            !important;
+
+        flex-direction:
+            column
+            !important;
+
+        justify-content:
+            center
+            !important;
+
+        margin:
+            0
+            !important;
+
+        padding:
+            15px
+            13px
+            !important;
+
+        box-sizing:
+            border-box
+            !important;
+    }
+
+
+    .player-profile-hero
+    .eyebrow {
+        margin:
+            0
+            !important;
+
+        font-size:
+            7px
+            !important;
+
+        line-height:
+            1.2
+            !important;
+
+        letter-spacing:
+            .06em
+            !important;
+    }
+
+
+    .profile-team-row {
+        gap:
+            5px
+            !important;
+
+        margin:
+            7px
+            0
+            3px
+            !important;
+
+        font-size:
+            9px
+            !important;
+
+        line-height:
+            1.15
+            !important;
+    }
+
+
+    .profile-team-logo {
+        width:
+            20px
+            !important;
+
+        height:
+            20px
+            !important;
+
+        flex:
+            0
+            0
+            20px
+            !important;
+    }
+
+
+    .player-header h1,
+    .player-header h2 {
+        margin:
+            4px
+            0
+            5px
+            !important;
+
+        font-size:
+            25px
+            !important;
+
+        line-height:
+            .98
+            !important;
+
+        letter-spacing:
+            -.04em
+            !important;
+
+        overflow-wrap:
+            anywhere
+            !important;
+    }
+
+
+    .player-profile-hero
+    .player-header p {
+        margin:
+            0
+            !important;
+
+        font-size:
+            9px
+            !important;
+
+        line-height:
+            1.35
+            !important;
+    }
+
+
+    .player-profile-label {
+        margin:
+            5px
+            0
+            0
+            !important;
+
+        font-size:
+            10px
+            !important;
+
+        line-height:
+            1.15
+            !important;
+    }
+
+
+    /* ------------------------------------------------------
+       SCORE STRIP
+       ------------------------------------------------------ */
+
+    .cqi-score-row,
+    .score-row {
+        display:
+            grid
+            !important;
+
+        grid-template-columns:
+            repeat(
+                2,
+                minmax(0, 1fr)
+            )
+            !important;
+
+        gap:
+            7px
+            !important;
+
+        width:
+            100%
+            !important;
+
+        max-width:
+            100%
+            !important;
+
+        margin:
+            0
+            0
+            18px
+            !important;
+
+        box-sizing:
+            border-box
+            !important;
+    }
+
+
+    .cqi-score-row
+    .score-card,
+
+    .score-row
+    .score-card {
+        min-width:
+            0
+            !important;
+
+        margin:
+            0
+            !important;
+
+        padding:
+            12px
+            11px
+            !important;
+
+        border-radius:
+            7px
+            !important;
+    }
+
+
+    .cqi-score-row
+    .score-card span,
+
+    .score-row
+    .score-card span {
+        font-size:
+            7px
+            !important;
+
+        letter-spacing:
+            .06em
+            !important;
+    }
+
+
+    .cqi-score-row
+    .score-card strong,
+
+    .score-row
+    .score-card strong {
+        margin-top:
+            3px
+            !important;
+
+        font-size:
+            24px
+            !important;
+
+        line-height:
+            1
+            !important;
+    }
+
+
+    /* ------------------------------------------------------
+       COMPONENTS
+       ------------------------------------------------------ */
+
+    .player-component-section {
+        margin-top:
+            18px
+            !important;
+    }
+
+
+    .section-heading-row {
+        display:
+            block
+            !important;
+
+        margin-bottom:
+            9px
+            !important;
+
+        padding-bottom:
+            9px
+            !important;
+    }
+
+
+    .section-heading-row h3 {
+        margin-top:
+            3px
+            !important;
+
+        font-size:
+            20px
+            !important;
+
+        line-height:
+            1.05
+            !important;
+    }
+
+
+    .section-heading-row p {
+        margin-top:
+            6px
+            !important;
+
+        font-size:
+            9px
+            !important;
+
+        line-height:
+            1.35
+            !important;
+
+        text-align:
+            left
+            !important;
+    }
+
+
+    .cqi-component-grid,
+    .component-grid {
+        display:
+            grid
+            !important;
+
+        grid-template-columns:
+            1fr
+            !important;
+
+        gap:
+            7px
+            !important;
+
+        width:
+            100%
+            !important;
+
+        max-width:
+            100%
+            !important;
+    }
+
+
+    .cqi-component-card,
+    .component {
+        min-height:
+            0
+            !important;
+
+        padding:
+            12px
+            !important;
+
+        border-radius:
+            7px
+            !important;
+
+        box-sizing:
+            border-box
+            !important;
+    }
+
+
+    .cqi-component-card
+    .component-title-row,
+
+    .component
+    .component-head {
+        margin-bottom:
+            6px
+            !important;
+    }
+
+
+    .component-percentile {
+        font-size:
+            29px
+            !important;
+
+        line-height:
+            1
+            !important;
+    }
+
+
+    .cqi-component-card p,
+    .component p {
+        font-size:
+            9px
+            !important;
+
+        line-height:
+            1.35
+            !important;
+    }
+
+
+    /* ------------------------------------------------------
+       TEAM PAGE -> QB PROFILE BUTTON
+       ------------------------------------------------------ */
+
+    #team-detail
+    .team-qb-profile-button {
+        display:
+            flex
+            !important;
+
+        align-items:
+            center
+            !important;
+
+        justify-content:
+            space-between
+            !important;
+
+        width:
+            100%
+            !important;
+
+        min-height:
+            38px
+            !important;
+
+        padding:
+            10px
+            12px
+            !important;
+
+        border:
+            0
+            !important;
+
+        border-top:
+            1px
+            solid
+            #e4e7eb
+            !important;
+
+        border-radius:
+            0
+            !important;
+
+        background:
+            #f8fafc
+            !important;
+
+        color:
+            #0b1f3b
+            !important;
+
+        opacity:
+            1
+            !important;
+
+        font-size:
+            10px
+            !important;
+
+        font-weight:
+            850
+            !important;
+
+        text-align:
+            left
+            !important;
+    }
+
+
+    #team-detail
+    .team-qb-profile-button::after {
+        content:
+            "→";
+
+        color:
+            #6b7889;
+
+        font-size:
+            13px;
+    }
+
+}

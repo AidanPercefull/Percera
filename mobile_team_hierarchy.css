@@ -1,0 +1,425 @@
+
+@media (max-width: 860px) {
+
+    /* ======================================================
+       TEAM DETAIL — GENERAL
+       ====================================================== */
+
+    #team-detail {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    #team-detail .team-back-button {
+        margin: 2px 0 12px !important;
+    }
+
+
+    /* ======================================================
+       COMPACT TEAM HERO
+       ====================================================== */
+
+    #team-detail .team-detail-hero {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow: hidden !important;
+        border-radius: 9px !important;
+    }
+
+    #team-detail .team-detail-brand {
+        display: flex !important;
+        align-items: center !important;
+        gap: 13px !important;
+        min-width: 0 !important;
+        padding: 19px 18px 15px !important;
+        border-bottom: 0 !important;
+    }
+
+    #team-detail .team-detail-brand > img:not(.team-detail-watermark) {
+        width: 56px !important;
+        height: 56px !important;
+        flex: 0 0 56px !important;
+        object-fit: contain !important;
+    }
+
+    #team-detail .team-detail-brand > div {
+        min-width: 0 !important;
+    }
+
+    #team-detail .team-detail-brand span {
+        font-size: 8px !important;
+    }
+
+    #team-detail .team-detail-brand h1 {
+        margin: 4px 0 0 !important;
+        font-size: 30px !important;
+        line-height: 1 !important;
+        overflow-wrap: anywhere !important;
+    }
+
+    /* Original Record / Next blocks become source data only. */
+    #team-detail .team-detail-facts {
+        display: none !important;
+    }
+
+
+    /* ======================================================
+       RECORD + CTSI HERO STRIP
+       ====================================================== */
+
+    .percera-mobile-team-hero-stats {
+        position: relative;
+        z-index: 2;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        border-top: 1px solid rgba(11, 31, 59, .09);
+
+        background: rgba(255, 255, 255, .70);
+        backdrop-filter: blur(2px);
+    }
+
+    .percera-mobile-team-hero-stat {
+        min-width: 0;
+
+        padding: 12px 18px 13px;
+    }
+
+    .percera-mobile-team-hero-stat + .percera-mobile-team-hero-stat {
+        border-left: 1px solid rgba(11, 31, 59, .09);
+    }
+
+    .percera-mobile-team-hero-stat > span {
+        display: block;
+
+        color: #738095;
+
+        font-size: 7px;
+        font-weight: 900;
+        letter-spacing: .10em;
+        text-transform: uppercase;
+    }
+
+    .percera-mobile-team-hero-stat > strong {
+        display: block;
+
+        margin-top: 4px;
+
+        color: #0b1f3b;
+
+        font-size: 24px;
+        font-weight: 950;
+        line-height: 1;
+        letter-spacing: -.035em;
+    }
+
+    .percera-mobile-team-hero-sub {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+
+        min-height: 12px;
+
+        margin-top: 4px;
+
+        color: #6b7889;
+
+        font-size: 8px;
+        font-weight: 800;
+    }
+
+    .percera-mobile-team-hero-prov {
+        display: inline-flex;
+        align-items: center;
+
+        padding: 2px 5px;
+
+        border: 1px solid rgba(196, 139, 40, .55);
+        border-radius: 999px;
+
+        background: rgba(196, 139, 40, .07);
+
+        color: #9a6815;
+
+        font-size: 7px;
+        font-weight: 900;
+        letter-spacing: .05em;
+    }
+
+
+    /* ======================================================
+       NEXT GAME — LOGO FIRST
+       ====================================================== */
+
+    .percera-mobile-next-game {
+        width: 100%;
+        max-width: 100%;
+
+        margin-top: 14px;
+
+        padding: 13px 14px 14px;
+
+        border: 1px solid #dddfe4;
+        border-radius: 9px;
+
+        background: #fff;
+
+        box-sizing: border-box;
+    }
+
+    .percera-mobile-next-game-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+
+        margin-bottom: 10px;
+    }
+
+    .percera-mobile-next-game-head span {
+        color: #6d7a8b;
+
+        font-size: 8px;
+        font-weight: 900;
+        letter-spacing: .09em;
+        text-transform: uppercase;
+    }
+
+    .percera-mobile-next-game-head strong {
+        color: #0b1f3b;
+
+        font-size: 9px;
+        font-weight: 850;
+    }
+
+    .percera-mobile-next-matchup {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 28px minmax(0, 1fr);
+        align-items: center;
+        gap: 7px;
+    }
+
+    .percera-mobile-next-side {
+        min-width: 0;
+
+        text-align: center;
+    }
+
+    .percera-mobile-next-side img {
+        display: block;
+
+        width: 48px !important;
+        height: 48px !important;
+
+        max-width: 48px !important;
+
+        margin: 0 auto 5px;
+
+        object-fit: contain;
+    }
+
+    .percera-mobile-next-side span {
+        display: block;
+
+        overflow: hidden;
+
+        color: #42546b;
+
+        font-size: 9px;
+        font-weight: 800;
+        line-height: 1.15;
+
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .percera-mobile-next-symbol {
+        color: #8290a1;
+
+        font-size: 12px;
+        font-weight: 900;
+
+        text-align: center;
+    }
+
+
+    /* ======================================================
+       SECTION RHYTHM
+       ====================================================== */
+
+    #team-detail .team-detail-section {
+        margin-top: 24px !important;
+    }
+
+    #team-detail .team-detail-heading {
+        margin-bottom: 10px !important;
+    }
+
+    #team-detail .team-detail-heading span {
+        font-size: 8px !important;
+    }
+
+    #team-detail .team-detail-heading h2 {
+        margin-top: 4px !important;
+
+        font-size: 25px !important;
+        line-height: 1.05 !important;
+    }
+
+
+    /* ======================================================
+       QB FEATURE — COMPACT ROW
+       ====================================================== */
+
+    #team-detail .team-qb-feature {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) 62px !important;
+        gap: 0 !important;
+
+        min-height: 0 !important;
+
+        overflow: hidden !important;
+    }
+
+    #team-detail .team-qb-info {
+        display: grid !important;
+        grid-template-columns: 68px minmax(0, 1fr) !important;
+        gap: 12px !important;
+        align-items: center !important;
+
+        min-width: 0 !important;
+    }
+
+    #team-detail .team-qb-image {
+        width: 68px !important;
+        height: 78px !important;
+
+        min-width: 68px !important;
+
+        align-self: stretch !important;
+    }
+
+    #team-detail .team-qb-info > div:last-child {
+        min-width: 0 !important;
+    }
+
+    #team-detail .team-qb-label {
+        font-size: 7px !important;
+    }
+
+    #team-detail .team-qb-info h3 {
+        margin: 4px 0 0 !important;
+
+        font-size: 16px !important;
+        line-height: 1.05 !important;
+
+        overflow-wrap: anywhere !important;
+    }
+
+    #team-detail .team-qb-info p {
+        margin-top: 3px !important;
+
+        font-size: 9px !important;
+    }
+
+    #team-detail .team-qb-score {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        padding: 0 8px !important;
+
+        border: 0 !important;
+        border-left: 1px solid #e4e7eb !important;
+
+        text-align: center !important;
+    }
+
+    #team-detail .team-qb-score strong {
+        font-size: 26px !important;
+    }
+
+    #team-detail .team-qb-profile-button {
+        grid-column: 1 / -1 !important;
+
+        width: 100% !important;
+
+        margin: 0 !important;
+        padding: 10px 12px !important;
+
+        border: 0 !important;
+        border-top: 1px solid #e4e7eb !important;
+        border-radius: 0 !important;
+
+        background: #f8fafc !important;
+
+        text-align: left !important;
+    }
+
+
+    /* ======================================================
+       SCHEDULE — COMPACT LOGO ROWS
+       ====================================================== */
+
+    #team-detail .team-schedule-grid {
+        grid-template-columns: 1fr !important;
+        gap: 10px !important;
+    }
+
+    #team-detail .team-schedule-card {
+        padding: 15px 14px !important;
+    }
+
+    #team-detail .team-schedule-card h3 {
+        margin-bottom: 8px !important;
+    }
+
+    #team-detail .team-game-row {
+        grid-template-columns: 39px minmax(0, 1fr) auto !important;
+
+        gap: 7px !important;
+
+        min-height: 43px !important;
+    }
+
+    #team-detail .team-game-week {
+        font-size: 7px !important;
+    }
+
+    #team-detail .team-game-opponent {
+        min-width: 0 !important;
+
+        gap: 6px !important;
+    }
+
+    .percera-mobile-game-logo {
+        width: 22px !important;
+        height: 22px !important;
+        max-width: 22px !important;
+
+        flex: 0 0 22px;
+
+        object-fit: contain;
+    }
+
+    #team-detail .team-game-opponent strong {
+        min-width: 0 !important;
+
+        overflow: hidden;
+
+        font-size: 9px !important;
+
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    #team-detail .team-game-score {
+        font-size: 10px !important;
+        white-space: nowrap;
+    }
+
+}

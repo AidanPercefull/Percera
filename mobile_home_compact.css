@@ -1,0 +1,1294 @@
+
+@media (max-width: 860px) {
+
+    /* ======================================================
+       HOME WIDTH / RHYTHM
+       ====================================================== */
+
+    #home-view {
+        width: calc(100vw - 28px) !important;
+        max-width: none !important;
+
+        margin-left: 50% !important;
+
+        transform:
+            translateX(-50%)
+            !important;
+
+        padding-bottom:
+            24px
+            !important;
+    }
+
+
+    /* ======================================================
+       HERO
+       ====================================================== */
+
+    #home-view
+    .percera-home-hero {
+        display:
+            block
+            !important;
+
+        min-height:
+            0
+            !important;
+
+        padding:
+            28px
+            0
+            24px
+            !important;
+
+        border-bottom:
+            1px
+            solid
+            #dedad2
+            !important;
+    }
+
+
+    #home-view
+    .home-hero-copy {
+        max-width:
+            none
+            !important;
+    }
+
+
+    #home-view
+    .home-hero-wordmark {
+        width:
+            158px
+            !important;
+
+        max-height:
+            46px
+            !important;
+
+        margin:
+            0
+            0
+            15px
+            !important;
+    }
+
+
+    #home-view
+    .home-eyebrow {
+        font-size:
+            7px
+            !important;
+    }
+
+
+    #home-view
+    .home-hero-copy
+    h1 {
+        max-width:
+            310px
+            !important;
+
+        margin:
+            9px
+            0
+            12px
+            !important;
+
+        font-size:
+            43px
+            !important;
+
+        line-height:
+            .93
+            !important;
+
+        letter-spacing:
+            -.055em
+            !important;
+    }
+
+
+    #home-view
+    .home-hero-description {
+        max-width:
+            330px
+            !important;
+
+        font-size:
+            11px
+            !important;
+
+        line-height:
+            1.55
+            !important;
+    }
+
+
+    #home-view
+    .home-actions {
+        gap:
+            7px
+            !important;
+
+        margin-top:
+            17px
+            !important;
+    }
+
+
+    #home-view
+    .home-action {
+        min-height:
+            38px
+            !important;
+
+        padding:
+            0
+            12px
+            !important;
+
+        font-size:
+            8px
+            !important;
+    }
+
+
+    #home-view
+    .home-model-meta {
+        gap:
+            6px
+            !important;
+
+        margin-top:
+            13px
+            !important;
+
+        font-size:
+            7px
+            !important;
+    }
+
+
+    /* ======================================================
+       PLATFORM CARD
+       ====================================================== */
+
+    #home-view
+    .percera-platform-model-card {
+        margin-top:
+            20px
+            !important;
+
+        border-radius:
+            8px
+            !important;
+    }
+
+
+    #home-view
+    .platform-card-head {
+        padding:
+            15px
+            15px
+            13px
+            !important;
+    }
+
+
+    #home-view
+    .platform-card-head
+    > span {
+        margin-bottom:
+            5px
+            !important;
+
+        font-size:
+            7px
+            !important;
+    }
+
+
+    #home-view
+    .platform-card-head
+    h2 {
+        font-size:
+            20px
+            !important;
+
+        line-height:
+            1.02
+            !important;
+    }
+
+
+    #home-view
+    .platform-model-list {
+        grid-template-columns:
+            1fr
+            !important;
+    }
+
+
+    #home-view
+    .platform-model-row {
+        min-height:
+            70px
+            !important;
+
+        padding:
+            11px
+            13px
+            !important;
+    }
+
+
+    #home-view
+    .platform-model-row:first-child {
+        border-right:
+            0
+            !important;
+
+        border-bottom:
+            1px
+            solid
+            #e4e1da
+            !important;
+    }
+
+
+    #home-view
+    .platform-model-code {
+        margin-bottom:
+            3px
+            !important;
+
+        font-size:
+            8px
+            !important;
+    }
+
+
+    #home-view
+    .platform-model-row
+    strong {
+        font-size:
+            12px
+            !important;
+    }
+
+
+    #home-view
+    .platform-model-row
+    small {
+        margin-top:
+            2px
+            !important;
+
+        font-size:
+            7px
+            !important;
+    }
+
+
+    #home-view
+    .platform-model-arrow {
+        font-size:
+            14px
+            !important;
+    }
+
+
+    #home-view
+    .platform-card-foot {
+        padding:
+            7px
+            13px
+            !important;
+
+        font-size:
+            7px
+            !important;
+    }
+
+
+    /* ======================================================
+       GENERIC HOME SECTIONS
+       ====================================================== */
+
+    #home-view
+    .home-section {
+        padding:
+            26px
+            0
+            !important;
+    }
+
+
+    #home-view
+    .home-section-heading {
+        display:
+            block
+            !important;
+
+        margin-bottom:
+            13px
+            !important;
+
+        padding-bottom:
+            0
+            !important;
+    }
+
+
+    #home-view
+    .home-section-kicker {
+        font-size:
+            7px
+            !important;
+    }
+
+
+    #home-view
+    .home-section-heading
+    h2 {
+        margin-top:
+            4px
+            !important;
+
+        font-size:
+            25px
+            !important;
+
+        line-height:
+            1
+            !important;
+    }
+
+
+    #home-view
+    .home-section-heading
+    > p {
+        max-width:
+            320px
+            !important;
+
+        margin-top:
+            6px
+            !important;
+
+        font-size:
+            9px
+            !important;
+
+        line-height:
+            1.45
+            !important;
+
+        text-align:
+            left
+            !important;
+    }
+
+
+    /* ======================================================
+       CQI FEATURE
+       ====================================================== */
+
+    #home-view
+    .home-cqi-feature {
+        min-height:
+            0
+            !important;
+
+        max-width:
+            none
+            !important;
+    }
+
+
+    #home-view
+    .home-feature-top {
+        padding:
+            14px
+            15px
+            12px
+            !important;
+    }
+
+
+    #home-view
+    .home-feature-top
+    h2 {
+        font-size:
+            18px
+            !important;
+    }
+
+
+    #home-view
+    .home-version-mark {
+        font-size:
+            28px
+            !important;
+    }
+
+
+    #home-view
+    .home-current-leader {
+        display:
+            grid
+            !important;
+
+        grid-template-columns:
+            34%
+            66%
+            !important;
+
+        min-height:
+            154px
+            !important;
+    }
+
+
+    #home-view
+    .home-leader-visual {
+        min-height:
+            154px
+            !important;
+
+        height:
+            154px
+            !important;
+
+        border-right:
+            1px
+            solid
+            #e6e2da
+            !important;
+
+        border-bottom:
+            0
+            !important;
+    }
+
+
+    #home-view
+    .home-leader-headshot {
+        height:
+            92%
+            !important;
+    }
+
+
+    #home-view
+    .home-leader-info {
+        min-width:
+            0
+            !important;
+
+        padding:
+            13px
+            !important;
+    }
+
+
+    #home-view
+    .home-leader-label {
+        font-size:
+            7px
+            !important;
+    }
+
+
+    #home-view
+    .home-leader-team {
+        gap:
+            4px
+            !important;
+
+        margin-top:
+            7px
+            !important;
+
+        font-size:
+            8px
+            !important;
+    }
+
+
+    #home-view
+    .home-leader-team
+    img {
+        width:
+            17px
+            !important;
+
+        height:
+            17px
+            !important;
+    }
+
+
+    #home-view
+    .home-leader-info
+    h3 {
+        margin-top:
+            5px
+            !important;
+
+        font-size:
+            17px
+            !important;
+
+        line-height:
+            1.02
+            !important;
+    }
+
+
+    #home-view
+    .home-leader-score {
+        gap:
+            4px
+            !important;
+
+        margin-top:
+            9px
+            !important;
+    }
+
+
+    #home-view
+    .home-leader-score
+    strong {
+        font-size:
+            30px
+            !important;
+    }
+
+
+    #home-view
+    .home-leader-score
+    span {
+        font-size:
+            7px
+            !important;
+    }
+
+
+    #home-view
+    .home-profile-link {
+        margin-top:
+            8px
+            !important;
+
+        font-size:
+            8px
+            !important;
+    }
+
+
+    /* ======================================================
+       CQI SIGNALS
+       ====================================================== */
+
+    #home-view
+    .home-signal-grid {
+        grid-template-columns:
+            1fr
+            !important;
+
+        gap:
+            6px
+            !important;
+    }
+
+
+    #home-view
+    .home-signal-card {
+        display:
+            grid
+            !important;
+
+        grid-template-columns:
+            31px
+            minmax(0, 1fr)
+            !important;
+
+        column-gap:
+            9px
+            !important;
+
+        row-gap:
+            2px
+            !important;
+
+        min-height:
+            0
+            !important;
+
+        padding:
+            11px
+            12px
+            !important;
+    }
+
+
+    #home-view
+    .home-signal-number {
+        grid-row:
+            1
+            /
+            span 2
+            !important;
+
+        align-self:
+            start
+            !important;
+
+        font-size:
+            18px
+            !important;
+
+        line-height:
+            1
+            !important;
+    }
+
+
+    #home-view
+    .home-signal-card
+    h3 {
+        margin:
+            0
+            !important;
+
+        font-size:
+            12px
+            !important;
+
+        line-height:
+            1.15
+            !important;
+    }
+
+
+    #home-view
+    .home-signal-card
+    p {
+        max-width:
+            none
+            !important;
+
+        font-size:
+            8px
+            !important;
+
+        line-height:
+            1.4
+            !important;
+    }
+
+
+    /* ======================================================
+       CQI VALIDATION
+       ====================================================== */
+
+    #home-view
+    .home-validation {
+        grid-template-columns:
+            minmax(0, 1fr)
+            94px
+            !important;
+
+        gap:
+            12px
+            !important;
+
+        margin:
+            18px
+            0
+            !important;
+
+        padding:
+            14px
+            !important;
+    }
+
+
+    #home-view
+    .home-validation
+    h2 {
+        font-size:
+            20px
+            !important;
+
+        line-height:
+            1.02
+            !important;
+    }
+
+
+    #home-view
+    .home-validation-copy
+    > p {
+        margin-top:
+            7px
+            !important;
+
+        font-size:
+            8px
+            !important;
+
+        line-height:
+            1.4
+            !important;
+    }
+
+
+    #home-view
+    .home-validation-link {
+        margin-top:
+            8px
+            !important;
+
+        font-size:
+            8px
+            !important;
+    }
+
+
+    #home-view
+    .home-validation-stat {
+        align-self:
+            center
+            !important;
+
+        padding:
+            8px
+            0
+            8px
+            10px
+            !important;
+
+        border-left-width:
+            2px
+            !important;
+    }
+
+
+    #home-view
+    .home-validation-stat
+    span {
+        font-size:
+            6px
+            !important;
+    }
+
+
+    #home-view
+    .home-validation-stat
+    strong {
+        margin-top:
+            4px
+            !important;
+
+        font-size:
+            34px
+            !important;
+    }
+
+
+    #home-view
+    .home-validation-stat
+    p {
+        margin-top:
+            4px
+            !important;
+
+        font-size:
+            7px
+            !important;
+
+        line-height:
+            1.25
+            !important;
+    }
+
+
+    /* ======================================================
+       CTSI EXPLAINER
+       ====================================================== */
+
+    #home-view
+    .percera-ctsi-home-explainer {
+        margin:
+            24px
+            0
+            26px
+            !important;
+
+        padding:
+            26px
+            0
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-head {
+        display:
+            block
+            !important;
+
+        margin-bottom:
+            13px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-kicker {
+        margin-bottom:
+            5px
+            !important;
+
+        font-size:
+            7px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-head
+    h2 {
+        font-size:
+            25px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-head
+    > p {
+        width:
+            auto
+            !important;
+
+        margin-top:
+            6px
+            !important;
+
+        font-size:
+            9px
+            !important;
+
+        line-height:
+            1.45
+            !important;
+
+        text-align:
+            left
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-layout {
+        grid-template-columns:
+            1fr
+            !important;
+
+        gap:
+            6px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-side {
+        gap:
+            6px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-feature {
+        min-height:
+            0
+            !important;
+
+        padding:
+            15px
+            !important;
+
+        border-top-width:
+            3px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-feature
+    .ctsi-card-index {
+        top:
+            5px
+            !important;
+
+        right:
+            12px
+            !important;
+
+        font-size:
+            54px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-feature
+    .ctsi-card-label {
+        margin-bottom:
+            12px
+            !important;
+
+        font-size:
+            7px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-feature
+    h3 {
+        max-width:
+            265px
+            !important;
+
+        margin-bottom:
+            6px
+            !important;
+
+        font-size:
+            17px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-feature
+    p {
+        max-width:
+            280px
+            !important;
+
+        font-size:
+            8px
+            !important;
+
+        line-height:
+            1.4
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-feature-rule {
+        width:
+            38px
+            !important;
+
+        margin:
+            11px
+            0
+            8px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-feature
+    > strong {
+        font-size:
+            9px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-secondary {
+        grid-template-columns:
+            34px
+            minmax(0, 1fr)
+            !important;
+
+        gap:
+            8px
+            !important;
+
+        padding:
+            11px
+            12px
+            !important;
+
+        border-left-width:
+            3px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-secondary
+    .ctsi-card-index {
+        font-size:
+            20px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-secondary
+    .ctsi-card-label {
+        margin-bottom:
+            3px
+            !important;
+
+        font-size:
+            6px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-secondary
+    h3 {
+        margin-bottom:
+            3px
+            !important;
+
+        font-size:
+            11px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-distinct-secondary
+    p {
+        font-size:
+            8px
+            !important;
+
+        line-height:
+            1.35
+            !important;
+    }
+
+
+    /* ======================================================
+       CTSI VALIDATION
+       ====================================================== */
+
+    #home-view
+    .ctsi-validation-home {
+        grid-template-columns:
+            1fr
+            !important;
+
+        gap:
+            12px
+            !important;
+
+        margin-bottom:
+            25px
+            !important;
+
+        padding:
+            15px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-validation-copy
+    > span {
+        font-size:
+            7px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-validation-copy
+    h2 {
+        margin:
+            5px
+            0
+            6px
+            !important;
+
+        font-size:
+            20px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-validation-copy
+    p {
+        font-size:
+            8px
+            !important;
+
+        line-height:
+            1.4
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-validation-button {
+        margin-top:
+            9px
+            !important;
+
+        padding:
+            8px
+            10px
+            !important;
+
+        font-size:
+            8px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-validation-results {
+        grid-template-columns:
+            1fr
+            1fr
+            !important;
+
+        gap:
+            6px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-validation-results
+    article {
+        min-height:
+            94px
+            !important;
+
+        padding:
+            10px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-validation-results
+    article
+    > span {
+        font-size:
+            6px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-validation-results
+    article
+    > strong {
+        margin:
+            5px
+            0
+            3px
+            !important;
+
+        font-size:
+            27px
+            !important;
+    }
+
+
+    #home-view
+    .ctsi-validation-results
+    article
+    p {
+        font-size:
+            7px
+            !important;
+
+        line-height:
+            1.3
+            !important;
+    }
+
+
+    /* ======================================================
+       FINAL CTA
+       ====================================================== */
+
+    #home-view
+    .home-bottom-cta {
+        display:
+            grid
+            !important;
+
+        grid-template-columns:
+            minmax(0, 1fr)
+            auto
+            !important;
+
+        gap:
+            10px
+            !important;
+
+        padding:
+            15px
+            !important;
+    }
+
+
+    #home-view
+    .home-bottom-cta
+    h2 {
+        margin:
+            0
+            !important;
+
+        font-size:
+            18px
+            !important;
+
+        line-height:
+            1.05
+            !important;
+    }
+
+
+    #home-view
+    .home-bottom-cta
+    .home-action-primary {
+        min-width:
+            0
+            !important;
+
+        min-height:
+            36px
+            !important;
+
+        padding:
+            0
+            10px
+            !important;
+    }
+
+}

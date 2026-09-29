@@ -1,0 +1,573 @@
+
+@media (max-width: 860px) {
+
+    #methodology-view,
+    .percera-method-shell,
+    .percera-method-panel {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+
+    /* ------------------------------------------------------
+       SHARED METHODOLOGY HEADING
+       ------------------------------------------------------ */
+
+    .percera-method-heading {
+        margin-bottom: 12px !important;
+    }
+
+
+    .percera-method-heading h2 {
+        margin:
+            5px
+            0
+            6px
+            !important;
+
+        font-size:
+            36px
+            !important;
+
+        line-height:
+            .96
+            !important;
+    }
+
+
+    .percera-method-heading p {
+        margin:
+            0
+            !important;
+
+        font-size:
+            11px
+            !important;
+
+        line-height:
+            1.45
+            !important;
+    }
+
+
+    /* ------------------------------------------------------
+       STICKY CQI / CTSI SWITCHER
+       ------------------------------------------------------ */
+
+    .percera-method-tabs {
+        position:
+            sticky
+            !important;
+
+        top:
+            68px
+            !important;
+
+        z-index:
+            8500
+            !important;
+
+        display:
+            grid
+            !important;
+
+        grid-template-columns:
+            1fr
+            1fr
+            !important;
+
+        gap:
+            5px
+            !important;
+
+        width:
+            100%
+            !important;
+
+        max-width:
+            100%
+            !important;
+
+        margin:
+            0
+            0
+            12px
+            !important;
+
+        padding:
+            6px
+            !important;
+
+        border:
+            1px
+            solid
+            #dfe3e8
+            !important;
+
+        border-radius:
+            9px
+            !important;
+
+        background:
+            rgba(
+                255,
+                255,
+                255,
+                .96
+            )
+            !important;
+
+        backdrop-filter:
+            blur(8px);
+
+        box-sizing:
+            border-box
+            !important;
+    }
+
+
+    .percera-method-tab {
+        min-height:
+            38px
+            !important;
+
+        padding:
+            8px
+            10px
+            !important;
+
+        border-radius:
+            7px
+            !important;
+
+        font-size:
+            10px
+            !important;
+
+        font-weight:
+            900
+            !important;
+    }
+
+
+    /* ------------------------------------------------------
+       MODEL INTRO
+       ------------------------------------------------------ */
+
+    .percera-method-panel
+    >
+    .eyebrow,
+
+    .percera-method-panel
+    >
+    .percera-model-intro
+    .percera-model-kicker {
+        font-size:
+            7px
+            !important;
+    }
+
+
+    .percera-method-panel
+    >
+    h2,
+
+    .percera-method-panel
+    >
+    .percera-model-intro
+    h2 {
+        margin:
+            5px
+            0
+            7px
+            !important;
+
+        font-size:
+            30px
+            !important;
+
+        line-height:
+            1
+            !important;
+    }
+
+
+    .percera-method-panel
+    >
+    .method-intro,
+
+    .percera-method-panel
+    >
+    .percera-model-intro
+    .method-intro {
+        margin:
+            0
+            0
+            12px
+            !important;
+
+        font-size:
+            11px
+            !important;
+
+        line-height:
+            1.5
+            !important;
+    }
+
+
+    /* ------------------------------------------------------
+       METHOD ACCORDION
+       ------------------------------------------------------ */
+
+    .percera-mobile-method-section {
+        width:
+            100%
+            !important;
+
+        max-width:
+            100%
+            !important;
+
+        min-width:
+            0
+            !important;
+
+        margin:
+            0
+            0
+            8px
+            !important;
+
+        padding:
+            0
+            !important;
+
+        border:
+            1px
+            solid
+            #dfe3e8
+            !important;
+
+        border-radius:
+            9px
+            !important;
+
+        background:
+            #fff
+            !important;
+
+        overflow:
+            hidden
+            !important;
+
+        box-sizing:
+            border-box
+            !important;
+    }
+
+
+    .percera-mobile-method-section
+    >
+    h3 {
+        position:
+            relative
+            !important;
+
+        display:
+            flex
+            !important;
+
+        align-items:
+            center
+            !important;
+
+        min-height:
+            50px
+            !important;
+
+        margin:
+            0
+            !important;
+
+        padding:
+            12px
+            38px
+            12px
+            13px
+            !important;
+
+        color:
+            #0b1f3b
+            !important;
+
+        font-size:
+            14px
+            !important;
+
+        line-height:
+            1.15
+            !important;
+
+        cursor:
+            pointer
+            !important;
+    }
+
+
+    .percera-mobile-method-section
+    >
+    h3::after {
+        content:
+            "";
+
+        position:
+            absolute;
+
+        top:
+            50%;
+
+        right:
+            15px;
+
+        width:
+            8px;
+
+        height:
+            8px;
+
+        border-right:
+            2px
+            solid
+            #6d7989;
+
+        border-bottom:
+            2px
+            solid
+            #6d7989;
+
+        transform:
+            translateY(-65%)
+            rotate(45deg);
+
+        transition:
+            transform
+            .15s
+            ease;
+    }
+
+
+    .percera-mobile-method-section.open
+    >
+    h3::after {
+        transform:
+            translateY(-35%)
+            rotate(225deg);
+    }
+
+
+    .percera-mobile-method-body {
+        display:
+            none;
+
+        padding:
+            0
+            13px
+            14px
+            !important;
+
+        border-top:
+            1px
+            solid
+            #e7eaee;
+    }
+
+
+    .percera-mobile-method-section.open
+    .percera-mobile-method-body {
+        display:
+            block;
+    }
+
+
+    .percera-mobile-method-body
+    >
+    :first-child {
+        margin-top:
+            12px
+            !important;
+    }
+
+
+    .percera-mobile-method-body p {
+        font-size:
+            11px
+            !important;
+
+        line-height:
+            1.55
+            !important;
+    }
+
+
+    /* ------------------------------------------------------
+       COMPONENT PILL GRIDS
+       ------------------------------------------------------ */
+
+    .percera-mobile-method-body
+    .method-pill-grid,
+
+    .percera-mobile-method-body
+    .method-grid {
+        grid-template-columns:
+            1fr
+            !important;
+
+        gap:
+            7px
+            !important;
+    }
+
+
+    .percera-mobile-method-body
+    .method-pill {
+        padding:
+            11px
+            !important;
+    }
+
+
+    .percera-mobile-method-body
+    .method-pill strong {
+        font-size:
+            10px
+            !important;
+    }
+
+
+    .percera-mobile-method-body
+    .method-pill span {
+        font-size:
+            9px
+            !important;
+
+        line-height:
+            1.45
+            !important;
+    }
+
+
+    /* ------------------------------------------------------
+       TECHNICAL METHODOLOGY
+       ------------------------------------------------------ */
+
+    .technical-methodology {
+        width:
+            100%
+            !important;
+
+        max-width:
+            100%
+            !important;
+
+        margin:
+            8px
+            0
+            0
+            !important;
+
+        border:
+            1px
+            solid
+            #dfe3e8
+            !important;
+
+        border-radius:
+            9px
+            !important;
+
+        overflow:
+            hidden
+            !important;
+
+        background:
+            #fff
+            !important;
+
+        box-sizing:
+            border-box
+            !important;
+    }
+
+
+    .technical-methodology
+    summary {
+        min-height:
+            50px
+            !important;
+
+        padding:
+            14px
+            13px
+            !important;
+
+        color:
+            #0b1f3b
+            !important;
+
+        font-size:
+            13px
+            !important;
+
+        font-weight:
+            850
+            !important;
+
+        cursor:
+            pointer
+            !important;
+
+        box-sizing:
+            border-box
+            !important;
+    }
+
+
+    .technical-methodology[open]
+    summary {
+        border-bottom:
+            1px
+            solid
+            #e7eaee
+            !important;
+    }
+
+
+    .technical-content {
+        padding:
+            13px
+            !important;
+    }
+
+
+    .technical-content h3 {
+        font-size:
+            13px
+            !important;
+    }
+
+
+    .technical-content p,
+    .technical-content li {
+        font-size:
+            10px
+            !important;
+
+        line-height:
+            1.55
+            !important;
+    }
+
+}

@@ -1,0 +1,59 @@
+
+@media (max-width: 860px) {
+
+    /* Keep compact QB rankings inside the mobile safety area */
+
+    .percera-mobile-qb-list {
+
+        width:
+            auto !important;
+
+        max-width:
+            none !important;
+
+        margin-left:
+            0 !important;
+
+        margin-right:
+            8px !important;
+
+        box-sizing:
+            border-box !important;
+    }
+
+
+    .percera-mobile-qb-row,
+    .percera-mobile-qb-main {
+
+        width:
+            100% !important;
+
+        max-width:
+            100% !important;
+
+        box-sizing:
+            border-box !important;
+    }
+
+
+    .percera-mobile-qb-main {
+
+        padding-right:
+            6px !important;
+    }
+
+
+    .percera-mobile-qb-score {
+
+        padding-right:
+            2px !important;
+    }
+
+
+    .percera-mobile-qb-actions {
+
+        padding-right:
+            6px !important;
+    }
+
+}

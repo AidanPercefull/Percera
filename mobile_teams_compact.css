@@ -1,0 +1,229 @@
+
+.percera-mobile-teams-list {
+    display: none;
+}
+
+@media (max-width: 860px) {
+
+    /* ------------------------------------------------------
+       DIRECTORY CONTROLS
+       ------------------------------------------------------ */
+
+    #teams-directory,
+    .teams-controls,
+    #teams-search,
+    .teams-controls .percera-mobile-select-wrap {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .teams-controls {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 10px !important;
+        margin: 18px 0 12px !important;
+    }
+
+    #teams-search {
+        min-height: 42px !important;
+    }
+
+    /* Hide desktop table only on mobile. */
+    .teams-table-wrap.percera-mobile-teams-source {
+        display: none !important;
+    }
+
+    /* ------------------------------------------------------
+       MOBILE LIST
+       ------------------------------------------------------ */
+
+    .percera-mobile-teams-list {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        overflow: hidden;
+        box-sizing: border-box;
+        border-top: 1px solid #dfe4ea;
+    }
+
+    .percera-mobile-teams-toolbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 9px 0 8px;
+        border-bottom: 1px solid #dfe4ea;
+    }
+
+    .percera-mobile-teams-toolbar-label {
+        color: #738095;
+        font-size: 9px;
+        font-weight: 850;
+        letter-spacing: .09em;
+        text-transform: uppercase;
+    }
+
+    .percera-mobile-teams-sort {
+        display: flex;
+        gap: 5px;
+        flex: 0 0 auto;
+    }
+
+    .percera-mobile-team-sort-button {
+        border: 1px solid #d7dde5;
+        border-radius: 7px;
+        background: #fff;
+        color: #52657b;
+        padding: 6px 8px;
+        font: inherit;
+        font-size: 9px;
+        font-weight: 850;
+        cursor: pointer;
+    }
+
+    .percera-mobile-team-sort-button.active {
+        border-color: #c48b28;
+        color: #9a6815;
+        background: rgba(196, 139, 40, .07);
+    }
+
+    .percera-mobile-team-row {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+        border-bottom: 1px solid #e2e6eb;
+        background: #fff;
+    }
+
+    .percera-mobile-team-main {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 68px;
+        gap: 9px;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+        min-height: 74px;
+        padding: 10px 4px 10px 2px;
+        cursor: pointer;
+    }
+
+    .percera-mobile-team-copy {
+        min-width: 0;
+    }
+
+    .percera-mobile-team-name {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        min-width: 0;
+        color: #0b1f3b;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 1.15;
+    }
+
+    .percera-mobile-team-name span {
+        min-width: 0;
+        white-space: normal;
+        overflow-wrap: anywhere;
+    }
+
+    .percera-mobile-team-logo {
+        width: 21px !important;
+        height: 21px !important;
+        max-width: 21px !important;
+        flex: 0 0 21px;
+        object-fit: contain;
+    }
+
+    .percera-mobile-team-meta {
+        margin-top: 4px;
+        color: #6c798a;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .percera-mobile-team-next {
+        margin-top: 4px;
+        color: #425872;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 1.25;
+        overflow-wrap: anywhere;
+    }
+
+    /* ------------------------------------------------------
+       CTSI BLOCK
+       ------------------------------------------------------ */
+
+    .percera-mobile-team-ctsi {
+        min-width: 0;
+        text-align: right;
+    }
+
+    .percera-mobile-team-rank {
+        display: block;
+        min-height: 11px;
+        color: #718095;
+        font-size: 8px;
+        font-weight: 850;
+        letter-spacing: .05em;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+
+    .percera-mobile-team-value {
+        display: block;
+        margin-top: 4px;
+        color: #0b1f3b;
+        font-size: 21px;
+        font-weight: 950;
+        line-height: .95;
+        letter-spacing: -.035em;
+        white-space: nowrap;
+    }
+
+    .percera-mobile-team-ctsi-label {
+        display: block;
+        margin-top: 4px;
+        color: #718095;
+        font-size: 8px;
+        font-weight: 850;
+        letter-spacing: .09em;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+
+    .percera-mobile-team-prov {
+        display: inline-flex;
+        align-items: center;
+        margin-top: 4px;
+        padding: 2px 5px;
+        border: 1px solid rgba(196, 139, 40, .55);
+        border-radius: 999px;
+        color: #9a6815;
+        background: rgba(196, 139, 40, .07);
+        font-size: 7px;
+        font-weight: 900;
+        line-height: 1;
+        letter-spacing: .06em;
+    }
+
+    /* Hero tightening, but no redesign. */
+    .teams-hero {
+        gap: 18px !important;
+        padding-bottom: 22px !important;
+    }
+
+    .teams-count strong {
+        font-size: 38px !important;
+    }
+}

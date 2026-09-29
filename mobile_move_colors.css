@@ -1,0 +1,19 @@
+
+@media (max-width: 860px) {
+
+    .percera-mobile-qb-move {
+        font-weight: 900 !important;
+    }
+
+    .percera-mobile-qb-move.move-up {
+        color: #15803d !important;
+    }
+
+    .percera-mobile-qb-move.move-down {
+        color: #b91c1c !important;
+    }
+
+    .percera-mobile-qb-move.move-flat {
+        color: #6b7280 !important;
+    }
+}

@@ -1,0 +1,768 @@
+
+@media (max-width: 860px) {
+
+    /* ======================================================
+       PAGE / HERO
+       ====================================================== */
+
+    main .shell {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    .hero {
+        display: grid !important;
+
+        grid-template-columns:
+            minmax(0, 1fr)
+            auto
+            !important;
+
+        gap: 12px !important;
+
+        align-items: end !important;
+
+        padding-top: 22px !important;
+        padding-bottom: 20px !important;
+    }
+
+
+    .hero h1 {
+        margin-bottom: 7px !important;
+
+        font-size: 40px !important;
+        line-height: .95 !important;
+    }
+
+
+    .hero p {
+        max-width: 260px !important;
+
+        font-size: 11px !important;
+        line-height: 1.45 !important;
+    }
+
+
+    .hero-count {
+        min-width: 55px;
+
+        text-align: right !important;
+    }
+
+
+    .hero-count strong {
+        font-size: 31px !important;
+        line-height: .9 !important;
+    }
+
+
+    .hero-count span {
+        display: block;
+
+        margin-top: 4px;
+
+        font-size: 7px !important;
+        line-height: 1.1 !important;
+    }
+
+
+    /* ======================================================
+       MODEL EXPLANATION ACCORDION
+       ====================================================== */
+
+    .percera-mobile-model-box {
+        margin: 0 0 12px;
+
+        border:
+            1px solid #dfe3e8;
+
+        border-radius: 8px;
+
+        background: #fff;
+
+        overflow: hidden;
+    }
+
+
+    .percera-mobile-model-toggle {
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+
+        gap: 10px;
+
+        width: 100%;
+
+        min-height: 45px;
+
+        padding: 10px 12px;
+
+        border: 0;
+
+        background: #fff;
+
+        color: #0b1f3b;
+
+        font: inherit;
+
+        text-align: left;
+
+        cursor: pointer;
+    }
+
+
+    .percera-mobile-model-toggle div {
+        min-width: 0;
+    }
+
+
+    .percera-mobile-model-toggle small {
+        display: block;
+
+        color: #c48b28;
+
+        font-size: 7px;
+
+        font-weight: 900;
+
+        letter-spacing: .09em;
+
+        text-transform: uppercase;
+    }
+
+
+    .percera-mobile-model-toggle strong {
+        display: block;
+
+        margin-top: 3px;
+
+        font-size: 11px;
+    }
+
+
+    .percera-mobile-chevron {
+        width: 8px;
+        height: 8px;
+
+        flex: 0 0 8px;
+
+        border-right: 2px solid #6e7a8a;
+        border-bottom: 2px solid #6e7a8a;
+
+        transform:
+            rotate(45deg)
+            translateY(-2px);
+
+        transition:
+            transform .15s ease;
+    }
+
+
+    .percera-mobile-model-box.open
+    .percera-mobile-chevron {
+        transform:
+            rotate(225deg)
+            translate(-2px, -2px);
+    }
+
+
+    .percera-mobile-model-box
+    .model-strip,
+    .percera-mobile-model-box
+    .definition {
+        display: none !important;
+
+        margin: 0 !important;
+
+        padding: 12px !important;
+
+        border: 0 !important;
+        border-top:
+            1px solid #e3e7eb !important;
+
+        border-radius: 0 !important;
+    }
+
+
+    .percera-mobile-model-box.open
+    .model-strip,
+    .percera-mobile-model-box.open
+    .definition {
+        display: flex !important;
+    }
+
+
+    /* ======================================================
+       RELIABILITY ACCORDION
+       ====================================================== */
+
+    .reliability.percera-mobile-rel-ready {
+        display: block !important;
+
+        margin: 0 0 18px !important;
+
+        padding: 0 !important;
+
+        border:
+            1px solid #dfe3e8 !important;
+
+        border-radius: 8px !important;
+
+        overflow: hidden !important;
+
+        background: #fff !important;
+    }
+
+
+    .percera-mobile-rel-summary {
+        display: grid;
+
+        grid-template-columns:
+            minmax(0, 1fr)
+            auto
+            auto;
+
+        gap: 13px;
+
+        align-items: center;
+
+        width: 100%;
+
+        min-height: 58px;
+
+        padding: 9px 11px;
+
+        border: 0;
+
+        background: #fff;
+
+        color: #0b1f3b;
+
+        font: inherit;
+
+        text-align: left;
+
+        cursor: pointer;
+
+        box-sizing: border-box;
+    }
+
+
+    .percera-mobile-rel-title small {
+        display: block;
+
+        color: #c48b28;
+
+        font-size: 7px;
+
+        font-weight: 900;
+
+        letter-spacing: .08em;
+
+        text-transform: uppercase;
+    }
+
+
+    .percera-mobile-rel-title strong {
+        display: block;
+
+        margin-top: 3px;
+
+        font-size: 10px;
+        line-height: 1.2;
+    }
+
+
+    .percera-mobile-rel-stat {
+        text-align: right;
+    }
+
+
+    .percera-mobile-rel-stat span {
+        display: block;
+
+        color: #798697;
+
+        font-size: 6px;
+
+        font-weight: 850;
+
+        letter-spacing: .06em;
+
+        text-transform: uppercase;
+    }
+
+
+    .percera-mobile-rel-stat strong {
+        display: block;
+
+        margin-top: 2px;
+
+        font-size: 15px;
+
+        font-weight: 950;
+    }
+
+
+    .reliability.percera-mobile-rel-ready
+    > :not(.percera-mobile-rel-summary) {
+        display: none !important;
+    }
+
+
+    .reliability.percera-mobile-rel-ready.open
+    > :not(.percera-mobile-rel-summary) {
+        display: block !important;
+    }
+
+
+    .reliability.percera-mobile-rel-ready.open
+    .rel-stat {
+        padding: 11px 12px !important;
+    }
+
+
+    /* ======================================================
+       FEATURED MATCHUPS
+       ====================================================== */
+
+    .feature-grid {
+        display: grid !important;
+
+        grid-template-columns:
+            1fr !important;
+
+        gap: 8px !important;
+
+        margin-bottom: 24px !important;
+    }
+
+
+    .feature {
+        padding: 11px 12px !important;
+
+        min-height: 0 !important;
+    }
+
+
+    .feature-label {
+        font-size: 7px !important;
+    }
+
+
+    .feature-teams {
+        display: grid !important;
+
+        grid-template-columns:
+            minmax(0, 1fr)
+            18px
+            minmax(0, 1fr)
+            !important;
+
+        align-items: center !important;
+
+        gap: 6px !important;
+
+        margin-top: 8px !important;
+    }
+
+
+    .feature-team {
+        min-width: 0 !important;
+
+        text-align: center !important;
+    }
+
+
+    .feature-team .team-logo,
+    .feature-team img {
+        width: 30px !important;
+        height: 30px !important;
+
+        max-width: 30px !important;
+
+        margin-bottom: 3px !important;
+    }
+
+
+    .feature-team strong {
+        display: block;
+
+        overflow: hidden;
+
+        font-size: 9px !important;
+
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+
+    .feature-team span {
+        font-size: 7px !important;
+    }
+
+
+    .feature-teams .at {
+        margin: 0 !important;
+
+        text-align: center !important;
+
+        font-size: 7px !important;
+    }
+
+
+    .feature-result {
+        display: grid !important;
+
+        grid-template-columns:
+            1fr 1fr
+            !important;
+
+        gap: 7px !important;
+
+        margin-top: 9px !important;
+
+        padding-top: 8px !important;
+    }
+
+
+    .feature-result span {
+        font-size: 6px !important;
+    }
+
+
+    .feature-result strong {
+        margin-top: 2px !important;
+
+        font-size: 13px !important;
+    }
+
+
+    /* ======================================================
+       FULL SLATE HEADER / CONTROLS
+       ====================================================== */
+
+    .slate-head {
+        gap: 7px !important;
+
+        margin-bottom: 12px !important;
+    }
+
+
+    .slate-head h2 {
+        margin-top: 3px !important;
+
+        font-size: 28px !important;
+    }
+
+
+    .slate-head p {
+        max-width: 100% !important;
+
+        font-size: 9px !important;
+
+        text-align: left !important;
+    }
+
+
+    .controls {
+        gap: 8px !important;
+
+        margin-bottom: 9px !important;
+    }
+
+
+    .filter-row {
+        display: flex !important;
+
+        gap: 5px !important;
+
+        overflow-x: auto !important;
+
+        padding-bottom: 5px !important;
+
+        -webkit-overflow-scrolling: touch;
+    }
+
+
+    .filter-row .filter {
+        flex: 0 0 auto !important;
+
+        padding: 7px 9px !important;
+
+        font-size: 8px !important;
+    }
+
+
+    .result-count {
+        flex: 0 0 auto !important;
+
+        align-self: center;
+
+        font-size: 8px !important;
+    }
+
+
+    /* ======================================================
+       FULL SLATE COMPACT GAME CARDS
+       ====================================================== */
+
+    .game-list {
+        display: grid !important;
+
+        gap: 7px !important;
+    }
+
+
+    .game {
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        border-radius: 8px !important;
+
+        overflow: hidden !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    .game-main {
+        display: grid !important;
+
+        grid-template-columns:
+            minmax(0, 1fr)
+            72px
+            57px
+            !important;
+
+        gap: 6px !important;
+
+        align-items: center !important;
+
+        width: 100% !important;
+
+        min-height: 74px !important;
+
+        padding: 8px 9px !important;
+
+        box-sizing: border-box !important;
+
+        text-align: left !important;
+    }
+
+
+    .game-teams {
+        display: grid !important;
+
+        grid-template-columns:
+            1fr !important;
+
+        gap: 3px !important;
+
+        min-width: 0 !important;
+    }
+
+
+    .game-team {
+        display: grid !important;
+
+        grid-template-columns:
+            25px
+            minmax(0, 1fr)
+            !important;
+
+        gap: 6px !important;
+
+        align-items: center !important;
+
+        min-width: 0 !important;
+    }
+
+
+    .game-team .team-logo,
+    .game-team img {
+        width: 25px !important;
+        height: 25px !important;
+
+        max-width: 25px !important;
+
+        object-fit: contain;
+    }
+
+
+    .game-team > div {
+        min-width: 0 !important;
+    }
+
+
+    .game-team strong {
+        display: block;
+
+        overflow: hidden;
+
+        font-size: 10px !important;
+
+        line-height: 1.1 !important;
+
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+
+    .game-team span {
+        display: block;
+
+        margin-top: 2px;
+
+        overflow: hidden;
+
+        color: #788596;
+
+        font-size: 7px !important;
+
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+
+    .game-teams > .at {
+        display: none !important;
+    }
+
+
+    .edge,
+    .prob {
+        margin: 0 !important;
+
+        padding: 0 !important;
+
+        min-width: 0 !important;
+
+        text-align: center !important;
+    }
+
+
+    .edge {
+        border-left:
+            1px solid #e2e6eb;
+
+        padding-left:
+            6px !important;
+    }
+
+
+    .prob {
+        border-left:
+            1px solid #e2e6eb;
+
+        padding-left:
+            6px !important;
+    }
+
+
+    .edge span,
+    .prob span {
+        display: block;
+
+        color: #7c8999;
+
+        font-size: 6px !important;
+
+        font-weight: 850;
+
+        letter-spacing: .05em;
+
+        line-height: 1.1;
+
+        text-transform: uppercase;
+    }
+
+
+    .edge strong {
+        display: block;
+
+        margin-top: 4px;
+
+        overflow: hidden;
+
+        font-size: 9px !important;
+
+        line-height: 1.05;
+
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+
+    .edge em {
+        display: block;
+
+        margin-top: 2px;
+
+        color: #c48b28;
+
+        font-size: 16px !important;
+
+        font-style: normal;
+
+        font-weight: 950;
+    }
+
+
+    .prob strong {
+        display: block;
+
+        margin-top: 5px;
+
+        font-size: 14px !important;
+
+        font-weight: 950;
+    }
+
+
+    .prob .prov {
+        display: inline-block;
+
+        margin-top: 3px;
+
+        font-size: 6px !important;
+    }
+
+
+    /* ======================================================
+       EXPANDED DETAIL
+       ====================================================== */
+
+    .game .detail {
+        max-width: 100% !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    .game.expanded .detail {
+        border-top:
+            1px solid #e1e5ea;
+    }
+
+
+    .detail-inner {
+        padding: 14px 12px !important;
+    }
+
+
+    .equation,
+    .history {
+        grid-template-columns:
+            1fr !important;
+    }
+
+}

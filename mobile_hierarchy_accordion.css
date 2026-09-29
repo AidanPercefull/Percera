@@ -1,0 +1,232 @@
+
+@media (max-width: 860px) {
+
+    .ctsi-tier.percera-mobile-tier-ready {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 0 9px !important;
+        padding: 0 !important;
+        border: 1px solid #dfe3e8 !important;
+        border-radius: 9px !important;
+        background: #ffffff !important;
+        overflow: hidden !important;
+        box-sizing: border-box !important;
+    }
+
+    .ctsi-tier.percera-mobile-tier-ready > .ctsi-tier-label {
+        display: none !important;
+    }
+
+    .percera-mobile-tier-toggle {
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 11px;
+        width: 100%;
+        min-height: 62px;
+        padding: 10px 12px;
+        border: 0;
+        background: #ffffff;
+        color: #0b1f3b;
+        font: inherit;
+        text-align: left;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+
+    .percera-mobile-tier-number {
+        display: flex;
+        align-items: baseline;
+        gap: 5px;
+        min-width: 57px;
+    }
+
+    .percera-mobile-tier-number span {
+        color: #7b8797;
+        font-size: 7px;
+        font-weight: 900;
+        letter-spacing: .10em;
+        text-transform: uppercase;
+    }
+
+    .percera-mobile-tier-number strong {
+        color: #c48b28;
+        font-size: 28px;
+        font-weight: 950;
+        line-height: .9;
+    }
+
+    .percera-mobile-tier-summary {
+        min-width: 0;
+    }
+
+    .percera-mobile-tier-count {
+        color: #607086;
+        font-size: 9px;
+        font-weight: 800;
+        line-height: 1;
+    }
+
+    .percera-mobile-tier-logos {
+        display: flex;
+        align-items: center;
+        min-width: 0;
+        margin-top: 6px;
+    }
+
+    .percera-mobile-tier-logo,
+    .percera-mobile-tier-logo-fallback {
+        width: 24px !important;
+        height: 24px !important;
+        max-width: 24px !important;
+        flex: 0 0 24px;
+        margin-left: -4px;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        background: #f3f5f8;
+        object-fit: contain;
+        box-sizing: border-box;
+    }
+
+    .percera-mobile-tier-logos > :first-child {
+        margin-left: 0 !important;
+    }
+
+    .percera-mobile-tier-logo-fallback {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #0b1f3b;
+        font-size: 7px;
+        font-weight: 900;
+    }
+
+    .percera-mobile-tier-more {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 25px;
+        height: 25px;
+        margin-left: 3px;
+        border-radius: 50%;
+        background: #eef1f5;
+        color: #657489;
+        font-size: 8px;
+        font-weight: 900;
+    }
+
+    .percera-mobile-tier-chevron {
+        width: 9px;
+        height: 9px;
+        border-right: 2px solid #637286;
+        border-bottom: 2px solid #637286;
+        transform: rotate(45deg) translateY(-2px);
+        transition: transform .15s ease;
+    }
+
+    .ctsi-tier.percera-mobile-tier-ready.open
+    .percera-mobile-tier-chevron {
+        transform: rotate(225deg) translate(-2px, -2px);
+    }
+
+    .ctsi-tier.percera-mobile-tier-ready.open
+    .percera-mobile-tier-toggle {
+        border-bottom: 1px solid #e3e7eb;
+        background: #fbfcfd;
+    }
+
+    .ctsi-tier.percera-mobile-tier-ready:not(.open)
+    > .ctsi-tier-teams {
+        display: none !important;
+    }
+
+    .ctsi-tier.percera-mobile-tier-ready.open
+    > .ctsi-tier-teams {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 7px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 8px !important;
+        box-sizing: border-box !important;
+    }
+
+    .ctsi-tier.percera-mobile-tier-ready
+    .ctsi-hierarchy-team {
+        min-width: 0 !important;
+        min-height: 96px !important;
+        width: 100% !important;
+        padding: 10px !important;
+        gap: 7px !important;
+        border-radius: 7px !important;
+        box-sizing: border-box !important;
+    }
+
+    .ctsi-tier.percera-mobile-tier-ready
+    .ctsi-hierarchy-team-logo,
+    .ctsi-tier.percera-mobile-tier-ready
+    .ctsi-hierarchy-team-logo-fallback {
+        width: 32px !important;
+        height: 32px !important;
+        max-width: 32px !important;
+    }
+
+    .ctsi-tier.percera-mobile-tier-ready
+    .ctsi-hierarchy-team-main {
+        min-width: 0 !important;
+    }
+
+    .ctsi-tier.percera-mobile-tier-ready
+    .ctsi-hierarchy-team-heading {
+        display: block !important;
+        min-width: 0 !important;
+    }
+
+    .ctsi-tier.percera-mobile-tier-ready
+    .ctsi-hierarchy-rank {
+        display: block !important;
+        margin-bottom: 2px !important;
+        font-size: 8px !important;
+    }
+
+    .ctsi-tier.percera-mobile-tier-ready
+    .ctsi-hierarchy-team-name {
+        display: block !important;
+        min-width: 0 !important;
+        font-size: 10px !important;
+        line-height: 1.1 !important;
+        white-space: normal !important;
+        overflow-wrap: anywhere !important;
+    }
+
+    .ctsi-tier.percera-mobile-tier-ready
+    .ctsi-hierarchy-team-bottom {
+        margin-top: 5px !important;
+    }
+
+    .ctsi-tier.percera-mobile-tier-ready
+    .ctsi-hierarchy-rating {
+        font-size: 16px !important;
+    }
+
+    .ctsi-tier.percera-mobile-tier-ready
+    .ctsi-hierarchy-unit {
+        font-size: 7px !important;
+    }
+
+    .ctsi-tier.percera-mobile-tier-ready
+    .ctsi-hierarchy-history,
+    .ctsi-tier.percera-mobile-tier-ready
+    .ctsi-hierarchy-move {
+        display: block !important;
+        margin-top: 5px !important;
+        font-size: 7px !important;
+        line-height: 1.15 !important;
+    }
+
+    .ctsi-hierarchy {
+        margin-top: 24px !important;
+        margin-bottom: 30px !important;
+    }
+}

@@ -1,0 +1,427 @@
+
+.percera-mobile-qb-list {
+    display: none;
+}
+
+
+@media (max-width: 860px) {
+
+    /* Hide only the original QB table on mobile */
+    .percera-mobile-qb-source {
+        display: none !important;
+    }
+
+
+    .percera-mobile-qb-list {
+        display: block;
+
+        width: 100%;
+
+        margin-top: 8px;
+
+        border-top:
+            1px solid
+            #dde3e9;
+    }
+
+
+    .percera-mobile-qb-note {
+        display: flex;
+
+        justify-content: space-between;
+
+        gap: 10px;
+
+        padding:
+            8px
+            2px;
+
+        color:
+            #738095;
+
+        font-size:
+            9px;
+
+        font-weight:
+            850;
+
+        letter-spacing:
+            .08em;
+
+        text-transform:
+            uppercase;
+    }
+
+
+    /* ------------------------------------------------------
+       MAIN RANKING ROW
+       ------------------------------------------------------ */
+
+    .percera-mobile-qb-row {
+        width: 100%;
+
+        border-bottom:
+            1px solid
+            #e1e6eb;
+
+        background:
+            #ffffff;
+    }
+
+
+    .percera-mobile-qb-main {
+        display: grid;
+
+        grid-template-columns:
+            34px
+            minmax(0, 1fr)
+            auto;
+
+        gap:
+            9px;
+
+        align-items:
+            center;
+
+        min-height:
+            62px;
+
+        padding:
+            9px
+            2px;
+
+        cursor:
+            pointer;
+    }
+
+
+    .percera-mobile-qb-rank {
+        text-align:
+            center;
+
+        color:
+            #0b1f3b;
+
+        font-size:
+            17px;
+
+        font-weight:
+            950;
+
+        line-height:
+            1;
+    }
+
+
+    .percera-mobile-qb-copy {
+        min-width:
+            0;
+    }
+
+
+    .percera-mobile-qb-name {
+        display:
+            flex;
+
+        align-items:
+            center;
+
+        gap:
+            7px;
+
+        min-width:
+            0;
+
+        color:
+            #0b1f3b;
+
+        font-size:
+            14px;
+
+        font-weight:
+            900;
+
+        line-height:
+            1.15;
+    }
+
+
+    .percera-mobile-qb-name-text {
+        min-width:
+            0;
+
+        overflow:
+            hidden;
+
+        text-overflow:
+            ellipsis;
+
+        white-space:
+            nowrap;
+    }
+
+
+    .percera-mobile-qb-move {
+        flex:
+            0
+            0
+            auto;
+
+        font-size:
+            9px;
+
+        font-weight:
+            900;
+
+        white-space:
+            nowrap;
+    }
+
+
+    .percera-mobile-qb-team {
+        display:
+            flex;
+
+        align-items:
+            center;
+
+        gap:
+            5px;
+
+        margin-top:
+            4px;
+
+        color:
+            #6b7889;
+
+        font-size:
+            11px;
+
+        font-weight:
+            700;
+
+        line-height:
+            1.2;
+    }
+
+
+    .percera-mobile-qb-logo {
+        width:
+            17px
+            !important;
+
+        height:
+            17px
+            !important;
+
+        max-width:
+            17px
+            !important;
+
+        object-fit:
+            contain;
+    }
+
+
+    .percera-mobile-qb-score {
+        padding-left:
+            4px;
+
+        text-align:
+            right;
+    }
+
+
+    .percera-mobile-qb-score strong {
+        display:
+            block;
+
+        color:
+            #0b1f3b;
+
+        font-size:
+            22px;
+
+        font-weight:
+            950;
+
+        line-height:
+            .95;
+
+        letter-spacing:
+            -.035em;
+    }
+
+
+    .percera-mobile-qb-score span {
+        display:
+            block;
+
+        margin-top:
+            3px;
+
+        color:
+            #6b7889;
+
+        font-size:
+            8px;
+
+        font-weight:
+            850;
+
+        letter-spacing:
+            .09em;
+
+        text-transform:
+            uppercase;
+    }
+
+
+    /* ------------------------------------------------------
+       EXPANDABLE STATS
+       ------------------------------------------------------ */
+
+    .percera-mobile-qb-actions {
+        display:
+            flex;
+
+        justify-content:
+            flex-end;
+
+        margin:
+            -4px
+            0
+            6px;
+    }
+
+
+    .percera-mobile-qb-toggle {
+        border:
+            0;
+
+        background:
+            transparent;
+
+        color:
+            #365777;
+
+        padding:
+            4px
+            2px;
+
+        font:
+            inherit;
+
+        font-size:
+            10px;
+
+        font-weight:
+            850;
+
+        cursor:
+            pointer;
+    }
+
+
+    .percera-mobile-qb-details {
+        display:
+            none;
+
+        grid-template-columns:
+            repeat(
+                2,
+                minmax(0, 1fr)
+            );
+
+        gap:
+            6px;
+
+        padding:
+            0
+            2px
+            10px
+            43px;
+    }
+
+
+    .percera-mobile-qb-row.open
+    .percera-mobile-qb-details {
+        display:
+            grid;
+    }
+
+
+    .percera-mobile-qb-chip {
+        min-width:
+            0;
+
+        border:
+            1px solid
+            #e0e5eb;
+
+        border-radius:
+            7px;
+
+        background:
+            #f8fafb;
+
+        padding:
+            7px
+            8px;
+    }
+
+
+    .percera-mobile-qb-chip span {
+        display:
+            block;
+
+        overflow:
+            hidden;
+
+        color:
+            #778496;
+
+        font-size:
+            8px;
+
+        font-weight:
+            850;
+
+        letter-spacing:
+            .07em;
+
+        text-overflow:
+            ellipsis;
+
+        text-transform:
+            uppercase;
+
+        white-space:
+            nowrap;
+    }
+
+
+    .percera-mobile-qb-chip strong {
+        display:
+            block;
+
+        margin-top:
+            3px;
+
+        color:
+            #0b1f3b;
+
+        font-size:
+            11px;
+
+        font-weight:
+            850;
+
+        line-height:
+            1.2;
+
+        overflow-wrap:
+            anywhere;
+    }
+
+}

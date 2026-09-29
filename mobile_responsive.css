@@ -1,0 +1,1040 @@
+
+@media (max-width: 860px) {
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden !important;
+    }
+
+
+    /* ------------------------------------------------------
+       ORIGINAL DESKTOP HEADER
+       ------------------------------------------------------ */
+
+    .percera-mobile-original-header {
+        display: none !important;
+    }
+
+
+    /* ------------------------------------------------------
+       SHARED MOBILE HEADER
+       ------------------------------------------------------ */
+
+    .percera-mobile-topbar {
+        display: flex !important;
+
+        align-items: center;
+        justify-content: space-between;
+
+        width: 100%;
+        min-height: 68px;
+
+        padding: 0 16px;
+
+        background: #ffffff;
+
+        border-bottom:
+            1px solid
+            rgba(11, 31, 59, 0.12);
+
+        position: relative;
+
+        z-index: 9000;
+    }
+
+
+    .percera-mobile-brand {
+        display: flex;
+        align-items: center;
+        min-width: 0;
+    }
+
+
+    .percera-mobile-brand img {
+        display: block;
+
+        width: auto !important;
+        height: 25px !important;
+
+        max-width: 165px !important;
+
+        object-fit: contain;
+    }
+
+
+    .percera-mobile-brand-text {
+        color: #0b1f3b;
+
+        font-family:
+            Inter,
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            sans-serif;
+
+        font-weight: 900;
+        font-size: 22px;
+
+        letter-spacing: -0.04em;
+    }
+
+
+    .percera-mobile-menu-button {
+        width: 40px;
+        height: 40px;
+
+        flex: 0 0 40px;
+
+        display: inline-flex !important;
+
+        align-items: center;
+        justify-content: center;
+
+        padding: 0;
+
+        background: #ffffff;
+
+        border:
+            1px solid
+            #d7dde5;
+
+        border-radius: 10px;
+
+        box-shadow:
+            0 2px 5px
+            rgba(11, 31, 59, 0.06);
+
+        cursor: pointer;
+    }
+
+
+    .percera-mobile-menu-icon,
+    .percera-mobile-menu-icon::before,
+    .percera-mobile-menu-icon::after {
+        display: block;
+
+        width: 18px;
+        height: 2px;
+
+        background: #0b1f3b;
+
+        border-radius: 99px;
+    }
+
+
+    .percera-mobile-menu-icon {
+        position: relative;
+    }
+
+
+    .percera-mobile-menu-icon::before,
+    .percera-mobile-menu-icon::after {
+        content: "";
+
+        position: absolute;
+        left: 0;
+    }
+
+
+    .percera-mobile-menu-icon::before {
+        top: -6px;
+    }
+
+
+    .percera-mobile-menu-icon::after {
+        top: 6px;
+    }
+
+
+    /* ------------------------------------------------------
+       DRAWER
+       ------------------------------------------------------ */
+
+    body.percera-mobile-nav-open {
+        overflow: hidden !important;
+    }
+
+
+    .percera-mobile-backdrop {
+        display: none;
+
+        position: fixed;
+        inset: 0;
+
+        z-index: 9998;
+
+        background:
+            rgba(7, 17, 31, 0.54);
+    }
+
+
+    body.percera-mobile-nav-open
+    .percera-mobile-backdrop {
+        display: block;
+    }
+
+
+    .percera-mobile-drawer {
+        position: fixed;
+
+        top: 0;
+        right: 0;
+
+        z-index: 9999;
+
+        display: flex;
+        flex-direction: column;
+
+        width: min(320px, 86vw);
+        height: 100dvh;
+
+        background: #ffffff;
+
+        box-shadow:
+            -18px 0 44px
+            rgba(7, 17, 31, 0.20);
+
+        transform: translateX(105%);
+
+        transition:
+            transform
+            0.22s
+            ease;
+    }
+
+
+    body.percera-mobile-nav-open
+    .percera-mobile-drawer {
+        transform: translateX(0);
+    }
+
+
+    .percera-mobile-drawer-head {
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 18px;
+
+        border-bottom:
+            1px solid
+            #e5e9ee;
+    }
+
+
+    .percera-mobile-drawer-title {
+        color: #0b1f3b;
+
+        font-size: 14px;
+        font-weight: 900;
+
+        letter-spacing: 0.05em;
+
+        text-transform: uppercase;
+    }
+
+
+    .percera-mobile-close {
+        width: 38px;
+        height: 38px;
+
+        border: 0;
+
+        border-radius: 10px;
+
+        background: #f3f5f7;
+
+        color: #0b1f3b;
+
+        font-size: 24px;
+
+        cursor: pointer;
+    }
+
+
+    .percera-mobile-links {
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 4px;
+
+        padding: 12px;
+    }
+
+
+    .percera-mobile-link {
+        display: flex;
+
+        align-items: center;
+
+        width: 100%;
+
+        border: 0;
+
+        border-radius: 10px;
+
+        background: transparent;
+
+        padding:
+            13px
+            14px;
+
+        color: #0b1f3b;
+
+        font-family: inherit;
+
+        font-size: 15px;
+
+        font-weight: 750;
+
+        text-align: left;
+
+        cursor: pointer;
+    }
+
+
+    .percera-mobile-link:hover {
+        background: #f5f7f9;
+    }
+
+
+    /* ------------------------------------------------------
+       TABLES
+       ------------------------------------------------------ */
+
+    .percera-table-scroll {
+        width: 100%;
+        max-width: 100%;
+
+        overflow-x: auto;
+
+        -webkit-overflow-scrolling: touch;
+
+        padding-bottom: 7px;
+    }
+
+
+    .percera-table-scroll-note {
+        display: block;
+
+        margin:
+            4px
+            0
+            8px;
+
+        color: #778496;
+
+        font-size: 10px;
+
+        font-weight: 800;
+
+        letter-spacing: 0.08em;
+
+        text-transform: uppercase;
+    }
+
+
+    .percera-table-scroll table {
+        min-width: 720px !important;
+    }
+
+
+    /* ------------------------------------------------------
+       WIDTH CONTAINMENT
+       ------------------------------------------------------ */
+
+    main,
+    .container,
+    .page-shell,
+    .main-shell,
+    .content-shell,
+    .page-container,
+    .section-shell,
+    .section-inner,
+    .matchups-shell,
+    .matchups-page,
+    .matchups-container,
+    .matchups-hero,
+    .matchups-header,
+    .matchups-content,
+    .matchups-section {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+    }
+
+
+    img,
+    svg {
+        max-width: 100%;
+    }
+
+}
+
+
+/* PERCERA MOBILE V3 START */
+
+@media (max-width: 860px) {
+
+    :root {
+        --percera-mobile-gutter: 16px;
+    }
+
+
+    /* ------------------------------------------------------
+       STICKY MOBILE HEADER
+       ------------------------------------------------------ */
+
+    .percera-mobile-topbar {
+        position: sticky !important;
+
+        top: 0 !important;
+
+        z-index: 10000 !important;
+
+        width: 100% !important;
+    }
+
+
+    /* ------------------------------------------------------
+       CONSISTENT MOBILE SAFETY AREA
+       ------------------------------------------------------ */
+
+    main {
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        margin: 0 !important;
+
+        padding-left:
+            var(--percera-mobile-gutter)
+            !important;
+
+        padding-right:
+            var(--percera-mobile-gutter)
+            !important;
+
+        box-sizing:
+            border-box !important;
+    }
+
+
+    body.matchups-page main,
+    .matchups-shell,
+    .matchups-page,
+    .matchups-container {
+        box-sizing:
+            border-box !important;
+    }
+
+
+    /* ------------------------------------------------------
+       QB TOP-THREE WIDTH SAFETY
+       ------------------------------------------------------ */
+
+    .top-three,
+    #top-three {
+        width:
+            100% !important;
+
+        max-width:
+            100% !important;
+
+        min-width:
+            0 !important;
+    }
+
+
+    .top-three .leader-card,
+    #top-three .leader-card {
+        width:
+            100% !important;
+
+        max-width:
+            100% !important;
+
+        min-width:
+            0 !important;
+
+        box-sizing:
+            border-box !important;
+    }
+
+
+    /* ------------------------------------------------------
+       #1 QB CARD
+       ------------------------------------------------------ */
+
+    .top-three
+    .leader-card:first-child,
+
+    #top-three
+    .leader-card:first-child {
+
+        grid-template-columns:
+            40%
+            60%
+            !important;
+
+        min-height:
+            230px
+            !important;
+
+        overflow:
+            hidden
+            !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-visual,
+
+    #top-three
+    .leader-card:first-child
+    .leader-visual {
+
+        width:
+            100%
+            !important;
+
+        height:
+            100%
+            !important;
+
+        min-height:
+            230px
+            !important;
+
+        overflow:
+            hidden
+            !important;
+
+        display:
+            flex
+            !important;
+
+        align-items:
+            flex-end
+            !important;
+
+        justify-content:
+            center
+            !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-headshot,
+
+    #top-three
+    .leader-card:first-child
+    .leader-headshot {
+
+        width:
+            auto
+            !important;
+
+        height:
+            100%
+            !important;
+
+        max-width:
+            none
+            !important;
+
+        max-height:
+            none
+            !important;
+
+        object-fit:
+            contain
+            !important;
+
+        object-position:
+            center bottom
+            !important;
+
+        transform:
+            scale(1.06)
+            !important;
+
+        transform-origin:
+            center bottom
+            !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-info,
+
+    #top-three
+    .leader-card:first-child
+    .leader-info {
+
+        min-width:
+            0
+            !important;
+
+        padding:
+            20px
+            16px
+            !important;
+    }
+
+
+    /* ------------------------------------------------------
+       WIDTH SAFETY
+       ------------------------------------------------------ */
+
+    .table-wrap,
+    .percera-table-scroll,
+    .controls,
+    .method-section,
+    .team-directory,
+    .teams-directory {
+
+        max-width:
+            100%
+            !important;
+
+        box-sizing:
+            border-box
+            !important;
+    }
+
+}
+
+/* PERCERA MOBILE V3 END */
+
+
+/* PERCERA MOBILE V4 START */
+
+@media (max-width: 860px) {
+
+    /* ======================================================
+       FIXED MOBILE HEADER
+       ====================================================== */
+
+    .percera-mobile-topbar {
+        position: fixed !important;
+
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+
+        width: 100% !important;
+
+        z-index: 10000 !important;
+    }
+
+
+    body {
+        padding-top: 68px !important;
+    }
+
+
+    /* ======================================================
+       KEEP CURRENT MOBILE GUTTERS
+       ====================================================== */
+
+    main {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* ======================================================
+       #1 QB CARD
+       Undo V3 giant portrait treatment.
+       Keep original proportional image.
+       Simply shorten the card.
+       ====================================================== */
+
+    .top-three
+    .leader-card:first-child,
+
+    #top-three
+    .leader-card:first-child {
+
+        grid-template-columns:
+            38% 62% !important;
+
+        min-height:
+            190px !important;
+
+        height:
+            190px !important;
+
+        overflow:
+            hidden !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-visual,
+
+    #top-three
+    .leader-card:first-child
+    .leader-visual {
+
+        width:
+            100% !important;
+
+        height:
+            190px !important;
+
+        min-height:
+            0 !important;
+
+        display:
+            flex !important;
+
+        align-items:
+            flex-end !important;
+
+        justify-content:
+            center !important;
+
+        overflow:
+            hidden !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-headshot,
+
+    #top-three
+    .leader-card:first-child
+    .leader-headshot {
+
+        display:
+            block !important;
+
+        width:
+            100% !important;
+
+        height:
+            auto !important;
+
+        max-width:
+            100% !important;
+
+        max-height:
+            190px !important;
+
+        object-fit:
+            contain !important;
+
+        object-position:
+            center bottom !important;
+
+        transform:
+            none !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-info,
+
+    #top-three
+    .leader-card:first-child
+    .leader-info {
+
+        padding:
+            18px
+            16px !important;
+
+        min-width:
+            0 !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    h3,
+
+    #top-three
+    .leader-card:first-child
+    h3 {
+
+        font-size:
+            27px !important;
+
+        margin:
+            7px 0
+            3px !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-team-row,
+
+    #top-three
+    .leader-card:first-child
+    .leader-team-row {
+
+        margin-top:
+            9px !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-card-score,
+
+    #top-three
+    .leader-card:first-child
+    .leader-card-score {
+
+        margin-top:
+            15px !important;
+
+        padding-top:
+            13px !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-card-score strong,
+
+    #top-three
+    .leader-card:first-child
+    .leader-card-score strong {
+
+        font-size:
+            43px !important;
+    }
+
+}
+
+/* PERCERA MOBILE V4 END */
+
+
+/* PERCERA MOBILE V5 START */
+
+@media (max-width: 860px) {
+
+    /* ======================================================
+       QB #1 = SAME MOBILE LAYOUT AS QB #2 AND #3
+       ====================================================== */
+
+    .top-three
+    .leader-card:first-child,
+
+    #top-three
+    .leader-card:first-child {
+
+        display:
+            grid !important;
+
+        grid-template-columns:
+            40% 60% !important;
+
+        min-height:
+            174px !important;
+
+        max-height:
+            187px !important;
+
+        height:
+            auto !important;
+
+        overflow:
+            hidden !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-visual,
+
+    #top-three
+    .leader-card:first-child
+    .leader-visual {
+
+        width:
+            100% !important;
+
+        min-width:
+            0 !important;
+
+        height:
+            100% !important;
+
+        min-height:
+            0 !important;
+
+        display:
+            flex !important;
+
+        align-items:
+            flex-end !important;
+
+        justify-content:
+            center !important;
+
+        padding:
+            0 !important;
+
+        overflow:
+            hidden !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-headshot,
+
+    #top-three
+    .leader-card:first-child
+    .leader-headshot {
+
+        width:
+            100% !important;
+
+        height:
+            100% !important;
+
+        max-width:
+            none !important;
+
+        max-height:
+            none !important;
+
+        object-fit:
+            contain !important;
+
+        object-position:
+            center bottom !important;
+
+        transform:
+            scale(1.13) !important;
+
+        transform-origin:
+            center bottom !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-info,
+
+    #top-three
+    .leader-card:first-child
+    .leader-info {
+
+        padding:
+            17px 18px !important;
+
+        display:
+            flex !important;
+
+        flex-direction:
+            column !important;
+
+        justify-content:
+            center !important;
+
+        min-width:
+            0 !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-card-rank,
+
+    #top-three
+    .leader-card:first-child
+    .leader-card-rank {
+
+        top:
+            8px !important;
+
+        right:
+            11px !important;
+
+        font-size:
+            46px !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-info h3,
+
+    #top-three
+    .leader-card:first-child
+    .leader-info h3 {
+
+        margin-top:
+            9px !important;
+
+        font-size:
+            20px !important;
+
+        line-height:
+            1.04 !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-team-row,
+
+    #top-three
+    .leader-card:first-child
+    .leader-team-row {
+
+        margin-top:
+            9px !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-card-score,
+
+    #top-three
+    .leader-card:first-child
+    .leader-card-score {
+
+        margin-top:
+            14px !important;
+
+        padding-top:
+            0 !important;
+    }
+
+
+    .top-three
+    .leader-card:first-child
+    .leader-card-score strong,
+
+    #top-three
+    .leader-card:first-child
+    .leader-card-score strong {
+
+        font-size:
+            34px !important;
+    }
+
+}
+
+/* PERCERA MOBILE V5 END */
+

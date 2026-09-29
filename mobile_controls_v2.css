@@ -1,0 +1,174 @@
+
+@media (max-width: 860px) {
+
+    /* ---------- QB compact row width safety ---------- */
+
+    .percera-mobile-qb-list,
+    .percera-mobile-qb-row,
+    .percera-mobile-qb-main,
+    .percera-mobile-qb-copy,
+    .percera-mobile-qb-details {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .percera-mobile-qb-list {
+        overflow-x: hidden !important;
+    }
+
+    .percera-mobile-qb-main {
+        grid-template-columns: 30px minmax(0, 1fr) 48px !important;
+        gap: 7px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .percera-mobile-qb-name {
+        min-width: 0 !important;
+        flex-wrap: wrap !important;
+        gap: 2px 6px !important;
+    }
+
+    .percera-mobile-qb-name-text {
+        min-width: 0 !important;
+        white-space: normal !important;
+        overflow: visible !important;
+        text-overflow: clip !important;
+        overflow-wrap: anywhere !important;
+    }
+
+    .percera-mobile-qb-team {
+        min-width: 0 !important;
+        flex-wrap: wrap !important;
+    }
+
+    .percera-mobile-qb-score {
+        width: 48px !important;
+        min-width: 48px !important;
+        padding-left: 0 !important;
+    }
+
+    .percera-mobile-qb-score strong {
+        font-size: 20px !important;
+    }
+
+    .percera-mobile-qb-details {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        padding-left: 37px !important;
+        padding-right: 0 !important;
+    }
+
+    .percera-mobile-qb-chip {
+        min-width: 0 !important;
+        overflow: hidden !important;
+    }
+
+    .percera-mobile-qb-chip strong {
+        white-space: normal !important;
+        overflow-wrap: anywhere !important;
+    }
+
+    /* ---------- hide native selects visually on mobile ---------- */
+
+    select.percera-native-select-hidden {
+        position: absolute !important;
+        left: -99999px !important;
+        width: 1px !important;
+        height: 1px !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+    }
+
+    /* ---------- custom mobile select ---------- */
+
+    .percera-mobile-select-wrap {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .percera-mobile-select-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        width: 100%;
+        height: 42px;
+        padding: 0 12px;
+        border: 1px solid #d8dee6;
+        border-radius: 7px;
+        background: #fff;
+        color: #0b1f3b;
+        font: inherit;
+        font-size: 11px;
+        font-weight: 700;
+        text-align: left;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+    .percera-mobile-select-button::after {
+        content: "⌄";
+        flex: 0 0 auto;
+        font-size: 15px;
+        line-height: 1;
+        transform: translateY(-1px);
+    }
+
+    .percera-mobile-select-menu {
+        display: none;
+        position: fixed;
+        left: 16px;
+        right: 16px;
+        max-height: 250px;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior: contain;
+        padding: 6px;
+        border: 1px solid #ccd5df;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0 16px 36px rgba(11,31,59,.18);
+        z-index: 40000;
+        box-sizing: border-box;
+    }
+
+    .percera-mobile-select-wrap.open .percera-mobile-select-menu {
+        display: block;
+    }
+
+    .percera-mobile-select-option {
+        display: block;
+        width: 100%;
+        padding: 10px 11px;
+        border: 0;
+        border-radius: 7px;
+        background: transparent;
+        color: #0b1f3b;
+        font: inherit;
+        font-size: 11px;
+        font-weight: 650;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .percera-mobile-select-option.selected {
+        background: #edf3f9;
+        color: #0b4fa3;
+        font-weight: 850;
+    }
+
+    .controls,
+    .conference-filter-bar,
+    .conference-filter-bar select,
+    #search {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+    }
+}
