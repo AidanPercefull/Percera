@@ -376,7 +376,7 @@
                     <i></i>
 
                     <span>
-                        2026 · Through Week 3
+                        2026 · Through Week 5
                     </span>
 
                     <i></i>

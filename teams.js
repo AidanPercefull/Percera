@@ -307,7 +307,7 @@
                     <span
                         class="teams-kicker"
                     >
-                        2026 · Through Week 4
+                        2026 · Through Week 5
                     </span>
 
                     <h1>
