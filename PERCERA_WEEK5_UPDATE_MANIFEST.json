@@ -2,9 +2,11 @@
   "season": 2026,
   "ratings_through_week": 5,
   "matchups_week": 6,
-  "cqi_qbs": 164,
-  "ctsi_teams": 138,
-  "week6_matchups": 58,
+  "hierarchy_rule": "55% neutral-field same-tier ceiling",
+  "hierarchy_target_teams": 25,
+  "hierarchy_displayed_teams": 23,
+  "hierarchy_displayed_tiers": 6,
+  "hierarchy_changes_vs_week4": 21,
   "files": [
     "data.js",
     "leaderboard.json",
@@ -15,18 +17,12 @@
     "data/players.json",
     "ctsi_data.js",
     "team_pages_data.js",
+    "teams_hierarchy.js",
     "assets_data/team_ratings_2026.json",
     "matchups.html",
     "home.js",
     "app.js",
     "teams.js"
   ],
-  "methodology_changed": false,
-  "notes": [
-    "CQI v1.1 frozen",
-    "CTSI v0.2 frozen",
-    "Week 4 CTSI component-universe correction preserved",
-    "current-season frontend wording updated",
-    "generic Matchups logo resolver preserved"
-  ]
+  "methodology_changed": false
 }
