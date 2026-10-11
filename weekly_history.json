@@ -4,9 +4,10 @@
   "available_weeks": [
     3,
     4,
-    5
+    5,
+    6
   ],
-  "latest_week": 5,
+  "latest_week": 6,
   "weeks": {
     "3": [
       {
@@ -4553,6 +4554,1768 @@
         "previous_cqi": 0.0,
         "cqi_change": 0.0
       }
+    ],
+    "6": [
+      {
+        "rank": 1,
+        "player": "C.J. Carr",
+        "team": "Notre Dame",
+        "cqi": 97.9,
+        "previous_rank": 2,
+        "rank_change": 1,
+        "previous_cqi": 96.0,
+        "cqi_change": 1.9
+      },
+      {
+        "rank": 2,
+        "player": "Darian Mensah",
+        "team": "Miami",
+        "cqi": 97.8,
+        "previous_rank": 1,
+        "rank_change": -1,
+        "previous_cqi": 97.3,
+        "cqi_change": 0.5
+      },
+      {
+        "rank": 3,
+        "player": "Tayven Jackson",
+        "team": "North Texas",
+        "cqi": 95.8,
+        "previous_rank": 8,
+        "rank_change": 5,
+        "previous_cqi": 92.3,
+        "cqi_change": 3.5
+      },
+      {
+        "rank": 4,
+        "player": "Drew Mestemaker",
+        "team": "Oklahoma State",
+        "cqi": 93.8,
+        "previous_rank": 10,
+        "rank_change": 6,
+        "previous_cqi": 90.8,
+        "cqi_change": 3.0
+      },
+      {
+        "rank": 5,
+        "player": "Conner Weigman",
+        "team": "Houston",
+        "cqi": 93.7,
+        "previous_rank": 7,
+        "rank_change": 2,
+        "previous_cqi": 92.4,
+        "cqi_change": 1.3
+      },
+      {
+        "rank": 6,
+        "player": "David McComb",
+        "team": "Miami (OH)",
+        "cqi": 93.1,
+        "previous_rank": 5,
+        "rank_change": -1,
+        "previous_cqi": 93.6,
+        "cqi_change": -0.5
+      },
+      {
+        "rank": 7,
+        "player": "Aidan Chiles",
+        "team": "Northwestern",
+        "cqi": 92.6,
+        "previous_rank": 12,
+        "rank_change": 5,
+        "previous_cqi": 89.0,
+        "cqi_change": 3.6
+      },
+      {
+        "rank": 8,
+        "player": "Marcus Stokes",
+        "team": "Memphis",
+        "cqi": 92.4,
+        "previous_rank": 3,
+        "rank_change": -5,
+        "previous_cqi": 94.5,
+        "cqi_change": -2.1
+      },
+      {
+        "rank": 9,
+        "player": "Cameran Brown",
+        "team": "Georgia State",
+        "cqi": 92.1,
+        "previous_rank": 9,
+        "rank_change": 0,
+        "previous_cqi": 91.2,
+        "cqi_change": 0.9
+      },
+      {
+        "rank": 10,
+        "player": "Colton Joseph",
+        "team": "Wisconsin",
+        "cqi": 91.5,
+        "previous_rank": 6,
+        "rank_change": -4,
+        "previous_cqi": 92.5,
+        "cqi_change": -1.0
+      },
+      {
+        "rank": 11,
+        "player": "Gunner Stockton",
+        "team": "Georgia",
+        "cqi": 90.4,
+        "previous_rank": 16,
+        "rank_change": 5,
+        "previous_cqi": 86.7,
+        "cqi_change": 3.7
+      },
+      {
+        "rank": 12,
+        "player": "Bear Bachmeier",
+        "team": "BYU",
+        "cqi": 90.2,
+        "previous_rank": 36,
+        "rank_change": 24,
+        "previous_cqi": 71.9,
+        "cqi_change": 18.3
+      },
+      {
+        "rank": 13,
+        "player": "Giovanni Lopez",
+        "team": "Wake Forest",
+        "cqi": 89.5,
+        "previous_rank": 15,
+        "rank_change": 2,
+        "previous_cqi": 87.4,
+        "cqi_change": 2.1
+      },
+      {
+        "rank": 14,
+        "player": "Josh Hoover",
+        "team": "Indiana",
+        "cqi": 88.5,
+        "previous_rank": 21,
+        "rank_change": 7,
+        "previous_cqi": 83.3,
+        "cqi_change": 5.2
+      },
+      {
+        "rank": 15,
+        "player": "Trinidad Chambliss",
+        "team": "Ole Miss",
+        "cqi": 88.2,
+        "previous_rank": 14,
+        "rank_change": -1,
+        "previous_cqi": 87.7,
+        "cqi_change": 0.5
+      },
+      {
+        "rank": 16,
+        "player": "Lincoln Kienholz",
+        "team": "Louisville",
+        "cqi": 87.9,
+        "previous_rank": 19,
+        "rank_change": 3,
+        "previous_cqi": 84.7,
+        "cqi_change": 3.2
+      },
+      {
+        "rank": 17,
+        "player": "Julian Sayin",
+        "team": "Ohio State",
+        "cqi": 87.0,
+        "previous_rank": 11,
+        "rank_change": -6,
+        "previous_cqi": 89.4,
+        "cqi_change": -2.4
+      },
+      {
+        "rank": 18,
+        "player": "Katin Houser",
+        "team": "Illinois",
+        "cqi": 86.8,
+        "previous_rank": 18,
+        "rank_change": 0,
+        "previous_cqi": 84.8,
+        "cqi_change": 2.0
+      },
+      {
+        "rank": 19,
+        "player": "Keelon Russell",
+        "team": "Alabama",
+        "cqi": 85.2,
+        "previous_rank": 4,
+        "rank_change": -15,
+        "previous_cqi": 93.7,
+        "cqi_change": -8.5
+      },
+      {
+        "rank": 20,
+        "player": "Devon Dampier",
+        "team": "Utah",
+        "cqi": 84.7,
+        "previous_rank": 20,
+        "rank_change": 0,
+        "previous_cqi": 84.2,
+        "cqi_change": 0.5
+      },
+      {
+        "rank": 21,
+        "player": "Jayden Maiava",
+        "team": "USC",
+        "cqi": 84.6,
+        "previous_rank": 28,
+        "rank_change": 7,
+        "previous_cqi": 79.7,
+        "cqi_change": 4.9
+      },
+      {
+        "rank": 22,
+        "player": "Sam Leavitt",
+        "team": "LSU",
+        "cqi": 83.7,
+        "previous_rank": 17,
+        "rank_change": -5,
+        "previous_cqi": 86.6,
+        "cqi_change": -2.9
+      },
+      {
+        "rank": 23,
+        "player": "Maddux Madsen",
+        "team": "Boise State",
+        "cqi": 82.5,
+        "previous_rank": 26,
+        "rank_change": 3,
+        "previous_cqi": 79.9,
+        "cqi_change": 2.6
+      },
+      {
+        "rank": 24,
+        "player": "Anthony Colandrea",
+        "team": "Nebraska",
+        "cqi": 81.5,
+        "previous_rank": 13,
+        "rank_change": -11,
+        "previous_cqi": 89.0,
+        "cqi_change": -7.5
+      },
+      {
+        "rank": 25,
+        "player": "Caden Creel",
+        "team": "Jacksonville State",
+        "cqi": 81.2,
+        "previous_rank": 29,
+        "rank_change": 4,
+        "previous_cqi": 79.4,
+        "cqi_change": 1.8
+      },
+      {
+        "rank": 26,
+        "player": "Kevin Jennings",
+        "team": "SMU",
+        "cqi": 81.0,
+        "previous_rank": 24,
+        "rank_change": -2,
+        "previous_cqi": 81.5,
+        "cqi_change": -0.5
+      },
+      {
+        "rank": 27,
+        "player": "Isaiah Marshall",
+        "team": "Kansas",
+        "cqi": 81.0,
+        "previous_rank": 41,
+        "rank_change": 14,
+        "previous_cqi": 65.8,
+        "cqi_change": 15.2
+      },
+      {
+        "rank": 28,
+        "player": "Ryan Browne",
+        "team": "Purdue",
+        "cqi": 80.8,
+        "previous_rank": 38,
+        "rank_change": 10,
+        "previous_cqi": 69.5,
+        "cqi_change": 11.3
+      },
+      {
+        "rank": 29,
+        "player": "Brad Jackson",
+        "team": "Texas State",
+        "cqi": 79.8,
+        "previous_rank": 27,
+        "rank_change": -2,
+        "previous_cqi": 79.7,
+        "cqi_change": 0.1
+      },
+      {
+        "rank": 30,
+        "player": "Toa Faavae",
+        "team": "New Mexico",
+        "cqi": 79.1,
+        "previous_rank": 32,
+        "rank_change": 2,
+        "previous_cqi": 74.1,
+        "cqi_change": 5.0
+      },
+      {
+        "rank": 31,
+        "player": "Avery Johnson",
+        "team": "Kansas State",
+        "cqi": 79.0,
+        "previous_rank": 23,
+        "rank_change": -8,
+        "previous_cqi": 82.0,
+        "cqi_change": -3.0
+      },
+      {
+        "rank": 32,
+        "player": "Mason Heintschel",
+        "team": "Pittsburgh",
+        "cqi": 78.7,
+        "previous_rank": 30,
+        "rank_change": -2,
+        "previous_cqi": 79.0,
+        "cqi_change": -0.3
+      },
+      {
+        "rank": 33,
+        "player": "Aaron Philo",
+        "team": "Florida",
+        "cqi": 77.9,
+        "previous_rank": 22,
+        "rank_change": -11,
+        "previous_cqi": 82.5,
+        "cqi_change": -4.6
+      },
+      {
+        "rank": 34,
+        "player": "Braden Atkinson",
+        "team": "Oregon State",
+        "cqi": 74.0,
+        "previous_rank": 49,
+        "rank_change": 15,
+        "previous_cqi": 63.3,
+        "cqi_change": 10.7
+      },
+      {
+        "rank": 35,
+        "player": "Austin Simmons",
+        "team": "Missouri",
+        "cqi": 72.3,
+        "previous_rank": 31,
+        "rank_change": -4,
+        "previous_cqi": 75.0,
+        "cqi_change": -2.7
+      },
+      {
+        "rank": 36,
+        "player": "Jared Hollins",
+        "team": "South Alabama",
+        "cqi": 72.2,
+        "previous_rank": 54,
+        "rank_change": 18,
+        "previous_cqi": 59.3,
+        "cqi_change": 12.9
+      },
+      {
+        "rank": 37,
+        "player": "Kamario Taylor",
+        "team": "Mississippi State",
+        "cqi": 70.8,
+        "previous_rank": 37,
+        "rank_change": 0,
+        "previous_cqi": 70.1,
+        "cqi_change": 0.7
+      },
+      {
+        "rank": 38,
+        "player": "Michael Hawkins Jr.",
+        "team": "West Virginia",
+        "cqi": 70.1,
+        "previous_rank": 35,
+        "rank_change": -3,
+        "previous_cqi": 72.3,
+        "cqi_change": -2.2
+      },
+      {
+        "rank": 39,
+        "player": "Liam Szarka",
+        "team": "Air Force",
+        "cqi": 69.8,
+        "previous_rank": 39,
+        "rank_change": 0,
+        "previous_cqi": 68.0,
+        "cqi_change": 1.8
+      },
+      {
+        "rank": 40,
+        "player": "Rickie Collins",
+        "team": "Kennesaw State",
+        "cqi": 68.2,
+        "previous_rank": 60,
+        "rank_change": 20,
+        "previous_cqi": 55.2,
+        "cqi_change": 13.0
+      },
+      {
+        "rank": 41,
+        "player": "Nathan Hayes",
+        "team": "North Dakota State",
+        "cqi": 67.8,
+        "previous_rank": 33,
+        "rank_change": -8,
+        "previous_cqi": 73.2,
+        "cqi_change": -5.4
+      },
+      {
+        "rank": 42,
+        "player": "Ethan Grunkemeyer",
+        "team": "Virginia Tech",
+        "cqi": 66.6,
+        "previous_rank": 44,
+        "rank_change": 2,
+        "previous_cqi": 64.9,
+        "cqi_change": 1.7
+      },
+      {
+        "rank": 43,
+        "player": "Jayden Mandal",
+        "team": "Fresno State",
+        "cqi": 65.2,
+        "previous_rank": 47,
+        "rank_change": 4,
+        "previous_cqi": 64.4,
+        "cqi_change": 0.8
+      },
+      {
+        "rank": 44,
+        "player": "Ajani Sheppard",
+        "team": "Temple",
+        "cqi": 64.8,
+        "previous_rank": 42,
+        "rank_change": -2,
+        "previous_cqi": 65.4,
+        "cqi_change": -0.6
+      },
+      {
+        "rank": 45,
+        "player": "Will Hammond",
+        "team": "Texas Tech",
+        "cqi": 64.4,
+        "previous_rank": 51,
+        "rank_change": 6,
+        "previous_cqi": 63.2,
+        "cqi_change": 1.2
+      },
+      {
+        "rank": 46,
+        "player": "William Watson III",
+        "team": "Massachusetts",
+        "cqi": 64.3,
+        "previous_rank": 48,
+        "rank_change": 2,
+        "previous_cqi": 64.4,
+        "cqi_change": -0.1
+      },
+      {
+        "rank": 47,
+        "player": "Ashton Daniels",
+        "team": "Florida State",
+        "cqi": 63.5,
+        "previous_rank": 25,
+        "rank_change": -22,
+        "previous_cqi": 80.7,
+        "cqi_change": -17.2
+      },
+      {
+        "rank": 48,
+        "player": "Trey Owens",
+        "team": "Arkansas State",
+        "cqi": 63.4,
+        "previous_rank": 46,
+        "rank_change": -2,
+        "previous_cqi": 64.6,
+        "cqi_change": -1.2
+      },
+      {
+        "rank": 49,
+        "player": "Noah Fifita",
+        "team": "Arizona",
+        "cqi": 63.3,
+        "previous_rank": 63,
+        "rank_change": 14,
+        "previous_cqi": 54.8,
+        "cqi_change": 8.5
+      },
+      {
+        "rank": 50,
+        "player": "Lanorris Sellers",
+        "team": "South Carolina",
+        "cqi": 63.3,
+        "previous_rank": 43,
+        "rank_change": -7,
+        "previous_cqi": 65.1,
+        "cqi_change": -1.8
+      },
+      {
+        "rank": 51,
+        "player": "Ksaan Farrar",
+        "team": "Colorado State",
+        "cqi": 62.4,
+        "previous_rank": 56,
+        "rank_change": 5,
+        "previous_cqi": 58.2,
+        "cqi_change": 4.2
+      },
+      {
+        "rank": 52,
+        "player": "Drake Lindsey",
+        "team": "Minnesota",
+        "cqi": 61.8,
+        "previous_rank": 61,
+        "rank_change": 9,
+        "previous_cqi": 55.2,
+        "cqi_change": 6.6
+      },
+      {
+        "rank": 53,
+        "player": "D'Wayne' Winfield",
+        "team": "Louisiana",
+        "cqi": 61.8,
+        "previous_rank": 52,
+        "rank_change": -1,
+        "previous_cqi": 62.0,
+        "cqi_change": -0.2
+      },
+      {
+        "rank": 54,
+        "player": "John Alan Richter",
+        "team": "Toledo",
+        "cqi": 60.9,
+        "previous_rank": 34,
+        "rank_change": -20,
+        "previous_cqi": 72.3,
+        "cqi_change": -11.4
+      },
+      {
+        "rank": 55,
+        "player": "Hauss Hejny",
+        "team": "Colorado State",
+        "cqi": 60.5,
+        "previous_rank": 55,
+        "rank_change": 0,
+        "previous_cqi": 59.1,
+        "cqi_change": 1.4
+      },
+      {
+        "rank": 56,
+        "player": "Will Crowder",
+        "team": "Troy",
+        "cqi": 59.3,
+        "previous_rank": 74,
+        "rank_change": 18,
+        "previous_cqi": 45.6,
+        "cqi_change": 13.7
+      },
+      {
+        "rank": 57,
+        "player": "Matt Vezza",
+        "team": "Ohio",
+        "cqi": 57.6,
+        "previous_rank": 53,
+        "rank_change": -4,
+        "previous_cqi": 59.7,
+        "cqi_change": -2.1
+      },
+      {
+        "rank": 58,
+        "player": "Jared Curtis",
+        "team": "Vanderbilt",
+        "cqi": 56.1,
+        "previous_rank": 45,
+        "rank_change": -13,
+        "previous_cqi": 64.8,
+        "cqi_change": -8.7
+      },
+      {
+        "rank": 59,
+        "player": "CJ Bailey",
+        "team": "NC State",
+        "cqi": 55.7,
+        "previous_rank": 64,
+        "rank_change": 5,
+        "previous_cqi": 54.3,
+        "cqi_change": 1.4
+      },
+      {
+        "rank": 60,
+        "player": "Michael Van Buren Jr.",
+        "team": "South Florida",
+        "cqi": 55.3,
+        "previous_rank": 71,
+        "rank_change": 11,
+        "previous_cqi": 47.3,
+        "cqi_change": 8.0
+      },
+      {
+        "rank": 61,
+        "player": "Cutter Boley",
+        "team": "Arizona State",
+        "cqi": 54.7,
+        "previous_rank": 62,
+        "rank_change": 1,
+        "previous_cqi": 55.1,
+        "cqi_change": -0.4
+      },
+      {
+        "rank": 62,
+        "player": "JC French",
+        "team": "Cincinnati",
+        "cqi": 54.3,
+        "previous_rank": 67,
+        "rank_change": 5,
+        "previous_cqi": 53.9,
+        "cqi_change": 0.4
+      },
+      {
+        "rank": 63,
+        "player": "Rocco Becht",
+        "team": "Penn State",
+        "cqi": 54.0,
+        "previous_rank": 58,
+        "rank_change": -5,
+        "previous_cqi": 55.9,
+        "cqi_change": -1.9
+      },
+      {
+        "rank": 64,
+        "player": "Jackson Gutierrez",
+        "team": "Navy",
+        "cqi": 53.6,
+        "previous_rank": 68,
+        "rank_change": 4,
+        "previous_cqi": 53.5,
+        "cqi_change": 0.1
+      },
+      {
+        "rank": 65,
+        "player": "J.J. Kohl",
+        "team": "Florida International",
+        "cqi": 53.2,
+        "previous_rank": 50,
+        "rank_change": -15,
+        "previous_cqi": 63.3,
+        "cqi_change": -10.1
+      },
+      {
+        "rank": 66,
+        "player": "Arch Manning",
+        "team": "Texas",
+        "cqi": 52.0,
+        "previous_rank": 72,
+        "rank_change": 6,
+        "previous_cqi": 47.1,
+        "cqi_change": 4.9
+      },
+      {
+        "rank": 67,
+        "player": "Alberto Mendoza",
+        "team": "Georgia Tech",
+        "cqi": 50.0,
+        "previous_rank": 83,
+        "rank_change": 16,
+        "previous_cqi": 40.8,
+        "cqi_change": 9.2
+      },
+      {
+        "rank": 68,
+        "player": "Carlos Del Rio-Wilson",
+        "team": "Marshall",
+        "cqi": 49.7,
+        "previous_rank": 66,
+        "rank_change": -2,
+        "previous_cqi": 54.0,
+        "cqi_change": -4.3
+      },
+      {
+        "rank": 69,
+        "player": "Kalieb Osborne",
+        "team": "UConn",
+        "cqi": 49.2,
+        "previous_rank": 57,
+        "rank_change": -12,
+        "previous_cqi": 57.0,
+        "cqi_change": -7.8
+      },
+      {
+        "rank": 70,
+        "player": "Malik Washington",
+        "team": "Maryland",
+        "cqi": 48.2,
+        "previous_rank": 82,
+        "rank_change": 12,
+        "previous_cqi": 41.1,
+        "cqi_change": 7.1
+      },
+      {
+        "rank": 71,
+        "player": "AJ Surace",
+        "team": "Rutgers",
+        "cqi": 48.0,
+        "previous_rank": 73,
+        "rank_change": 2,
+        "previous_cqi": 45.7,
+        "cqi_change": 2.3
+      },
+      {
+        "rank": 72,
+        "player": "Billy Edwards",
+        "team": "North Carolina",
+        "cqi": 47.8,
+        "previous_rank": 70,
+        "rank_change": -2,
+        "previous_cqi": 48.8,
+        "cqi_change": -1.0
+      },
+      {
+        "rank": 73,
+        "player": "Max Johnson",
+        "team": "Georgia Southern",
+        "cqi": 47.7,
+        "previous_rank": 101,
+        "rank_change": 28,
+        "previous_cqi": 30.6,
+        "cqi_change": 17.1
+      },
+      {
+        "rank": 74,
+        "player": "Noah Kim",
+        "team": "Eastern Michigan",
+        "cqi": 46.3,
+        "previous_rank": 99,
+        "rank_change": 25,
+        "previous_cqi": 31.0,
+        "cqi_change": 15.3
+      },
+      {
+        "rank": 75,
+        "player": "Jay Kastantin",
+        "team": "Bowling Green",
+        "cqi": 45.7,
+        "previous_rank": 95,
+        "rank_change": 20,
+        "previous_cqi": 33.7,
+        "cqi_change": 12.0
+      },
+      {
+        "rank": 76,
+        "player": "Walker Eget",
+        "team": "Duke",
+        "cqi": 45.7,
+        "previous_rank": 92,
+        "rank_change": 16,
+        "previous_cqi": 37.5,
+        "cqi_change": 8.2
+      },
+      {
+        "rank": 77,
+        "player": "Trey Kukuk",
+        "team": "Louisiana Tech",
+        "cqi": 45.7,
+        "previous_rank": 78,
+        "rank_change": 1,
+        "previous_cqi": 43.5,
+        "cqi_change": 2.2
+      },
+      {
+        "rank": 78,
+        "player": "Malachi Singleton",
+        "team": "App State",
+        "cqi": 45.2,
+        "previous_rank": 40,
+        "rank_change": -38,
+        "previous_cqi": 67.5,
+        "cqi_change": -22.3
+      },
+      {
+        "rank": 79,
+        "player": "Hank Brown",
+        "team": "Iowa",
+        "cqi": 44.9,
+        "previous_rank": 75,
+        "rank_change": -4,
+        "previous_cqi": 44.9,
+        "cqi_change": 0.0
+      },
+      {
+        "rank": 80,
+        "player": "Dante Moore",
+        "team": "Oregon",
+        "cqi": 44.1,
+        "previous_rank": 77,
+        "rank_change": -3,
+        "previous_cqi": 44.1,
+        "cqi_change": 0.0
+      },
+      {
+        "rank": 81,
+        "player": "Landy Lyddy",
+        "team": "Southern Miss",
+        "cqi": 43.3,
+        "previous_rank": 87,
+        "rank_change": 6,
+        "previous_cqi": 38.7,
+        "cqi_change": 4.6
+      },
+      {
+        "rank": 82,
+        "player": "Broc Lowry",
+        "team": "Western Michigan",
+        "cqi": 43.1,
+        "previous_rank": 125,
+        "rank_change": 43,
+        "previous_cqi": 16.2,
+        "cqi_change": 26.9
+      },
+      {
+        "rank": 83,
+        "player": "Nick Minicucci",
+        "team": "Delaware",
+        "cqi": 42.9,
+        "previous_rank": 85,
+        "rank_change": 2,
+        "previous_cqi": 40.5,
+        "cqi_change": 2.4
+      },
+      {
+        "rank": 84,
+        "player": "Owen McCown",
+        "team": "UTSA",
+        "cqi": 41.6,
+        "previous_rank": 114,
+        "rank_change": 30,
+        "previous_cqi": 22.0,
+        "cqi_change": 19.6
+      },
+      {
+        "rank": 85,
+        "player": "Jeremy Hecklinski",
+        "team": "Iowa",
+        "cqi": 40.5,
+        "previous_rank": null,
+        "rank_change": null,
+        "previous_cqi": null,
+        "cqi_change": null
+      },
+      {
+        "rank": 86,
+        "player": "Davis Warren",
+        "team": "Stanford",
+        "cqi": 39.2,
+        "previous_rank": 76,
+        "rank_change": -10,
+        "previous_cqi": 44.7,
+        "cqi_change": -5.5
+      },
+      {
+        "rank": 87,
+        "player": "Aidan Armenta",
+        "team": "UL Monroe",
+        "cqi": 39.1,
+        "previous_rank": 81,
+        "rank_change": -6,
+        "previous_cqi": 41.4,
+        "cqi_change": -2.3
+      },
+      {
+        "rank": 88,
+        "player": "Nick Poulos",
+        "team": "Ohio",
+        "cqi": 38.7,
+        "previous_rank": null,
+        "rank_change": null,
+        "previous_cqi": null,
+        "cqi_change": null
+      },
+      {
+        "rank": 89,
+        "player": "Jaron-Keawe Sagapolutele",
+        "team": "California",
+        "cqi": 37.7,
+        "previous_rank": 89,
+        "rank_change": 0,
+        "previous_cqi": 38.3,
+        "cqi_change": -0.6
+      },
+      {
+        "rank": 90,
+        "player": "Nico Iamaleava",
+        "team": "UCLA",
+        "cqi": 37.3,
+        "previous_rank": 65,
+        "rank_change": -25,
+        "previous_cqi": 54.0,
+        "cqi_change": -16.7
+      },
+      {
+        "rank": 91,
+        "player": "Demond Williams Jr.",
+        "team": "Washington",
+        "cqi": 36.7,
+        "previous_rank": 59,
+        "rank_change": -32,
+        "previous_cqi": 55.2,
+        "cqi_change": -18.5
+      },
+      {
+        "rank": 92,
+        "player": "Bryce Underwood",
+        "team": "Michigan",
+        "cqi": 36.7,
+        "previous_rank": 96,
+        "rank_change": 4,
+        "previous_cqi": 33.2,
+        "cqi_change": 3.5
+      },
+      {
+        "rank": 93,
+        "player": "Brock Glenn",
+        "team": "Western Kentucky",
+        "cqi": 36.1,
+        "previous_rank": 139,
+        "rank_change": 46,
+        "previous_cqi": 10.5,
+        "cqi_change": 25.6
+      },
+      {
+        "rank": 94,
+        "player": "Cale Hellums",
+        "team": "Army",
+        "cqi": 34.3,
+        "previous_rank": 91,
+        "rank_change": -3,
+        "previous_cqi": 37.7,
+        "cqi_change": -3.4
+      },
+      {
+        "rank": 95,
+        "player": "Luke Weaver",
+        "team": "San José State",
+        "cqi": 33.7,
+        "previous_rank": 93,
+        "rank_change": -2,
+        "previous_cqi": 36.4,
+        "cqi_change": -2.7
+      },
+      {
+        "rank": 96,
+        "player": "George MacIntyre",
+        "team": "Tennessee",
+        "cqi": 33.7,
+        "previous_rank": null,
+        "rank_change": null,
+        "previous_cqi": null,
+        "cqi_change": null
+      },
+      {
+        "rank": 97,
+        "player": "Baylor Hayes",
+        "team": "Tulsa",
+        "cqi": 33.3,
+        "previous_rank": 97,
+        "rank_change": 0,
+        "previous_cqi": 32.0,
+        "cqi_change": 1.3
+      },
+      {
+        "rank": 98,
+        "player": "Landyn Locke",
+        "team": "Sam Houston",
+        "cqi": 33.3,
+        "previous_rank": 79,
+        "rank_change": -19,
+        "previous_cqi": 43.2,
+        "cqi_change": -9.9
+      },
+      {
+        "rank": 99,
+        "player": "Jaylen Raynor",
+        "team": "Iowa State",
+        "cqi": 33.1,
+        "previous_rank": 69,
+        "rank_change": -30,
+        "previous_cqi": 50.4,
+        "cqi_change": -17.3
+      },
+      {
+        "rank": 100,
+        "player": "Cibastian Broughton",
+        "team": "Akron",
+        "cqi": 32.8,
+        "previous_rank": 100,
+        "rank_change": 0,
+        "previous_cqi": 30.8,
+        "cqi_change": 2.0
+      },
+      {
+        "rank": 101,
+        "player": "Marcel Reed",
+        "team": "Texas A&M",
+        "cqi": 32.3,
+        "previous_rank": 84,
+        "rank_change": -17,
+        "previous_cqi": 40.6,
+        "cqi_change": -8.3
+      },
+      {
+        "rank": 102,
+        "player": "Faizon Brandon",
+        "team": "Tennessee",
+        "cqi": 30.6,
+        "previous_rank": 105,
+        "rank_change": 3,
+        "previous_cqi": 27.6,
+        "cqi_change": 3.0
+      },
+      {
+        "rank": 103,
+        "player": "Jackson Brousseau",
+        "team": "California",
+        "cqi": 29.8,
+        "previous_rank": null,
+        "rank_change": null,
+        "previous_cqi": null,
+        "cqi_change": null
+      },
+      {
+        "rank": 104,
+        "player": "John Mateer",
+        "team": "Oklahoma",
+        "cqi": 29.6,
+        "previous_rank": 86,
+        "rank_change": -18,
+        "previous_cqi": 40.5,
+        "cqi_change": -10.9
+      },
+      {
+        "rank": 105,
+        "player": "Jackson Arnold",
+        "team": "UNLV",
+        "cqi": 29.5,
+        "previous_rank": 88,
+        "rank_change": -17,
+        "previous_cqi": 38.7,
+        "cqi_change": -9.2
+      },
+      {
+        "rank": 106,
+        "player": "Mason McKenzie",
+        "team": "Boston College",
+        "cqi": 29.4,
+        "previous_rank": 98,
+        "rank_change": -8,
+        "previous_cqi": 31.9,
+        "cqi_change": -2.5
+      },
+      {
+        "rank": 107,
+        "player": "Dylan Lonergan",
+        "team": "Rutgers",
+        "cqi": 28.9,
+        "previous_rank": 102,
+        "rank_change": -5,
+        "previous_cqi": 29.1,
+        "cqi_change": -0.2
+      },
+      {
+        "rank": 108,
+        "player": "Blake Baker",
+        "team": "Louisiana Tech",
+        "cqi": 28.2,
+        "previous_rank": null,
+        "rank_change": null,
+        "previous_cqi": null,
+        "cqi_change": null
+      },
+      {
+        "rank": 109,
+        "player": "Cole Pennington",
+        "team": "Gardner-Webb",
+        "cqi": 27.8,
+        "previous_rank": 117,
+        "rank_change": 8,
+        "previous_cqi": 21.3,
+        "cqi_change": 6.5
+      },
+      {
+        "rank": 110,
+        "player": "Holden Geriner",
+        "team": "Pittsburgh",
+        "cqi": 27.3,
+        "previous_rank": null,
+        "rank_change": null,
+        "previous_cqi": null,
+        "cqi_change": null
+      },
+      {
+        "rank": 111,
+        "player": "D.J. Lagway",
+        "team": "Baylor",
+        "cqi": 27.3,
+        "previous_rank": 107,
+        "rank_change": -4,
+        "previous_cqi": 27.3,
+        "cqi_change": 0.0
+      },
+      {
+        "rank": 112,
+        "player": "Austin Carlisle",
+        "team": "UL Monroe",
+        "cqi": 26.6,
+        "previous_rank": 108,
+        "rank_change": -4,
+        "previous_cqi": 27.0,
+        "cqi_change": -0.4
+      },
+      {
+        "rank": 113,
+        "player": "Caden Veltkamp",
+        "team": "Florida Atlantic",
+        "cqi": 26.0,
+        "previous_rank": 103,
+        "rank_change": -10,
+        "previous_cqi": 28.0,
+        "cqi_change": -2.0
+      },
+      {
+        "rank": 114,
+        "player": "Jaden Craig",
+        "team": "TCU",
+        "cqi": 24.5,
+        "previous_rank": 110,
+        "rank_change": -4,
+        "previous_cqi": 24.7,
+        "cqi_change": -0.2
+      },
+      {
+        "rank": 115,
+        "player": "Dylan Raiola",
+        "team": "Oregon",
+        "cqi": 23.7,
+        "previous_rank": null,
+        "rank_change": null,
+        "previous_cqi": null,
+        "cqi_change": null
+      },
+      {
+        "rank": 116,
+        "player": "Deshawn Purdie",
+        "team": "Liberty",
+        "cqi": 23.6,
+        "previous_rank": 106,
+        "rank_change": -10,
+        "previous_cqi": 27.4,
+        "cqi_change": -3.8
+      },
+      {
+        "rank": 117,
+        "player": "Byrum Brown",
+        "team": "Auburn",
+        "cqi": 23.3,
+        "previous_rank": 109,
+        "rank_change": -8,
+        "previous_cqi": 26.6,
+        "cqi_change": -3.3
+      },
+      {
+        "rank": 118,
+        "player": "Dru Deshields",
+        "team": "Kent State",
+        "cqi": 23.3,
+        "previous_rank": 90,
+        "rank_change": -28,
+        "previous_cqi": 38.1,
+        "cqi_change": -14.8
+      },
+      {
+        "rank": 119,
+        "player": "Caleb Heavner",
+        "team": "Miami (OH)",
+        "cqi": 23.2,
+        "previous_rank": null,
+        "rank_change": null,
+        "previous_cqi": null,
+        "cqi_change": null
+      },
+      {
+        "rank": 120,
+        "player": "Steven Angeli",
+        "team": "Syracuse",
+        "cqi": 22.8,
+        "previous_rank": 112,
+        "rank_change": -8,
+        "previous_cqi": 24.0,
+        "cqi_change": -1.2
+      },
+      {
+        "rank": 121,
+        "player": "Trey Hedden",
+        "team": "New Mexico State",
+        "cqi": 21.4,
+        "previous_rank": 116,
+        "rank_change": -5,
+        "previous_cqi": 21.6,
+        "cqi_change": -0.2
+      },
+      {
+        "rank": 122,
+        "player": "Jackson Sharman",
+        "team": "Sacramento State",
+        "cqi": 21.3,
+        "previous_rank": 115,
+        "rank_change": -7,
+        "previous_cqi": 21.7,
+        "cqi_change": -0.4
+      },
+      {
+        "rank": 123,
+        "player": "Adam Damante",
+        "team": "New Mexico State",
+        "cqi": 21.3,
+        "previous_rank": 113,
+        "rank_change": -10,
+        "previous_cqi": 23.8,
+        "cqi_change": -2.5
+      },
+      {
+        "rank": 124,
+        "player": "Kenny Minchey",
+        "team": "Kentucky",
+        "cqi": 21.3,
+        "previous_rank": 130,
+        "rank_change": 6,
+        "previous_cqi": 14.6,
+        "cqi_change": 6.7
+      },
+      {
+        "rank": 125,
+        "player": "Julian Lewis",
+        "team": "Colorado",
+        "cqi": 20.9,
+        "previous_rank": 118,
+        "rank_change": -7,
+        "previous_cqi": 19.7,
+        "cqi_change": 1.2
+      },
+      {
+        "rank": 126,
+        "player": "Eddie Buehler",
+        "team": "Maine",
+        "cqi": 20.8,
+        "previous_rank": 119,
+        "rank_change": -7,
+        "previous_cqi": 19.3,
+        "cqi_change": 1.5
+      },
+      {
+        "rank": 127,
+        "player": "Keldric Luster",
+        "team": "Ball State",
+        "cqi": 19.7,
+        "previous_rank": 145,
+        "rank_change": 18,
+        "previous_cqi": 7.2,
+        "cqi_change": 12.5
+      },
+      {
+        "rank": 128,
+        "player": "Keyone Jenkins",
+        "team": "UCF",
+        "cqi": 19.7,
+        "previous_rank": 132,
+        "rank_change": 4,
+        "previous_cqi": 14.4,
+        "cqi_change": 5.3
+      },
+      {
+        "rank": 129,
+        "player": "Micah Alejado",
+        "team": "Hawai'i",
+        "cqi": 19.3,
+        "previous_rank": 126,
+        "rank_change": -3,
+        "previous_cqi": 16.2,
+        "cqi_change": 3.1
+      },
+      {
+        "rank": 130,
+        "player": "Mitch Griffis",
+        "team": "East Carolina",
+        "cqi": 18.9,
+        "previous_rank": 123,
+        "rank_change": -7,
+        "previous_cqi": 17.4,
+        "cqi_change": 1.5
+      },
+      {
+        "rank": 131,
+        "player": "Zion Turner",
+        "team": "Marshall",
+        "cqi": 18.7,
+        "previous_rank": null,
+        "rank_change": null,
+        "previous_cqi": null,
+        "cqi_change": null
+      },
+      {
+        "rank": 132,
+        "player": "Skyler Locklear",
+        "team": "Missouri State",
+        "cqi": 18.7,
+        "previous_rank": 129,
+        "rank_change": -3,
+        "previous_cqi": 15.2,
+        "cqi_change": 3.5
+      },
+      {
+        "rank": 133,
+        "player": "KJ Jackson",
+        "team": "Arkansas",
+        "cqi": 18.3,
+        "previous_rank": 94,
+        "rank_change": -39,
+        "previous_cqi": 33.8,
+        "cqi_change": -15.5
+      },
+      {
+        "rank": 134,
+        "player": "Deuce Bailey",
+        "team": "Coastal Carolina",
+        "cqi": 18.0,
+        "previous_rank": 104,
+        "rank_change": -30,
+        "previous_cqi": 27.6,
+        "cqi_change": -9.6
+      },
+      {
+        "rank": 135,
+        "player": "Isaac Wilson",
+        "team": "Colorado",
+        "cqi": 18.0,
+        "previous_rank": 121,
+        "rank_change": -14,
+        "previous_cqi": 18.5,
+        "cqi_change": -0.5
+      },
+      {
+        "rank": 136,
+        "player": "Camden Coleman",
+        "team": "James Madison",
+        "cqi": 18.0,
+        "previous_rank": 120,
+        "rank_change": -16,
+        "previous_cqi": 19.0,
+        "cqi_change": -1.0
+      },
+      {
+        "rank": 137,
+        "player": "Roman Gagliano",
+        "team": "Middle Tennessee",
+        "cqi": 17.9,
+        "previous_rank": 122,
+        "rank_change": -15,
+        "previous_cqi": 17.5,
+        "cqi_change": 0.4
+      },
+      {
+        "rank": 138,
+        "player": "Brayden Roggow",
+        "team": "Akron",
+        "cqi": 17.4,
+        "previous_rank": 142,
+        "rank_change": 4,
+        "previous_cqi": 10.0,
+        "cqi_change": 7.4
+      },
+      {
+        "rank": 139,
+        "player": "Henry Belin IV",
+        "team": "Missouri State",
+        "cqi": 17.4,
+        "previous_rank": null,
+        "rank_change": null,
+        "previous_cqi": null,
+        "cqi_change": null
+      },
+      {
+        "rank": 140,
+        "player": "Andrew Indorf",
+        "team": "Towson",
+        "cqi": 17.1,
+        "previous_rank": 127,
+        "rank_change": -13,
+        "previous_cqi": 16.2,
+        "cqi_change": 0.9
+      },
+      {
+        "rank": 141,
+        "player": "Jim Ogle",
+        "team": "Murray State",
+        "cqi": 14.7,
+        "previous_rank": 133,
+        "rank_change": -8,
+        "previous_cqi": 14.1,
+        "cqi_change": 0.6
+      },
+      {
+        "rank": 142,
+        "player": "Carter Jones",
+        "team": "Nevada",
+        "cqi": 12.9,
+        "previous_rank": 80,
+        "rank_change": -62,
+        "previous_cqi": 42.2,
+        "cqi_change": -29.3
+      },
+      {
+        "rank": 143,
+        "player": "Luca Stanzani",
+        "team": "Long Island University",
+        "cqi": 12.8,
+        "previous_rank": 136,
+        "rank_change": -7,
+        "previous_cqi": 11.9,
+        "cqi_change": 0.9
+      },
+      {
+        "rank": 144,
+        "player": "Cole Gonzales",
+        "team": "Charlotte",
+        "cqi": 12.8,
+        "previous_rank": 135,
+        "rank_change": -9,
+        "previous_cqi": 12.2,
+        "cqi_change": 0.6
+      },
+      {
+        "rank": 145,
+        "player": "Beau Pribula",
+        "team": "Virginia",
+        "cqi": 12.5,
+        "previous_rank": 131,
+        "rank_change": -14,
+        "previous_cqi": 14.4,
+        "cqi_change": -1.9
+      },
+      {
+        "rank": 146,
+        "player": "Jacurri Brown",
+        "team": "Rice",
+        "cqi": 10.9,
+        "previous_rank": 111,
+        "rank_change": -35,
+        "previous_cqi": 24.5,
+        "cqi_change": -13.6
+      },
+      {
+        "rank": 147,
+        "player": "Jason Wright",
+        "team": "Buffalo",
+        "cqi": 10.0,
+        "previous_rank": 147,
+        "rank_change": 0,
+        "previous_cqi": 6.3,
+        "cqi_change": 3.7
+      },
+      {
+        "rank": 148,
+        "player": "Tait Reynolds",
+        "team": "Clemson",
+        "cqi": 9.6,
+        "previous_rank": 141,
+        "rank_change": -7,
+        "previous_cqi": 10.3,
+        "cqi_change": -0.7
+      },
+      {
+        "rank": 149,
+        "player": "Alessio Milivojevic",
+        "team": "Michigan State",
+        "cqi": 9.6,
+        "previous_rank": 134,
+        "rank_change": -15,
+        "previous_cqi": 12.4,
+        "cqi_change": -2.8
+      },
+      {
+        "rank": 150,
+        "player": "Ethan Hampton",
+        "team": "Southern Miss",
+        "cqi": 9.2,
+        "previous_rank": 140,
+        "rank_change": -10,
+        "previous_cqi": 10.5,
+        "cqi_change": -1.3
+      },
+      {
+        "rank": 151,
+        "player": "Gabe Downing",
+        "team": "Portland State",
+        "cqi": 8.7,
+        "previous_rank": 143,
+        "rank_change": -8,
+        "previous_cqi": 10.0,
+        "cqi_change": -1.3
+      },
+      {
+        "rank": 152,
+        "player": "Jayden Denegal",
+        "team": "San Diego State",
+        "cqi": 8.4,
+        "previous_rank": 146,
+        "rank_change": -6,
+        "previous_cqi": 6.7,
+        "cqi_change": 1.7
+      },
+      {
+        "rank": 153,
+        "player": "Conner Harrell",
+        "team": "Charlotte",
+        "cqi": 7.6,
+        "previous_rank": null,
+        "rank_change": null,
+        "previous_cqi": null,
+        "cqi_change": null
+      },
+      {
+        "rank": 154,
+        "player": "Kyle Lowe",
+        "team": "SE Louisiana",
+        "cqi": 7.0,
+        "previous_rank": 144,
+        "rank_change": -10,
+        "previous_cqi": 8.1,
+        "cqi_change": -1.1
+      },
+      {
+        "rank": 155,
+        "player": "Carson Haggard",
+        "team": "Robert Morris",
+        "cqi": 7.0,
+        "previous_rank": 149,
+        "rank_change": -6,
+        "previous_cqi": 5.2,
+        "cqi_change": 1.8
+      },
+      {
+        "rank": 156,
+        "player": "Tyler Hughes",
+        "team": "Wyoming",
+        "cqi": 6.1,
+        "previous_rank": 124,
+        "rank_change": -32,
+        "previous_cqi": 16.5,
+        "cqi_change": -10.4
+      },
+      {
+        "rank": 157,
+        "player": "Rodney Tisdale Jr.",
+        "team": "Western Kentucky",
+        "cqi": 6.0,
+        "previous_rank": 148,
+        "rank_change": -9,
+        "previous_cqi": 5.3,
+        "cqi_change": 0.7
+      },
+      {
+        "rank": 158,
+        "player": "Alex Gevaudan",
+        "team": "Mercyhurst",
+        "cqi": 4.3,
+        "previous_rank": 152,
+        "rank_change": -6,
+        "previous_cqi": 2.9,
+        "cqi_change": 1.4
+      },
+      {
+        "rank": 159,
+        "player": "Ryder Burton",
+        "team": "UAB",
+        "cqi": 3.5,
+        "previous_rank": 138,
+        "rank_change": -21,
+        "previous_cqi": 10.9,
+        "cqi_change": -7.4
+      },
+      {
+        "rank": 160,
+        "player": "Tate Surber",
+        "team": "UT Martin",
+        "cqi": 3.2,
+        "previous_rank": 150,
+        "rank_change": -10,
+        "previous_cqi": 4.0,
+        "cqi_change": -0.8
+      },
+      {
+        "rank": 161,
+        "player": "Taron Dickens",
+        "team": "Northern Illinois",
+        "cqi": 2.9,
+        "previous_rank": 154,
+        "rank_change": -7,
+        "previous_cqi": 2.6,
+        "cqi_change": 0.3
+      },
+      {
+        "rank": 162,
+        "player": "Grady Brosterhous",
+        "team": "Utah State",
+        "cqi": 2.8,
+        "previous_rank": 128,
+        "rank_change": -34,
+        "previous_cqi": 16.2,
+        "cqi_change": -13.4
+      },
+      {
+        "rank": 163,
+        "player": "Quinn Henicle",
+        "team": "Old Dominion",
+        "cqi": 2.2,
+        "previous_rank": 137,
+        "rank_change": -26,
+        "previous_cqi": 11.0,
+        "cqi_change": -8.8
+      },
+      {
+        "rank": 164,
+        "player": "Cam'Ron McCoy",
+        "team": "Texas Southern",
+        "cqi": 2.0,
+        "previous_rank": 156,
+        "rank_change": -8,
+        "previous_cqi": 1.7,
+        "cqi_change": 0.3
+      },
+      {
+        "rank": 165,
+        "player": "Gunnar Smith",
+        "team": "Fordham",
+        "cqi": 1.9,
+        "previous_rank": 157,
+        "rank_change": -8,
+        "previous_cqi": 1.5,
+        "cqi_change": 0.4
+      },
+      {
+        "rank": 166,
+        "player": "Kadin Semonza",
+        "team": "Tulane",
+        "cqi": 1.8,
+        "previous_rank": 153,
+        "rank_change": -13,
+        "previous_cqi": 2.8,
+        "cqi_change": -1.0
+      },
+      {
+        "rank": 167,
+        "player": "Benjamin Newman",
+        "team": "Wagner",
+        "cqi": 1.7,
+        "previous_rank": 155,
+        "rank_change": -12,
+        "previous_cqi": 2.2,
+        "cqi_change": -0.5
+      },
+      {
+        "rank": 168,
+        "player": "Deljay Bailey",
+        "team": "Norfolk State",
+        "cqi": 1.5,
+        "previous_rank": 159,
+        "rank_change": -9,
+        "previous_cqi": 1.2,
+        "cqi_change": 0.3
+      },
+      {
+        "rank": 169,
+        "player": "Carson Camp",
+        "team": "Duquesne",
+        "cqi": 1.4,
+        "previous_rank": 160,
+        "rank_change": -9,
+        "previous_cqi": 1.1,
+        "cqi_change": 0.3
+      },
+      {
+        "rank": 170,
+        "player": "EJ Colson",
+        "team": "UTEP",
+        "cqi": 1.3,
+        "previous_rank": 158,
+        "rank_change": -12,
+        "previous_cqi": 1.2,
+        "cqi_change": 0.1
+      },
+      {
+        "rank": 171,
+        "player": "Caden Pinnick",
+        "team": "Washington State",
+        "cqi": 1.1,
+        "previous_rank": 151,
+        "rank_change": -20,
+        "previous_cqi": 3.1,
+        "cqi_change": -2.0
+      },
+      {
+        "rank": 172,
+        "player": "Cutter Stewart",
+        "team": "Houston Christian",
+        "cqi": 0.9,
+        "previous_rank": 161,
+        "rank_change": -11,
+        "previous_cqi": 0.9,
+        "cqi_change": 0.0
+      },
+      {
+        "rank": 173,
+        "player": "Jack O'Connell",
+        "team": "Stonehill",
+        "cqi": 0.8,
+        "previous_rank": 163,
+        "rank_change": -10,
+        "previous_cqi": 0.6,
+        "cqi_change": 0.2
+      },
+      {
+        "rank": 174,
+        "player": "Jadyn Glasser",
+        "team": "Central Michigan",
+        "cqi": 0.8,
+        "previous_rank": 162,
+        "rank_change": -12,
+        "previous_cqi": 0.8,
+        "cqi_change": 0.0
+      },
+      {
+        "rank": 175,
+        "player": "Angel H Flores",
+        "team": "Central Michigan",
+        "cqi": 0.6,
+        "previous_rank": null,
+        "rank_change": null,
+        "previous_cqi": null,
+        "cqi_change": null
+      },
+      {
+        "rank": 176,
+        "player": "Ean Rodrigue",
+        "team": "Nicholls",
+        "cqi": 0.0,
+        "previous_rank": 164,
+        "rank_change": -12,
+        "previous_cqi": 0.0,
+        "cqi_change": 0.0
+      }
     ]
   },
   "players": {
@@ -4567,6 +6330,14 @@
           "efficiency": 98.1,
           "sack_avoidance": 7.5,
           "rushing": 3.1
+        },
+        {
+          "week": 6,
+          "rank": 71,
+          "cqi": 48.0,
+          "efficiency": 98.4,
+          "sack_avoidance": 7.4,
+          "rushing": 3.5
         }
       ]
     },
@@ -4597,6 +6368,14 @@
           "efficiency": 85.1,
           "sack_avoidance": 61.3,
           "rushing": 56.0
+        },
+        {
+          "week": 6,
+          "rank": 33,
+          "cqi": 77.9,
+          "efficiency": 83.3,
+          "sack_avoidance": 50.1,
+          "rushing": 57.9
         }
       ]
     },
@@ -4611,6 +6390,14 @@
           "efficiency": 20.9,
           "sack_avoidance": 37.7,
           "rushing": 44.2
+        },
+        {
+          "week": 6,
+          "rank": 123,
+          "cqi": 21.3,
+          "efficiency": 17.6,
+          "sack_avoidance": 34.0,
+          "rushing": 47.2
         }
       ]
     },
@@ -4633,6 +6420,14 @@
           "efficiency": 45.2,
           "sack_avoidance": 50.6,
           "rushing": 35.3
+        },
+        {
+          "week": 6,
+          "rank": 87,
+          "cqi": 39.1,
+          "efficiency": 41.5,
+          "sack_avoidance": 49.3,
+          "rushing": 36.7
         }
       ]
     },
@@ -4655,6 +6450,14 @@
           "efficiency": 95.2,
           "sack_avoidance": 31.6,
           "rushing": 73.1
+        },
+        {
+          "week": 6,
+          "rank": 7,
+          "cqi": 92.6,
+          "efficiency": 96.6,
+          "sack_avoidance": 35.6,
+          "rushing": 75.0
         }
       ]
     },
@@ -4677,6 +6480,14 @@
           "efficiency": 75.0,
           "sack_avoidance": 19.6,
           "rushing": 84.8
+        },
+        {
+          "week": 6,
+          "rank": 44,
+          "cqi": 64.8,
+          "efficiency": 83.5,
+          "sack_avoidance": 13.0,
+          "rushing": 80.6
         }
       ]
     },
@@ -4707,6 +6518,14 @@
           "efficiency": 57.4,
           "sack_avoidance": 28.5,
           "rushing": 42.0
+        },
+        {
+          "week": 6,
+          "rank": 67,
+          "cqi": 50.0,
+          "efficiency": 57.4,
+          "sack_avoidance": 43.9,
+          "rushing": 43.0
         }
       ]
     },
@@ -4737,6 +6556,14 @@
           "efficiency": 40.5,
           "sack_avoidance": 7.4,
           "rushing": 34.6
+        },
+        {
+          "week": 6,
+          "rank": 149,
+          "cqi": 9.6,
+          "efficiency": 37.4,
+          "sack_avoidance": 6.9,
+          "rushing": 33.0
         }
       ]
     },
@@ -4759,6 +6586,14 @@
           "efficiency": 0.4,
           "sack_avoidance": 50.3,
           "rushing": 24.4
+        },
+        {
+          "week": 6,
+          "rank": 158,
+          "cqi": 4.3,
+          "efficiency": 1.1,
+          "sack_avoidance": 49.6,
+          "rushing": 25.9
         }
       ]
     },
@@ -4789,6 +6624,28 @@
           "efficiency": 33.6,
           "sack_avoidance": 18.3,
           "rushing": 26.6
+        },
+        {
+          "week": 6,
+          "rank": 140,
+          "cqi": 17.1,
+          "efficiency": 35.2,
+          "sack_avoidance": 17.5,
+          "rushing": 28.8
+        }
+      ]
+    },
+    "angel-h-flores": {
+      "player": "Angel H Flores",
+      "team": "Central Michigan",
+      "history": [
+        {
+          "week": 6,
+          "rank": 175,
+          "cqi": 0.6,
+          "efficiency": 1.3,
+          "sack_avoidance": 12.0,
+          "rushing": 15.2
         }
       ]
     },
@@ -4819,6 +6676,14 @@
           "efficiency": 50.1,
           "sack_avoidance": 91.3,
           "rushing": 92.1
+        },
+        {
+          "week": 6,
+          "rank": 24,
+          "cqi": 81.5,
+          "efficiency": 45.6,
+          "sack_avoidance": 80.1,
+          "rushing": 91.3
         }
       ]
     },
@@ -4849,6 +6714,14 @@
           "efficiency": 70.8,
           "sack_avoidance": 17.3,
           "rushing": 51.4
+        },
+        {
+          "week": 6,
+          "rank": 66,
+          "cqi": 52.0,
+          "efficiency": 75.8,
+          "sack_avoidance": 18.0,
+          "rushing": 53.3
         }
       ]
     },
@@ -4879,6 +6752,14 @@
           "efficiency": 88.9,
           "sack_avoidance": 14.4,
           "rushing": 97.7
+        },
+        {
+          "week": 6,
+          "rank": 47,
+          "cqi": 63.5,
+          "efficiency": 74.3,
+          "sack_avoidance": 12.0,
+          "rushing": 97.0
         }
       ]
     },
@@ -4909,6 +6790,14 @@
           "efficiency": 14.4,
           "sack_avoidance": 15.1,
           "rushing": 95.9
+        },
+        {
+          "week": 6,
+          "rank": 112,
+          "cqi": 26.6,
+          "efficiency": 14.9,
+          "sack_avoidance": 14.4,
+          "rushing": 95.2
         }
       ]
     },
@@ -4939,6 +6828,14 @@
           "efficiency": 88.4,
           "sack_avoidance": 71.0,
           "rushing": 21.1
+        },
+        {
+          "week": 6,
+          "rank": 35,
+          "cqi": 72.3,
+          "efficiency": 72.7,
+          "sack_avoidance": 82.6,
+          "rushing": 31.7
         }
       ]
     },
@@ -4969,6 +6866,14 @@
           "efficiency": 22.0,
           "sack_avoidance": 95.6,
           "rushing": 92.6
+        },
+        {
+          "week": 6,
+          "rank": 31,
+          "cqi": 79.0,
+          "efficiency": 21.1,
+          "sack_avoidance": 94.9,
+          "rushing": 87.8
         }
       ]
     },
@@ -4999,6 +6904,14 @@
           "efficiency": 8.5,
           "sack_avoidance": 54.0,
           "rushing": 70.6
+        },
+        {
+          "week": 6,
+          "rank": 97,
+          "cqi": 33.3,
+          "efficiency": 6.5,
+          "sack_avoidance": 67.2,
+          "rushing": 64.7
         }
       ]
     },
@@ -5029,6 +6942,14 @@
           "efficiency": 52.1,
           "sack_avoidance": 56.5,
           "rushing": 87.0
+        },
+        {
+          "week": 6,
+          "rank": 12,
+          "cqi": 90.2,
+          "efficiency": 72.6,
+          "sack_avoidance": 74.1,
+          "rushing": 93.6
         }
       ]
     },
@@ -5059,6 +6980,14 @@
           "efficiency": 42.9,
           "sack_avoidance": 3.6,
           "rushing": 61.5
+        },
+        {
+          "week": 6,
+          "rank": 145,
+          "cqi": 12.5,
+          "efficiency": 35.7,
+          "sack_avoidance": 3.7,
+          "rushing": 60.8
         }
       ]
     },
@@ -5089,6 +7018,14 @@
           "efficiency": 0.4,
           "sack_avoidance": 51.2,
           "rushing": 20.7
+        },
+        {
+          "week": 6,
+          "rank": 167,
+          "cqi": 1.7,
+          "efficiency": 0.0,
+          "sack_avoidance": 50.4,
+          "rushing": 22.2
         }
       ]
     },
@@ -5119,6 +7056,28 @@
           "efficiency": 66.3,
           "sack_avoidance": 34.9,
           "rushing": 40.1
+        },
+        {
+          "week": 6,
+          "rank": 72,
+          "cqi": 47.8,
+          "efficiency": 74.6,
+          "sack_avoidance": 23.7,
+          "rushing": 38.8
+        }
+      ]
+    },
+    "blake-baker": {
+      "player": "Blake Baker",
+      "team": "Louisiana Tech",
+      "history": [
+        {
+          "week": 6,
+          "rank": 108,
+          "cqi": 28.2,
+          "efficiency": 85.1,
+          "sack_avoidance": 13.0,
+          "rushing": 7.9
         }
       ]
     },
@@ -5149,6 +7108,14 @@
           "efficiency": 76.2,
           "sack_avoidance": 78.2,
           "rushing": 45.7
+        },
+        {
+          "week": 6,
+          "rank": 29,
+          "cqi": 79.8,
+          "efficiency": 73.7,
+          "sack_avoidance": 76.6,
+          "rushing": 51.2
         }
       ]
     },
@@ -5179,6 +7146,14 @@
           "efficiency": 75.5,
           "sack_avoidance": 83.5,
           "rushing": 11.2
+        },
+        {
+          "week": 6,
+          "rank": 34,
+          "cqi": 74.0,
+          "efficiency": 82.1,
+          "sack_avoidance": 89.5,
+          "rushing": 12.3
         }
       ]
     },
@@ -5201,6 +7176,14 @@
           "efficiency": 20.9,
           "sack_avoidance": 20.7,
           "rushing": 23.4
+        },
+        {
+          "week": 6,
+          "rank": 138,
+          "cqi": 17.4,
+          "efficiency": 34.0,
+          "sack_avoidance": 18.3,
+          "rushing": 31.2
         }
       ]
     },
@@ -5231,6 +7214,14 @@
           "efficiency": 11.5,
           "sack_avoidance": 28.5,
           "rushing": 44.9
+        },
+        {
+          "week": 6,
+          "rank": 82,
+          "cqi": 43.1,
+          "efficiency": 26.6,
+          "sack_avoidance": 41.5,
+          "rushing": 67.8
         }
       ]
     },
@@ -5261,6 +7252,14 @@
           "efficiency": 0.7,
           "sack_avoidance": 44.4,
           "rushing": 64.4
+        },
+        {
+          "week": 6,
+          "rank": 93,
+          "cqi": 36.1,
+          "efficiency": 2.3,
+          "sack_avoidance": 67.7,
+          "rushing": 88.3
         }
       ]
     },
@@ -5291,6 +7290,14 @@
           "efficiency": 48.8,
           "sack_avoidance": 30.8,
           "rushing": 35.9
+        },
+        {
+          "week": 6,
+          "rank": 92,
+          "cqi": 36.7,
+          "efficiency": 53.9,
+          "sack_avoidance": 29.4,
+          "rushing": 38.0
         }
       ]
     },
@@ -5321,6 +7328,14 @@
           "efficiency": 38.0,
           "sack_avoidance": 5.5,
           "rushing": 93.2
+        },
+        {
+          "week": 6,
+          "rank": 117,
+          "cqi": 23.3,
+          "efficiency": 34.4,
+          "sack_avoidance": 4.9,
+          "rushing": 92.2
         }
       ]
     },
@@ -5351,6 +7366,14 @@
           "efficiency": 95.2,
           "sack_avoidance": 84.4,
           "rushing": 54.5
+        },
+        {
+          "week": 6,
+          "rank": 1,
+          "cqi": 97.9,
+          "efficiency": 94.7,
+          "sack_avoidance": 89.5,
+          "rushing": 67.1
         }
       ]
     },
@@ -5381,6 +7404,14 @@
           "efficiency": 71.2,
           "sack_avoidance": 71.0,
           "rushing": 13.0
+        },
+        {
+          "week": 6,
+          "rank": 59,
+          "cqi": 55.7,
+          "efficiency": 69.7,
+          "sack_avoidance": 73.7,
+          "rushing": 14.7
         }
       ]
     },
@@ -5411,6 +7442,14 @@
           "efficiency": 69.6,
           "sack_avoidance": 64.9,
           "rushing": 71.2
+        },
+        {
+          "week": 6,
+          "rank": 25,
+          "cqi": 81.2,
+          "efficiency": 61.0,
+          "sack_avoidance": 78.1,
+          "rushing": 72.3
         }
       ]
     },
@@ -5441,6 +7480,14 @@
           "efficiency": 6.3,
           "sack_avoidance": 7.9,
           "rushing": 43.2
+        },
+        {
+          "week": 6,
+          "rank": 171,
+          "cqi": 1.1,
+          "efficiency": 4.5,
+          "sack_avoidance": 6.5,
+          "rushing": 27.8
         }
       ]
     },
@@ -5471,6 +7518,14 @@
           "efficiency": 43.4,
           "sack_avoidance": 58.9,
           "rushing": 10.0
+        },
+        {
+          "week": 6,
+          "rank": 113,
+          "cqi": 26.0,
+          "efficiency": 42.3,
+          "sack_avoidance": 56.3,
+          "rushing": 9.7
         }
       ]
     },
@@ -5485,6 +7540,28 @@
           "efficiency": 31.2,
           "sack_avoidance": 31.9,
           "rushing": 63.1
+        },
+        {
+          "week": 6,
+          "rank": 94,
+          "cqi": 34.3,
+          "efficiency": 25.2,
+          "sack_avoidance": 31.2,
+          "rushing": 66.5
+        }
+      ]
+    },
+    "caleb-heavner": {
+      "player": "Caleb Heavner",
+      "team": "Miami (OH)",
+      "history": [
+        {
+          "week": 6,
+          "rank": 119,
+          "cqi": 23.2,
+          "efficiency": 22.1,
+          "sack_avoidance": 8.4,
+          "rushing": 90.5
         }
       ]
     },
@@ -5499,6 +7576,14 @@
           "efficiency": 1.1,
           "sack_avoidance": 21.1,
           "rushing": 28.4
+        },
+        {
+          "week": 6,
+          "rank": 164,
+          "cqi": 2.0,
+          "efficiency": 1.5,
+          "sack_avoidance": 20.9,
+          "rushing": 30.4
         }
       ]
     },
@@ -5521,6 +7606,14 @@
           "efficiency": 26.8,
           "sack_avoidance": 57.5,
           "rushing": 7.4
+        },
+        {
+          "week": 6,
+          "rank": 136,
+          "cqi": 18.0,
+          "efficiency": 30.2,
+          "sack_avoidance": 46.2,
+          "rushing": 10.0
         }
       ]
     },
@@ -5551,6 +7644,14 @@
           "efficiency": 83.2,
           "sack_avoidance": 87.7,
           "rushing": 58.4
+        },
+        {
+          "week": 6,
+          "rank": 9,
+          "cqi": 92.1,
+          "efficiency": 83.5,
+          "sack_avoidance": 86.1,
+          "rushing": 63.6
         }
       ]
     },
@@ -5581,6 +7682,14 @@
           "efficiency": 31.5,
           "sack_avoidance": 94.9,
           "rushing": 19.4
+        },
+        {
+          "week": 6,
+          "rank": 68,
+          "cqi": 49.7,
+          "efficiency": 25.8,
+          "sack_avoidance": 94.1,
+          "rushing": 20.7
         }
       ]
     },
@@ -5611,6 +7720,14 @@
           "efficiency": 0.0,
           "sack_avoidance": 32.3,
           "rushing": 54.0
+        },
+        {
+          "week": 6,
+          "rank": 169,
+          "cqi": 1.4,
+          "efficiency": 0.0,
+          "sack_avoidance": 31.8,
+          "rushing": 59.1
         }
       ]
     },
@@ -5633,6 +7750,14 @@
           "efficiency": 1.5,
           "sack_avoidance": 54.4,
           "rushing": 19.0
+        },
+        {
+          "week": 6,
+          "rank": 155,
+          "cqi": 7.0,
+          "efficiency": 2.6,
+          "sack_avoidance": 53.2,
+          "rushing": 19.7
         }
       ]
     },
@@ -5663,6 +7788,14 @@
           "efficiency": 54.1,
           "sack_avoidance": 27.4,
           "rushing": 49.6
+        },
+        {
+          "week": 6,
+          "rank": 142,
+          "cqi": 12.9,
+          "efficiency": 29.1,
+          "sack_avoidance": 21.7,
+          "rushing": 18.3
         }
       ]
     },
@@ -5693,6 +7826,14 @@
           "efficiency": 17.4,
           "sack_avoidance": 25.9,
           "rushing": 79.4
+        },
+        {
+          "week": 6,
+          "rank": 100,
+          "cqi": 32.8,
+          "efficiency": 18.7,
+          "sack_avoidance": 25.2,
+          "rushing": 82.6
         }
       ]
     },
@@ -5723,6 +7864,14 @@
           "efficiency": 15.0,
           "sack_avoidance": 64.1,
           "rushing": 0.8
+        },
+        {
+          "week": 6,
+          "rank": 144,
+          "cqi": 12.8,
+          "efficiency": 16.6,
+          "sack_avoidance": 62.2,
+          "rushing": 1.1
         }
       ]
     },
@@ -5745,6 +7894,14 @@
           "efficiency": 21.6,
           "sack_avoidance": 36.0,
           "rushing": 38.6
+        },
+        {
+          "week": 6,
+          "rank": 109,
+          "cqi": 27.8,
+          "efficiency": 28.5,
+          "sack_avoidance": 35.4,
+          "rushing": 43.7
         }
       ]
     },
@@ -5775,6 +7932,28 @@
           "efficiency": 70.9,
           "sack_avoidance": 86.9,
           "rushing": 88.3
+        },
+        {
+          "week": 6,
+          "rank": 10,
+          "cqi": 91.5,
+          "efficiency": 68.2,
+          "sack_avoidance": 85.2,
+          "rushing": 89.8
+        }
+      ]
+    },
+    "conner-harrell": {
+      "player": "Conner Harrell",
+      "team": "Charlotte",
+      "history": [
+        {
+          "week": 6,
+          "rank": 153,
+          "cqi": 7.6,
+          "efficiency": 33.8,
+          "sack_avoidance": 22.9,
+          "rushing": 0.0
         }
       ]
     },
@@ -5805,6 +7984,14 @@
           "efficiency": 86.6,
           "sack_avoidance": 70.3,
           "rushing": 82.3
+        },
+        {
+          "week": 6,
+          "rank": 5,
+          "cqi": 93.7,
+          "efficiency": 83.5,
+          "sack_avoidance": 83.2,
+          "rushing": 81.3
         }
       ]
     },
@@ -5835,6 +8022,14 @@
           "efficiency": 58.9,
           "sack_avoidance": 55.3,
           "rushing": 40.9
+        },
+        {
+          "week": 6,
+          "rank": 61,
+          "cqi": 54.7,
+          "efficiency": 45.8,
+          "sack_avoidance": 64.4,
+          "rushing": 47.7
         }
       ]
     },
@@ -5856,6 +8051,14 @@
           "cqi": 0.9,
           "efficiency": 5.0,
           "sack_avoidance": 16.5,
+          "rushing": 2.3
+        },
+        {
+          "week": 6,
+          "rank": 172,
+          "cqi": 0.9,
+          "efficiency": 5.6,
+          "sack_avoidance": 16.3,
           "rushing": 2.3
         }
       ]
@@ -5887,6 +8090,14 @@
           "efficiency": 43.0,
           "sack_avoidance": 43.7,
           "rushing": 90.5
+        },
+        {
+          "week": 6,
+          "rank": 53,
+          "cqi": 61.8,
+          "efficiency": 50.8,
+          "sack_avoidance": 38.8,
+          "rushing": 83.5
         }
       ]
     },
@@ -5909,6 +8120,14 @@
           "efficiency": 22.9,
           "sack_avoidance": 76.0,
           "rushing": 14.3
+        },
+        {
+          "week": 6,
+          "rank": 111,
+          "cqi": 27.3,
+          "efficiency": 25.5,
+          "sack_avoidance": 74.3,
+          "rushing": 12.0
         }
       ]
     },
@@ -5939,6 +8158,14 @@
           "efficiency": 73.1,
           "sack_avoidance": 37.7,
           "rushing": 18.3
+        },
+        {
+          "week": 6,
+          "rank": 80,
+          "cqi": 44.1,
+          "efficiency": 75.5,
+          "sack_avoidance": 36.1,
+          "rushing": 17.8
         }
       ]
     },
@@ -5969,6 +8196,14 @@
           "efficiency": 98.6,
           "sack_avoidance": 74.7,
           "rushing": 52.9
+        },
+        {
+          "week": 6,
+          "rank": 2,
+          "cqi": 97.8,
+          "efficiency": 98.6,
+          "sack_avoidance": 73.4,
+          "rushing": 56.7
         }
       ]
     },
@@ -5999,6 +8234,14 @@
           "efficiency": 97.3,
           "sack_avoidance": 37.8,
           "rushing": 73.8
+        },
+        {
+          "week": 6,
+          "rank": 6,
+          "cqi": 93.1,
+          "efficiency": 96.8,
+          "sack_avoidance": 36.9,
+          "rushing": 78.5
         }
       ]
     },
@@ -6029,6 +8272,14 @@
           "efficiency": 40.3,
           "sack_avoidance": 67.6,
           "rushing": 31.6
+        },
+        {
+          "week": 6,
+          "rank": 86,
+          "cqi": 39.2,
+          "efficiency": 44.4,
+          "sack_avoidance": 69.1,
+          "rushing": 17.4
         }
       ]
     },
@@ -6059,6 +8310,14 @@
           "efficiency": 7.6,
           "sack_avoidance": 16.7,
           "rushing": 2.5
+        },
+        {
+          "week": 6,
+          "rank": 168,
+          "cqi": 1.5,
+          "efficiency": 9.2,
+          "sack_avoidance": 16.3,
+          "rushing": 2.7
         }
       ]
     },
@@ -6089,6 +8348,14 @@
           "efficiency": 62.0,
           "sack_avoidance": 19.6,
           "rushing": 80.8
+        },
+        {
+          "week": 6,
+          "rank": 91,
+          "cqi": 36.7,
+          "efficiency": 61.6,
+          "sack_avoidance": 7.3,
+          "rushing": 72.7
         }
       ]
     },
@@ -6119,6 +8386,14 @@
           "efficiency": 78.6,
           "sack_avoidance": 13.0,
           "rushing": 15.9
+        },
+        {
+          "week": 6,
+          "rank": 116,
+          "cqi": 23.6,
+          "efficiency": 74.2,
+          "sack_avoidance": 12.2,
+          "rushing": 16.2
         }
       ]
     },
@@ -6149,6 +8424,14 @@
           "efficiency": 54.7,
           "sack_avoidance": 7.7,
           "rushing": 59.0
+        },
+        {
+          "week": 6,
+          "rank": 134,
+          "cqi": 18.0,
+          "efficiency": 37.7,
+          "sack_avoidance": 7.7,
+          "rushing": 55.0
         }
       ]
     },
@@ -6179,6 +8462,14 @@
           "efficiency": 79.0,
           "sack_avoidance": 66.0,
           "rushing": 69.9
+        },
+        {
+          "week": 6,
+          "rank": 20,
+          "cqi": 84.7,
+          "efficiency": 75.6,
+          "sack_avoidance": 64.6,
+          "rushing": 79.4
         }
       ]
     },
@@ -6209,6 +8500,14 @@
           "efficiency": 27.8,
           "sack_avoidance": 94.9,
           "rushing": 27.2
+        },
+        {
+          "week": 6,
+          "rank": 52,
+          "cqi": 61.8,
+          "efficiency": 24.0,
+          "sack_avoidance": 98.1,
+          "rushing": 27.1
         }
       ]
     },
@@ -6239,6 +8538,14 @@
           "efficiency": 79.4,
           "sack_avoidance": 85.6,
           "rushing": 67.1
+        },
+        {
+          "week": 6,
+          "rank": 4,
+          "cqi": 93.8,
+          "efficiency": 84.6,
+          "sack_avoidance": 88.7,
+          "rushing": 68.8
         }
       ]
     },
@@ -6269,6 +8576,14 @@
           "efficiency": 10.0,
           "sack_avoidance": 68.8,
           "rushing": 60.9
+        },
+        {
+          "week": 6,
+          "rank": 118,
+          "cqi": 23.3,
+          "efficiency": 9.8,
+          "sack_avoidance": 43.8,
+          "rushing": 56.3
         }
       ]
     },
@@ -6299,6 +8614,28 @@
           "efficiency": 62.0,
           "sack_avoidance": 50.2,
           "rushing": 1.7
+        },
+        {
+          "week": 6,
+          "rank": 107,
+          "cqi": 28.9,
+          "efficiency": 62.6,
+          "sack_avoidance": 49.1,
+          "rushing": 2.2
+        }
+      ]
+    },
+    "dylan-raiola": {
+      "player": "Dylan Raiola",
+      "team": "Oregon",
+      "history": [
+        {
+          "week": 6,
+          "rank": 115,
+          "cqi": 23.7,
+          "efficiency": 55.3,
+          "sack_avoidance": 42.9,
+          "rushing": 3.7
         }
       ]
     },
@@ -6321,6 +8658,14 @@
           "efficiency": 11.7,
           "sack_avoidance": 3.7,
           "rushing": 31.0
+        },
+        {
+          "week": 6,
+          "rank": 170,
+          "cqi": 1.3,
+          "efficiency": 12.3,
+          "sack_avoidance": 3.5,
+          "rushing": 32.6
         }
       ]
     },
@@ -6351,6 +8696,14 @@
           "efficiency": 0.0,
           "sack_avoidance": 35.9,
           "rushing": 20.3
+        },
+        {
+          "week": 6,
+          "rank": 176,
+          "cqi": 0.0,
+          "efficiency": 0.0,
+          "sack_avoidance": 35.5,
+          "rushing": 21.8
         }
       ]
     },
@@ -6381,6 +8734,14 @@
           "efficiency": 38.8,
           "sack_avoidance": 24.7,
           "rushing": 22.7
+        },
+        {
+          "week": 6,
+          "rank": 126,
+          "cqi": 20.8,
+          "efficiency": 42.4,
+          "sack_avoidance": 24.2,
+          "rushing": 25.3
         }
       ]
     },
@@ -6411,6 +8772,14 @@
           "efficiency": 70.9,
           "sack_avoidance": 70.0,
           "rushing": 33.3
+        },
+        {
+          "week": 6,
+          "rank": 42,
+          "cqi": 66.6,
+          "efficiency": 76.6,
+          "sack_avoidance": 59.3,
+          "rushing": 37.3
         }
       ]
     },
@@ -6441,6 +8810,14 @@
           "efficiency": 4.0,
           "sack_avoidance": 67.3,
           "rushing": 15.2
+        },
+        {
+          "week": 6,
+          "rank": 150,
+          "cqi": 9.2,
+          "efficiency": 3.8,
+          "sack_avoidance": 66.4,
+          "rushing": 13.9
         }
       ]
     },
@@ -6471,6 +8848,14 @@
           "efficiency": 41.8,
           "sack_avoidance": 6.2,
           "rushing": 85.4
+        },
+        {
+          "week": 6,
+          "rank": 102,
+          "cqi": 30.6,
+          "efficiency": 47.8,
+          "sack_avoidance": 6.1,
+          "rushing": 87.1
         }
       ]
     },
@@ -6501,6 +8886,28 @@
           "efficiency": 1.9,
           "sack_avoidance": 55.0,
           "rushing": 33.0
+        },
+        {
+          "week": 6,
+          "rank": 151,
+          "cqi": 8.7,
+          "efficiency": 1.5,
+          "sack_avoidance": 54.0,
+          "rushing": 35.7
+        }
+      ]
+    },
+    "george-macintyre": {
+      "player": "George MacIntyre",
+      "team": "Tennessee",
+      "history": [
+        {
+          "week": 6,
+          "rank": 96,
+          "cqi": 33.7,
+          "efficiency": 62.3,
+          "sack_avoidance": 33.8,
+          "rushing": 20.7
         }
       ]
     },
@@ -6531,6 +8938,14 @@
           "efficiency": 85.3,
           "sack_avoidance": 41.2,
           "rushing": 94.9
+        },
+        {
+          "week": 6,
+          "rank": 13,
+          "cqi": 89.5,
+          "efficiency": 85.5,
+          "sack_avoidance": 49.5,
+          "rushing": 94.3
         }
       ]
     },
@@ -6561,6 +8976,14 @@
           "efficiency": 33.6,
           "sack_avoidance": 7.4,
           "rushing": 52.1
+        },
+        {
+          "week": 6,
+          "rank": 162,
+          "cqi": 2.8,
+          "efficiency": 23.2,
+          "sack_avoidance": 6.7,
+          "rushing": 15.9
         }
       ]
     },
@@ -6591,6 +9014,14 @@
           "efficiency": 2.1,
           "sack_avoidance": 8.4,
           "rushing": 39.0
+        },
+        {
+          "week": 6,
+          "rank": 165,
+          "cqi": 1.9,
+          "efficiency": 2.3,
+          "sack_avoidance": 8.1,
+          "rushing": 44.2
         }
       ]
     },
@@ -6621,6 +9052,14 @@
           "efficiency": 95.2,
           "sack_avoidance": 49.4,
           "rushing": 46.3
+        },
+        {
+          "week": 6,
+          "rank": 11,
+          "cqi": 90.4,
+          "efficiency": 96.0,
+          "sack_avoidance": 52.9,
+          "rushing": 49.6
         }
       ]
     },
@@ -6651,6 +9090,14 @@
           "efficiency": 42.3,
           "sack_avoidance": 72.1,
           "rushing": 26.0
+        },
+        {
+          "week": 6,
+          "rank": 79,
+          "cqi": 44.9,
+          "efficiency": 42.2,
+          "sack_avoidance": 70.0,
+          "rushing": 28.2
         }
       ]
     },
@@ -6681,6 +9128,42 @@
           "efficiency": 65.2,
           "sack_avoidance": 67.2,
           "rushing": 32.5
+        },
+        {
+          "week": 6,
+          "rank": 55,
+          "cqi": 60.5,
+          "efficiency": 66.3,
+          "sack_avoidance": 66.2,
+          "rushing": 35.2
+        }
+      ]
+    },
+    "henry-belin-iv": {
+      "player": "Henry Belin IV",
+      "team": "Missouri State",
+      "history": [
+        {
+          "week": 6,
+          "rank": 139,
+          "cqi": 17.4,
+          "efficiency": 28.1,
+          "sack_avoidance": 27.7,
+          "rushing": 24.8
+        }
+      ]
+    },
+    "holden-geriner": {
+      "player": "Holden Geriner",
+      "team": "Pittsburgh",
+      "history": [
+        {
+          "week": 6,
+          "rank": 110,
+          "cqi": 27.3,
+          "efficiency": 20.9,
+          "sack_avoidance": 71.4,
+          "rushing": 20.7
         }
       ]
     },
@@ -6695,6 +9178,14 @@
           "efficiency": 44.9,
           "sack_avoidance": 44.6,
           "rushing": 0.4
+        },
+        {
+          "week": 6,
+          "rank": 135,
+          "cqi": 18.0,
+          "efficiency": 43.7,
+          "sack_avoidance": 43.7,
+          "rushing": 0.7
         }
       ]
     },
@@ -6725,6 +9216,14 @@
           "efficiency": 45.3,
           "sack_avoidance": 49.9,
           "rushing": 89.9
+        },
+        {
+          "week": 6,
+          "rank": 27,
+          "cqi": 81.0,
+          "efficiency": 66.9,
+          "sack_avoidance": 71.8,
+          "rushing": 71.6
         }
       ]
     },
@@ -6755,6 +9254,14 @@
           "efficiency": 33.0,
           "sack_avoidance": 84.6,
           "rushing": 55.3
+        },
+        {
+          "week": 6,
+          "rank": 65,
+          "cqi": 53.2,
+          "efficiency": 28.3,
+          "sack_avoidance": 79.4,
+          "rushing": 45.9
         }
       ]
     },
@@ -6785,6 +9292,14 @@
           "efficiency": 48.8,
           "sack_avoidance": 35.6,
           "rushing": 69.0
+        },
+        {
+          "week": 6,
+          "rank": 62,
+          "cqi": 54.3,
+          "efficiency": 51.0,
+          "sack_avoidance": 33.8,
+          "rushing": 71.1
         }
       ]
     },
@@ -6807,6 +9322,14 @@
           "efficiency": 0.9,
           "sack_avoidance": 34.6,
           "rushing": 0.1
+        },
+        {
+          "week": 6,
+          "rank": 173,
+          "cqi": 0.8,
+          "efficiency": 1.1,
+          "sack_avoidance": 34.1,
+          "rushing": 0.4
         }
       ]
     },
@@ -6837,6 +9360,28 @@
           "efficiency": 45.1,
           "sack_avoidance": 10.2,
           "rushing": 86.1
+        },
+        {
+          "week": 6,
+          "rank": 105,
+          "cqi": 29.5,
+          "efficiency": 39.0,
+          "sack_avoidance": 7.9,
+          "rushing": 85.1
+        }
+      ]
+    },
+    "jackson-brousseau": {
+      "player": "Jackson Brousseau",
+      "team": "California",
+      "history": [
+        {
+          "week": 6,
+          "rank": 103,
+          "cqi": 29.8,
+          "efficiency": 26.8,
+          "sack_avoidance": 65.3,
+          "rushing": 22.9
         }
       ]
     },
@@ -6851,6 +9396,14 @@
           "efficiency": 71.8,
           "sack_avoidance": 7.9,
           "rushing": 87.7
+        },
+        {
+          "week": 6,
+          "rank": 64,
+          "cqi": 53.6,
+          "efficiency": 71.8,
+          "sack_avoidance": 7.8,
+          "rushing": 89.3
         }
       ]
     },
@@ -6881,6 +9434,14 @@
           "efficiency": 12.3,
           "sack_avoidance": 81.7,
           "rushing": 11.9
+        },
+        {
+          "week": 6,
+          "rank": 122,
+          "cqi": 21.3,
+          "efficiency": 9.7,
+          "sack_avoidance": 72.7,
+          "rushing": 24.5
         }
       ]
     },
@@ -6911,6 +9472,14 @@
           "efficiency": 23.5,
           "sack_avoidance": 13.0,
           "rushing": 77.7
+        },
+        {
+          "week": 6,
+          "rank": 146,
+          "cqi": 10.9,
+          "efficiency": 12.2,
+          "sack_avoidance": 8.4,
+          "rushing": 65.2
         }
       ]
     },
@@ -6941,6 +9510,14 @@
           "efficiency": 82.4,
           "sack_avoidance": 17.5,
           "rushing": 1.2
+        },
+        {
+          "week": 6,
+          "rank": 114,
+          "cqi": 24.5,
+          "efficiency": 83.1,
+          "sack_avoidance": 16.0,
+          "rushing": 1.4
         }
       ]
     },
@@ -6955,6 +9532,14 @@
           "efficiency": 2.0,
           "sack_avoidance": 19.6,
           "rushing": 4.7
+        },
+        {
+          "week": 6,
+          "rank": 174,
+          "cqi": 0.8,
+          "efficiency": 2.1,
+          "sack_avoidance": 19.6,
+          "rushing": 4.2
         }
       ]
     },
@@ -6985,6 +9570,14 @@
           "efficiency": 47.2,
           "sack_avoidance": 38.8,
           "rushing": 96.8
+        },
+        {
+          "week": 6,
+          "rank": 58,
+          "cqi": 56.1,
+          "efficiency": 42.9,
+          "sack_avoidance": 32.1,
+          "rushing": 92.0
         }
       ]
     },
@@ -7007,6 +9600,14 @@
           "efficiency": 88.7,
           "sack_avoidance": 42.5,
           "rushing": 15.2
+        },
+        {
+          "week": 6,
+          "rank": 36,
+          "cqi": 72.2,
+          "efficiency": 84.4,
+          "sack_avoidance": 48.6,
+          "rushing": 46.5
         }
       ]
     },
@@ -7037,6 +9638,14 @@
           "efficiency": 42.5,
           "sack_avoidance": 70.6,
           "rushing": 16.7
+        },
+        {
+          "week": 6,
+          "rank": 89,
+          "cqi": 37.7,
+          "efficiency": 45.8,
+          "sack_avoidance": 67.8,
+          "rushing": 15.4
         }
       ]
     },
@@ -7067,6 +9676,14 @@
           "efficiency": 13.9,
           "sack_avoidance": 27.8,
           "rushing": 13.6
+        },
+        {
+          "week": 6,
+          "rank": 147,
+          "cqi": 10.0,
+          "efficiency": 12.5,
+          "sack_avoidance": 16.7,
+          "rushing": 42.0
         }
       ]
     },
@@ -7097,6 +9714,14 @@
           "efficiency": 21.4,
           "sack_avoidance": 73.3,
           "rushing": 30.2
+        },
+        {
+          "week": 6,
+          "rank": 75,
+          "cqi": 45.7,
+          "efficiency": 20.4,
+          "sack_avoidance": 72.0,
+          "rushing": 55.6
         }
       ]
     },
@@ -7127,6 +9752,14 @@
           "efficiency": 9.4,
           "sack_avoidance": 41.3,
           "rushing": 11.5
+        },
+        {
+          "week": 6,
+          "rank": 152,
+          "cqi": 8.4,
+          "efficiency": 6.0,
+          "sack_avoidance": 51.6,
+          "rushing": 14.4
         }
       ]
     },
@@ -7157,6 +9790,14 @@
           "efficiency": 87.1,
           "sack_avoidance": 91.9,
           "rushing": 9.1
+        },
+        {
+          "week": 6,
+          "rank": 21,
+          "cqi": 84.6,
+          "efficiency": 88.4,
+          "sack_avoidance": 94.9,
+          "rushing": 10.8
         }
       ]
     },
@@ -7187,6 +9828,14 @@
           "efficiency": 44.7,
           "sack_avoidance": 82.9,
           "rushing": 48.2
+        },
+        {
+          "week": 6,
+          "rank": 43,
+          "cqi": 65.2,
+          "efficiency": 37.9,
+          "sack_avoidance": 83.4,
+          "rushing": 57.4
         }
       ]
     },
@@ -7217,6 +9866,28 @@
           "efficiency": 48.2,
           "sack_avoidance": 60.0,
           "rushing": 39.6
+        },
+        {
+          "week": 6,
+          "rank": 99,
+          "cqi": 33.1,
+          "efficiency": 26.3,
+          "sack_avoidance": 49.7,
+          "rushing": 42.4
+        }
+      ]
+    },
+    "jeremy-hecklinski": {
+      "player": "Jeremy Hecklinski",
+      "team": "Iowa",
+      "history": [
+        {
+          "week": 6,
+          "rank": 85,
+          "cqi": 40.5,
+          "efficiency": 41.2,
+          "sack_avoidance": 47.6,
+          "rushing": 41.1
         }
       ]
     },
@@ -7247,6 +9918,14 @@
           "efficiency": 4.0,
           "sack_avoidance": 50.9,
           "rushing": 36.3
+        },
+        {
+          "week": 6,
+          "rank": 141,
+          "cqi": 14.7,
+          "efficiency": 4.0,
+          "sack_avoidance": 50.4,
+          "rushing": 39.2
         }
       ]
     },
@@ -7277,6 +9956,14 @@
           "efficiency": 71.6,
           "sack_avoidance": 93.7,
           "rushing": 16.0
+        },
+        {
+          "week": 6,
+          "rank": 54,
+          "cqi": 60.9,
+          "efficiency": 50.7,
+          "sack_avoidance": 97.0,
+          "rushing": 6.0
         }
       ]
     },
@@ -7307,6 +9994,14 @@
           "efficiency": 72.5,
           "sack_avoidance": 43.4,
           "rushing": 10.6
+        },
+        {
+          "week": 6,
+          "rank": 104,
+          "cqi": 29.6,
+          "efficiency": 71.5,
+          "sack_avoidance": 34.2,
+          "rushing": 5.1
         }
       ]
     },
@@ -7337,6 +10032,14 @@
           "efficiency": 93.9,
           "sack_avoidance": 50.0,
           "rushing": 40.4
+        },
+        {
+          "week": 6,
+          "rank": 14,
+          "cqi": 88.5,
+          "efficiency": 96.0,
+          "sack_avoidance": 44.4,
+          "rushing": 50.1
         }
       ]
     },
@@ -7367,6 +10070,14 @@
           "efficiency": 47.6,
           "sack_avoidance": 20.1,
           "rushing": 21.6
+        },
+        {
+          "week": 6,
+          "rank": 125,
+          "cqi": 20.9,
+          "efficiency": 50.4,
+          "sack_avoidance": 19.2,
+          "rushing": 23.6
         }
       ]
     },
@@ -7397,6 +10108,14 @@
           "efficiency": 97.8,
           "sack_avoidance": 38.2,
           "rushing": 49.1
+        },
+        {
+          "week": 6,
+          "rank": 17,
+          "cqi": 87.0,
+          "efficiency": 97.9,
+          "sack_avoidance": 33.6,
+          "rushing": 44.8
         }
       ]
     },
@@ -7427,6 +10146,14 @@
           "efficiency": 34.5,
           "sack_avoidance": 47.5,
           "rushing": 37.7
+        },
+        {
+          "week": 6,
+          "rank": 133,
+          "cqi": 18.3,
+          "efficiency": 33.5,
+          "sack_avoidance": 45.6,
+          "rushing": 8.8
         }
       ]
     },
@@ -7457,6 +10184,14 @@
           "efficiency": 29.4,
           "sack_avoidance": 6.5,
           "rushing": 10.2
+        },
+        {
+          "week": 6,
+          "rank": 166,
+          "cqi": 1.8,
+          "efficiency": 18.9,
+          "sack_avoidance": 7.4,
+          "rushing": 10.4
         }
       ]
     },
@@ -7487,6 +10222,14 @@
           "efficiency": 67.3,
           "sack_avoidance": 28.7,
           "rushing": 63.7
+        },
+        {
+          "week": 6,
+          "rank": 69,
+          "cqi": 49.2,
+          "efficiency": 72.9,
+          "sack_avoidance": 14.1,
+          "rushing": 59.5
         }
       ]
     },
@@ -7517,6 +10260,14 @@
           "efficiency": 86.5,
           "sack_avoidance": 18.8,
           "rushing": 72.5
+        },
+        {
+          "week": 6,
+          "rank": 37,
+          "cqi": 70.8,
+          "efficiency": 87.0,
+          "sack_avoidance": 16.9,
+          "rushing": 75.5
         }
       ]
     },
@@ -7547,6 +10298,14 @@
           "efficiency": 70.8,
           "sack_avoidance": 73.4,
           "rushing": 76.0
+        },
+        {
+          "week": 6,
+          "rank": 18,
+          "cqi": 86.8,
+          "efficiency": 66.2,
+          "sack_avoidance": 83.4,
+          "rushing": 76.3
         }
       ]
     },
@@ -7577,6 +10336,14 @@
           "efficiency": 98.3,
           "sack_avoidance": 19.8,
           "rushing": 91.4
+        },
+        {
+          "week": 6,
+          "rank": 19,
+          "cqi": 85.2,
+          "efficiency": 95.2,
+          "sack_avoidance": 11.3,
+          "rushing": 96.2
         }
       ]
     },
@@ -7607,6 +10374,14 @@
           "efficiency": 13.8,
           "sack_avoidance": 41.1,
           "rushing": 6.0
+        },
+        {
+          "week": 6,
+          "rank": 127,
+          "cqi": 19.7,
+          "efficiency": 17.4,
+          "sack_avoidance": 47.0,
+          "rushing": 29.9
         }
       ]
     },
@@ -7637,6 +10412,14 @@
           "efficiency": 47.8,
           "sack_avoidance": 23.8,
           "rushing": 5.1
+        },
+        {
+          "week": 6,
+          "rank": 124,
+          "cqi": 21.3,
+          "efficiency": 48.5,
+          "sack_avoidance": 35.2,
+          "rushing": 11.2
         }
       ]
     },
@@ -7667,6 +10450,14 @@
           "efficiency": 94.4,
           "sack_avoidance": 74.0,
           "rushing": 14.6
+        },
+        {
+          "week": 6,
+          "rank": 26,
+          "cqi": 81.0,
+          "efficiency": 95.0,
+          "sack_avoidance": 72.2,
+          "rushing": 13.4
         }
       ]
     },
@@ -7689,6 +10480,14 @@
           "efficiency": 33.2,
           "sack_avoidance": 38.0,
           "rushing": 4.0
+        },
+        {
+          "week": 6,
+          "rank": 128,
+          "cqi": 19.7,
+          "efficiency": 32.7,
+          "sack_avoidance": 54.7,
+          "rushing": 5.6
         }
       ]
     },
@@ -7711,6 +10510,14 @@
           "efficiency": 30.3,
           "sack_avoidance": 78.2,
           "rushing": 57.3
+        },
+        {
+          "week": 6,
+          "rank": 51,
+          "cqi": 62.4,
+          "efficiency": 35.2,
+          "sack_avoidance": 76.9,
+          "rushing": 62.1
         }
       ]
     },
@@ -7741,6 +10548,14 @@
           "efficiency": 18.0,
           "sack_avoidance": 37.3,
           "rushing": 5.6
+        },
+        {
+          "week": 6,
+          "rank": 154,
+          "cqi": 7.0,
+          "efficiency": 15.9,
+          "sack_avoidance": 36.8,
+          "rushing": 6.4
         }
       ]
     },
@@ -7763,6 +10578,14 @@
           "efficiency": 51.7,
           "sack_avoidance": 19.6,
           "rushing": 56.5
+        },
+        {
+          "week": 6,
+          "rank": 81,
+          "cqi": 43.3,
+          "efficiency": 60.0,
+          "sack_avoidance": 22.4,
+          "rushing": 50.8
         }
       ]
     },
@@ -7793,6 +10616,14 @@
           "efficiency": 66.7,
           "sack_avoidance": 48.2,
           "rushing": 17.3
+        },
+        {
+          "week": 6,
+          "rank": 98,
+          "cqi": 33.3,
+          "efficiency": 51.7,
+          "sack_avoidance": 46.6,
+          "rushing": 18.9
         }
       ]
     },
@@ -7823,6 +10654,14 @@
           "efficiency": 42.8,
           "sack_avoidance": 63.9,
           "rushing": 76.8
+        },
+        {
+          "week": 6,
+          "rank": 50,
+          "cqi": 63.3,
+          "efficiency": 40.2,
+          "sack_avoidance": 55.6,
+          "rushing": 82.1
         }
       ]
     },
@@ -7836,6 +10675,14 @@
           "cqi": 68.0,
           "efficiency": 59.0,
           "sack_avoidance": 31.1,
+          "rushing": 100.0
+        },
+        {
+          "week": 6,
+          "rank": 39,
+          "cqi": 69.8,
+          "efficiency": 62.7,
+          "sack_avoidance": 30.6,
           "rushing": 100.0
         }
       ]
@@ -7867,6 +10714,14 @@
           "efficiency": 95.2,
           "sack_avoidance": 36.5,
           "rushing": 53.5
+        },
+        {
+          "week": 6,
+          "rank": 16,
+          "cqi": 87.9,
+          "efficiency": 94.4,
+          "sack_avoidance": 35.6,
+          "rushing": 70.4
         }
       ]
     },
@@ -7889,6 +10744,14 @@
           "efficiency": 17.4,
           "sack_avoidance": 14.4,
           "rushing": 43.7
+        },
+        {
+          "week": 6,
+          "rank": 143,
+          "cqi": 12.8,
+          "efficiency": 16.6,
+          "sack_avoidance": 14.4,
+          "rushing": 48.4
         }
       ]
     },
@@ -7919,6 +10782,14 @@
           "efficiency": 33.5,
           "sack_avoidance": 55.3,
           "rushing": 33.9
+        },
+        {
+          "week": 6,
+          "rank": 95,
+          "cqi": 33.7,
+          "efficiency": 32.3,
+          "sack_avoidance": 40.4,
+          "rushing": 45.5
         }
       ]
     },
@@ -7949,6 +10820,14 @@
           "efficiency": 62.7,
           "sack_avoidance": 67.9,
           "rushing": 80.2
+        },
+        {
+          "week": 6,
+          "rank": 23,
+          "cqi": 82.5,
+          "efficiency": 55.3,
+          "sack_avoidance": 83.2,
+          "rushing": 74.2
         }
       ]
     },
@@ -7979,6 +10858,14 @@
           "efficiency": 78.3,
           "sack_avoidance": 75.4,
           "rushing": 22.1
+        },
+        {
+          "week": 6,
+          "rank": 78,
+          "cqi": 45.2,
+          "efficiency": 54.9,
+          "sack_avoidance": 77.3,
+          "rushing": 8.3
         }
       ]
     },
@@ -8009,6 +10896,14 @@
           "efficiency": 23.4,
           "sack_avoidance": 90.0,
           "rushing": 16.3
+        },
+        {
+          "week": 6,
+          "rank": 70,
+          "cqi": 48.2,
+          "efficiency": 16.5,
+          "sack_avoidance": 95.2,
+          "rushing": 29.4
         }
       ]
     },
@@ -8039,6 +10934,14 @@
           "efficiency": 19.8,
           "sack_avoidance": 51.3,
           "rushing": 65.1
+        },
+        {
+          "week": 6,
+          "rank": 101,
+          "cqi": 32.3,
+          "efficiency": 16.3,
+          "sack_avoidance": 48.2,
+          "rushing": 60.2
         }
       ]
     },
@@ -8069,6 +10972,14 @@
           "efficiency": 97.9,
           "sack_avoidance": 43.7,
           "rushing": 67.7
+        },
+        {
+          "week": 6,
+          "rank": 8,
+          "cqi": 92.4,
+          "efficiency": 96.7,
+          "sack_avoidance": 46.5,
+          "rushing": 61.5
         }
       ]
     },
@@ -8099,6 +11010,14 @@
           "efficiency": 73.7,
           "sack_avoidance": 75.7,
           "rushing": 50.1
+        },
+        {
+          "week": 6,
+          "rank": 32,
+          "cqi": 78.7,
+          "efficiency": 71.9,
+          "sack_avoidance": 73.8,
+          "rushing": 54.4
         }
       ]
     },
@@ -8129,6 +11048,14 @@
           "efficiency": 30.7,
           "sack_avoidance": 9.1,
           "rushing": 93.9
+        },
+        {
+          "week": 6,
+          "rank": 106,
+          "cqi": 29.4,
+          "efficiency": 29.5,
+          "sack_avoidance": 8.4,
+          "rushing": 92.9
         }
       ]
     },
@@ -8151,6 +11078,14 @@
           "efficiency": 54.3,
           "sack_avoidance": 31.1,
           "rushing": 82.8
+        },
+        {
+          "week": 6,
+          "rank": 57,
+          "cqi": 57.6,
+          "efficiency": 50.2,
+          "sack_avoidance": 30.2,
+          "rushing": 85.6
         }
       ]
     },
@@ -8180,6 +11115,14 @@
           "cqi": 30.6,
           "efficiency": 24.4,
           "sack_avoidance": 86.4,
+          "rushing": 6.9
+        },
+        {
+          "week": 6,
+          "rank": 73,
+          "cqi": 47.7,
+          "efficiency": 34.6,
+          "sack_avoidance": 95.5,
           "rushing": 6.9
         }
       ]
@@ -8211,6 +11154,14 @@
           "efficiency": 14.2,
           "sack_avoidance": 38.5,
           "rushing": 29.6
+        },
+        {
+          "week": 6,
+          "rank": 129,
+          "cqi": 19.3,
+          "efficiency": 13.1,
+          "sack_avoidance": 40.3,
+          "rushing": 39.7
         }
       ]
     },
@@ -8241,6 +11192,14 @@
           "efficiency": 83.0,
           "sack_avoidance": 14.1,
           "rushing": 98.6
+        },
+        {
+          "week": 6,
+          "rank": 38,
+          "cqi": 70.1,
+          "efficiency": 76.0,
+          "sack_avoidance": 17.9,
+          "rushing": 97.9
         }
       ]
     },
@@ -8271,6 +11230,14 @@
           "efficiency": 23.7,
           "sack_avoidance": 94.1,
           "rushing": 19.4
+        },
+        {
+          "week": 6,
+          "rank": 60,
+          "cqi": 55.3,
+          "efficiency": 24.5,
+          "sack_avoidance": 96.9,
+          "rushing": 20.7
         }
       ]
     },
@@ -8301,6 +11268,14 @@
           "efficiency": 25.2,
           "sack_avoidance": 25.0,
           "rushing": 32.1
+        },
+        {
+          "week": 6,
+          "rank": 130,
+          "cqi": 18.9,
+          "efficiency": 28.5,
+          "sack_avoidance": 24.5,
+          "rushing": 33.3
         }
       ]
     },
@@ -8331,6 +11306,14 @@
           "efficiency": 68.3,
           "sack_avoidance": 48.0,
           "rushing": 78.6
+        },
+        {
+          "week": 6,
+          "rank": 41,
+          "cqi": 67.8,
+          "efficiency": 55.7,
+          "sack_avoidance": 50.6,
+          "rushing": 77.7
         }
       ]
     },
@@ -8361,6 +11344,28 @@
           "efficiency": 61.2,
           "sack_avoidance": 20.9,
           "rushing": 47.5
+        },
+        {
+          "week": 6,
+          "rank": 83,
+          "cqi": 42.9,
+          "efficiency": 62.2,
+          "sack_avoidance": 19.9,
+          "rushing": 51.9
+        }
+      ]
+    },
+    "nick-poulos": {
+      "player": "Nick Poulos",
+      "team": "Ohio",
+      "history": [
+        {
+          "week": 6,
+          "rank": 88,
+          "cqi": 38.7,
+          "efficiency": 23.2,
+          "sack_avoidance": 31.4,
+          "rushing": 76.9
         }
       ]
     },
@@ -8391,6 +11396,14 @@
           "efficiency": 69.5,
           "sack_avoidance": 36.9,
           "rushing": 42.4
+        },
+        {
+          "week": 6,
+          "rank": 90,
+          "cqi": 37.3,
+          "efficiency": 72.1,
+          "sack_avoidance": 36.8,
+          "rushing": 11.5
         }
       ]
     },
@@ -8421,6 +11434,14 @@
           "efficiency": 72.9,
           "sack_avoidance": 16.2,
           "rushing": 66.5
+        },
+        {
+          "week": 6,
+          "rank": 49,
+          "cqi": 63.3,
+          "efficiency": 86.0,
+          "sack_avoidance": 18.3,
+          "rushing": 58.4
         }
       ]
     },
@@ -8451,6 +11472,14 @@
           "efficiency": 6.8,
           "sack_avoidance": 90.3,
           "rushing": 27.8
+        },
+        {
+          "week": 6,
+          "rank": 74,
+          "cqi": 46.3,
+          "efficiency": 6.1,
+          "sack_avoidance": 96.9,
+          "rushing": 36.1
         }
       ]
     },
@@ -8481,6 +11510,14 @@
           "efficiency": 14.6,
           "sack_avoidance": 83.2,
           "rushing": 8.4
+        },
+        {
+          "week": 6,
+          "rank": 84,
+          "cqi": 41.6,
+          "efficiency": 19.6,
+          "sack_avoidance": 82.8,
+          "rushing": 33.9
         }
       ]
     },
@@ -8511,6 +11548,14 @@
           "efficiency": 23.3,
           "sack_avoidance": 3.7,
           "rushing": 74.6
+        },
+        {
+          "week": 6,
+          "rank": 163,
+          "cqi": 2.2,
+          "efficiency": 17.2,
+          "sack_avoidance": 2.1,
+          "rushing": 52.7
         }
       ]
     },
@@ -8541,6 +11586,14 @@
           "efficiency": 19.8,
           "sack_avoidance": 77.1,
           "rushing": 68.4
+        },
+        {
+          "week": 6,
+          "rank": 40,
+          "cqi": 68.2,
+          "efficiency": 31.4,
+          "sack_avoidance": 83.9,
+          "rushing": 69.8
         }
       ]
     },
@@ -8571,6 +11624,14 @@
           "efficiency": 72.9,
           "sack_avoidance": 55.8,
           "rushing": 24.8
+        },
+        {
+          "week": 6,
+          "rank": 63,
+          "cqi": 54.0,
+          "efficiency": 73.7,
+          "sack_avoidance": 65.9,
+          "rushing": 13.0
         }
       ]
     },
@@ -8601,6 +11662,14 @@
           "efficiency": 23.7,
           "sack_avoidance": 18.5,
           "rushing": 6.4
+        },
+        {
+          "week": 6,
+          "rank": 157,
+          "cqi": 6.0,
+          "efficiency": 28.1,
+          "sack_avoidance": 17.4,
+          "rushing": 7.4
         }
       ]
     },
@@ -8631,6 +11700,14 @@
           "efficiency": 3.0,
           "sack_avoidance": 78.9,
           "rushing": 25.3
+        },
+        {
+          "week": 6,
+          "rank": 137,
+          "cqi": 17.9,
+          "efficiency": 3.7,
+          "sack_avoidance": 77.3,
+          "rushing": 26.6
         }
       ]
     },
@@ -8661,6 +11738,14 @@
           "efficiency": 86.1,
           "sack_avoidance": 38.1,
           "rushing": 46.9
+        },
+        {
+          "week": 6,
+          "rank": 28,
+          "cqi": 80.8,
+          "efficiency": 83.2,
+          "sack_avoidance": 50.6,
+          "rushing": 65.9
         }
       ]
     },
@@ -8691,6 +11776,14 @@
           "efficiency": 22.2,
           "sack_avoidance": 6.3,
           "rushing": 57.9
+        },
+        {
+          "week": 6,
+          "rank": 159,
+          "cqi": 3.5,
+          "efficiency": 20.9,
+          "sack_avoidance": 4.1,
+          "rushing": 40.5
         }
       ]
     },
@@ -8721,6 +11814,14 @@
           "efficiency": 80.3,
           "sack_avoidance": 54.3,
           "rushing": 89.3
+        },
+        {
+          "week": 6,
+          "rank": 22,
+          "cqi": 83.7,
+          "efficiency": 81.3,
+          "sack_avoidance": 46.2,
+          "rushing": 84.2
         }
       ]
     },
@@ -8751,6 +11852,14 @@
           "efficiency": 48.8,
           "sack_avoidance": 20.9,
           "rushing": 8.0
+        },
+        {
+          "week": 6,
+          "rank": 132,
+          "cqi": 18.7,
+          "efficiency": 27.4,
+          "sack_avoidance": 24.0,
+          "rushing": 34.6
         }
       ]
     },
@@ -8781,6 +11890,14 @@
           "efficiency": 39.8,
           "sack_avoidance": 31.1,
           "rushing": 29.1
+        },
+        {
+          "week": 6,
+          "rank": 120,
+          "cqi": 22.8,
+          "efficiency": 34.0,
+          "sack_avoidance": 29.9,
+          "rushing": 32.1
         }
       ]
     },
@@ -8811,6 +11928,14 @@
           "efficiency": 43.7,
           "sack_avoidance": 15.6,
           "rushing": 9.6
+        },
+        {
+          "week": 6,
+          "rank": 148,
+          "cqi": 9.6,
+          "efficiency": 43.7,
+          "sack_avoidance": 14.4,
+          "rushing": 9.5
         }
       ]
     },
@@ -8841,6 +11966,14 @@
           "efficiency": 34.3,
           "sack_avoidance": 6.9,
           "rushing": 3.5
+        },
+        {
+          "week": 6,
+          "rank": 161,
+          "cqi": 2.9,
+          "efficiency": 33.5,
+          "sack_avoidance": 7.2,
+          "rushing": 4.8
         }
       ]
     },
@@ -8871,6 +12004,14 @@
           "efficiency": 0.9,
           "sack_avoidance": 37.4,
           "rushing": 37.1
+        },
+        {
+          "week": 6,
+          "rank": 160,
+          "cqi": 3.2,
+          "efficiency": 0.4,
+          "sack_avoidance": 36.8,
+          "rushing": 40.3
         }
       ]
     },
@@ -8901,6 +12042,14 @@
           "efficiency": 83.5,
           "sack_avoidance": 94.1,
           "rushing": 50.9
+        },
+        {
+          "week": 6,
+          "rank": 3,
+          "cqi": 95.8,
+          "efficiency": 87.4,
+          "sack_avoidance": 96.9,
+          "rushing": 49.1
         }
       ]
     },
@@ -8923,6 +12072,14 @@
           "efficiency": 95.0,
           "sack_avoidance": 6.9,
           "rushing": 84.0
+        },
+        {
+          "week": 6,
+          "rank": 30,
+          "cqi": 79.1,
+          "efficiency": 95.9,
+          "sack_avoidance": 6.9,
+          "rushing": 86.2
         }
       ]
     },
@@ -8953,6 +12110,14 @@
           "efficiency": 28.5,
           "sack_avoidance": 49.5,
           "rushing": 17.7
+        },
+        {
+          "week": 6,
+          "rank": 121,
+          "cqi": 21.4,
+          "efficiency": 30.3,
+          "sack_avoidance": 47.8,
+          "rushing": 16.9
         }
       ]
     },
@@ -8967,6 +12132,14 @@
           "efficiency": 19.8,
           "sack_avoidance": 63.2,
           "rushing": 59.5
+        },
+        {
+          "week": 6,
+          "rank": 77,
+          "cqi": 45.7,
+          "efficiency": 20.9,
+          "sack_avoidance": 61.7,
+          "rushing": 64.1
         }
       ]
     },
@@ -8997,6 +12170,14 @@
           "efficiency": 54.5,
           "sack_avoidance": 50.0,
           "rushing": 71.9
+        },
+        {
+          "week": 6,
+          "rank": 48,
+          "cqi": 63.4,
+          "efficiency": 63.1,
+          "sack_avoidance": 55.5,
+          "rushing": 53.8
         }
       ]
     },
@@ -9027,6 +12208,14 @@
           "efficiency": 79.1,
           "sack_avoidance": 82.9,
           "rushing": 60.3
+        },
+        {
+          "week": 6,
+          "rank": 15,
+          "cqi": 88.2,
+          "efficiency": 73.4,
+          "sack_avoidance": 87.4,
+          "rushing": 62.7
         }
       ]
     },
@@ -9057,6 +12246,14 @@
           "efficiency": 9.2,
           "sack_avoidance": 21.1,
           "rushing": 62.3
+        },
+        {
+          "week": 6,
+          "rank": 156,
+          "cqi": 6.1,
+          "efficiency": 6.6,
+          "sack_avoidance": 6.1,
+          "rushing": 73.4
         }
       ]
     },
@@ -9087,6 +12284,14 @@
           "efficiency": 40.0,
           "sack_avoidance": 76.2,
           "rushing": 12.5
+        },
+        {
+          "week": 6,
+          "rank": 76,
+          "cqi": 45.7,
+          "efficiency": 29.3,
+          "sack_avoidance": 90.5,
+          "rushing": 16.5
         }
       ]
     },
@@ -9117,6 +12322,14 @@
           "efficiency": 23.3,
           "sack_avoidance": 40.0,
           "rushing": 81.6
+        },
+        {
+          "week": 6,
+          "rank": 56,
+          "cqi": 59.3,
+          "efficiency": 39.6,
+          "sack_avoidance": 35.2,
+          "rushing": 98.8
         }
       ]
     },
@@ -9147,6 +12360,14 @@
           "efficiency": 51.9,
           "sack_avoidance": 55.5,
           "rushing": 65.7
+        },
+        {
+          "week": 6,
+          "rank": 45,
+          "cqi": 64.4,
+          "efficiency": 54.1,
+          "sack_avoidance": 54.0,
+          "rushing": 68.4
         }
       ]
     },
@@ -9169,6 +12390,28 @@
           "efficiency": 47.9,
           "sack_avoidance": 54.8,
           "rushing": 75.3
+        },
+        {
+          "week": 6,
+          "rank": 46,
+          "cqi": 64.3,
+          "efficiency": 45.8,
+          "sack_avoidance": 53.9,
+          "rushing": 80.0
+        }
+      ]
+    },
+    "zion-turner": {
+      "player": "Zion Turner",
+      "team": "Marshall",
+      "history": [
+        {
+          "week": 6,
+          "rank": 131,
+          "cqi": 18.7,
+          "efficiency": 32.2,
+          "sack_avoidance": 34.6,
+          "rushing": 19.3
         }
       ]
     }
