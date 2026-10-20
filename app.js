@@ -1024,7 +1024,7 @@ function showPlayer(
             <div class="player-header">
 
                 <span class="eyebrow">
-                    CQI v1.1 · 2026 · Through Week 6
+                    CQI v1.1 · 2026 · Through Week ${leaderboardData.through_week}
                 </span>
 
 
